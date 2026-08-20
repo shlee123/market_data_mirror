@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# This script is intentionally dependency-free so GitHub Actions can run it on stock Python.
+# Dependency-free sync script for GitHub Actions.
 import json
 import os
 import re
@@ -28,12 +28,11 @@ def fetch_json(path: str):
     last_error = None
     for attempt in range(1, RETRIES + 1):
         try:
-            req = Request(url, headers={"User-Agent": "market-data-mirror/1.0"})
+            req = Request(url, headers={"User-Agent": "market-data-mirror/1.1"})
             with urlopen(req, timeout=TIMEOUT) as resp:
                 if resp.status != 200:
                     raise RuntimeError(f"HTTP {resp.status} for {url}")
-                raw = resp.read().decode("utf-8")
-                obj = json.loads(raw)
+                obj = json.loads(resp.read().decode("utf-8"))
                 if not isinstance(obj, dict):
                     raise ValueError(f"Top-level JSON is not an object for {url}")
                 return obj
@@ -63,19 +62,20 @@ def validate_stock(ticker: str, stock: dict):
             raise ValueError(f"{ticker}: missing required field: {key}")
     if str(stock.get("symbol", "")).upper() != ticker:
         raise ValueError(f"{ticker}: symbol mismatch: {stock.get('symbol')}")
-    price = stock.get("price")
-    if not isinstance(price, dict) or price.get("close") is None:
+    if not isinstance(stock.get("price"), dict) or stock["price"].get("close") is None:
         raise ValueError(f"{ticker}: price.close missing")
 
 
 def write_json(path: Path, obj: dict):
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="\n") as f:
-        json.dump(obj, f, ensure_ascii=False, indent=2, sort_keys=False)
+        json.dump(obj, f, ensure_ascii=False, indent=2)
         f.write("\n")
 
 
 def main():
+    # The market report is the authoritative minimum viable mirror. If this
+    # fails, do not overwrite the last known-good snapshot.
     report = fetch_json("/market/report")
     validate_market(report)
 
@@ -85,23 +85,32 @@ def main():
             raise ValueError(f"Unsafe ticker in watchlist: {ticker}")
 
     fetched = {}
+    failures = {}
     for ticker in tickers:
-        stock = fetch_json(f"/stock/{ticker}")
-        validate_stock(ticker, stock)
-        fetched[ticker] = stock
+        try:
+            stock = fetch_json(f"/stock/{ticker}")
+            validate_stock(ticker, stock)
+            fetched[ticker] = stock
+        except Exception as exc:
+            # A single bad/stale symbol must not prevent market_report.json and
+            # all other valid symbols from being refreshed.
+            failures[ticker] = str(exc)
 
     status = {
-        "sync_status": "success",
+        "sync_status": "success" if not failures else "partial_success",
         "synced_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "worker_base_url": BASE_URL,
         "worker_version": report.get("version"),
         "market_generated_at": report.get("generated_at"),
         "source": report.get("source"),
-        "stock_count": len(fetched),
+        "watchlist_count": len(tickers),
+        "stock_success_count": len(fetched),
+        "stock_failure_count": len(failures),
         "stocks": tickers,
+        "failed_stocks": failures,
     }
 
-    # Atomic mirror update: all remote fetches and validations must succeed first.
+    # Build a complete temporary snapshot first, then publish valid files.
     with tempfile.TemporaryDirectory(prefix="market-mirror-") as tmp:
         tmp_root = Path(tmp)
         write_json(tmp_root / "market_report.json", report)
@@ -113,10 +122,10 @@ def main():
         STOCK_DIR.mkdir(parents=True, exist_ok=True)
         shutil.copy2(tmp_root / "market_report.json", DATA_DIR / "market_report.json")
         shutil.copy2(tmp_root / "status.json", DATA_DIR / "status.json")
-        for ticker in tickers:
+        for ticker in fetched:
             shutil.copy2(tmp_root / "stocks" / f"{ticker}.json", STOCK_DIR / f"{ticker}.json")
 
-        # Remove stale stock files no longer present in the Worker watchlist.
+        # Only delete stale symbols that disappeared from the Worker watchlist.
         expected = {f"{ticker}.json" for ticker in tickers}
         for path in STOCK_DIR.glob("*.json"):
             if path.name not in expected:
