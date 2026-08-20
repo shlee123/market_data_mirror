@@ -10,10 +10,6 @@ on:
     paths:
       - ".github/workflows/sync-market.yml"
       - "scripts/**"
-  pull_request:
-    branches:
-      - main
-    types: [opened]
 
 permissions:
   contents: write
