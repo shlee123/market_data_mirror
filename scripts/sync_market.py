@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# This script is intentionally dependency-free so GitHub Actions can run it on stock Python.
 import json
 import os
 import re
