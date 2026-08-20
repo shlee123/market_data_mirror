@@ -1,0 +1,57 @@
+name: Sync market data mirror
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/sync-market.yml"
+      - "scripts/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: market-data-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch and validate Worker data
+        env:
+          WORKER_BASE_URL: "https://lively-tooth-f895.shlee123.workers.dev"
+          FETCH_RETRIES: "3"
+          FETCH_TIMEOUT: "20"
+        run: python scripts/sync_market.py
+
+      - name: Validate generated JSON
+        run: |
+          python -m json.tool data/market_report.json > /dev/null
+          python -m json.tool data/status.json > /dev/null
+          for f in data/stocks/*.json; do python -m json.tool "$f" > /dev/null; done
+
+      - name: Commit latest valid snapshot
+        run: |
+          if git diff --quiet -- data/; then
+            echo "No market data changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "data: refresh market mirror"
+          git push
