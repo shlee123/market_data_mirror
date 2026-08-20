@@ -28,7 +28,7 @@ def fetch_json(path: str):
     last_error = None
     for attempt in range(1, RETRIES + 1):
         try:
-            req = Request(url, headers={"User-Agent": "market-data-mirror/1.1"})
+            req = Request(url, headers={"User-Agent": "market-data-mirror/1.2"})
             with urlopen(req, timeout=TIMEOUT) as resp:
                 if resp.status != 200:
                     raise RuntimeError(f"HTTP {resp.status} for {url}")
@@ -55,6 +55,15 @@ def validate_market(report: dict):
         raise ValueError("watchlist is empty")
 
 
+def validate_tw_market(report: dict):
+    if not report:
+        raise ValueError("twmarket/report is empty")
+    if "watchlist" not in report:
+        raise ValueError("twmarket/report missing watchlist")
+    if not isinstance(report.get("watchlist"), dict):
+        raise ValueError("twmarket/report watchlist must be a JSON object")
+
+
 def validate_stock(ticker: str, stock: dict):
     required = ("symbol", "asof", "price", "moving_average", "data_quality")
     for key in required:
@@ -74,8 +83,8 @@ def write_json(path: Path, obj: dict):
 
 
 def main():
-    # The market report is the authoritative minimum viable mirror. If this
-    # fails, do not overwrite the last known-good snapshot.
+    # US market report is the minimum viable mirror. If this fails, preserve
+    # the last known-good snapshot rather than publishing incomplete US data.
     report = fetch_json("/market/report")
     validate_market(report)
 
@@ -92,12 +101,21 @@ def main():
             validate_stock(ticker, stock)
             fetched[ticker] = stock
         except Exception as exc:
-            # A single bad/stale symbol must not prevent market_report.json and
-            # all other valid symbols from being refreshed.
             failures[ticker] = str(exc)
 
+    # Taiwan market report is mirrored independently. A temporary TW failure
+    # must not prevent valid US data from refreshing; the previous TW snapshot
+    # remains in the repository until the next successful TW fetch.
+    tw_report = None
+    tw_error = None
+    try:
+        tw_report = fetch_json("/twmarket/report")
+        validate_tw_market(tw_report)
+    except Exception as exc:
+        tw_error = str(exc)
+
     status = {
-        "sync_status": "success" if not failures else "partial_success",
+        "sync_status": "success" if not failures and not tw_error else "partial_success",
         "synced_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "worker_base_url": BASE_URL,
         "worker_version": report.get("version"),
@@ -108,15 +126,20 @@ def main():
         "stock_failure_count": len(failures),
         "stocks": tickers,
         "failed_stocks": failures,
+        "tw_market_sync_status": "success" if tw_report is not None else "failed",
+        "tw_market_generated_at": tw_report.get("generated_at") if tw_report else None,
+        "tw_worker_version": tw_report.get("version") if tw_report else None,
+        "tw_market_error": tw_error,
     }
 
-    # Build a complete temporary snapshot first, then publish valid files.
     with tempfile.TemporaryDirectory(prefix="market-mirror-") as tmp:
         tmp_root = Path(tmp)
         write_json(tmp_root / "market_report.json", report)
         write_json(tmp_root / "status.json", status)
         for ticker, stock in fetched.items():
             write_json(tmp_root / "stocks" / f"{ticker}.json", stock)
+        if tw_report is not None:
+            write_json(tmp_root / "tw_market_report.json", tw_report)
 
         DATA_DIR.mkdir(parents=True, exist_ok=True)
         STOCK_DIR.mkdir(parents=True, exist_ok=True)
@@ -124,8 +147,9 @@ def main():
         shutil.copy2(tmp_root / "status.json", DATA_DIR / "status.json")
         for ticker in fetched:
             shutil.copy2(tmp_root / "stocks" / f"{ticker}.json", STOCK_DIR / f"{ticker}.json")
+        if tw_report is not None:
+            shutil.copy2(tmp_root / "tw_market_report.json", DATA_DIR / "tw_market_report.json")
 
-        # Only delete stale symbols that disappeared from the Worker watchlist.
         expected = {f"{ticker}.json" for ticker in tickers}
         for path in STOCK_DIR.glob("*.json"):
             if path.name not in expected:
