@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T22:25:30.224Z",
+  "generated_at": "2026-08-20T22:55:34.603Z",
   "market": "Taiwan",
   "market_date": "2026-08-19",
   "indices": {
@@ -25,16 +25,16 @@
         "note": "Index volume from Yahoo Finance is not used as Taiwan market turnover."
       },
       "moving_average": {
-        "sma20": 43971.6002,
-        "sma50": 44860.6726,
-        "sma100": 41813.983,
-        "sma200": 35924.6698
+        "sma20": 44005.1027,
+        "sma50": 44819.217,
+        "sma100": 42148.0286,
+        "sma200": 36171.8447
       },
       "distance_to_moving_average_percent": {
-        "sma20": 1.7005,
-        "sma50": -0.315,
-        "sma100": 6.9483,
-        "sma200": 24.4809
+        "sma20": 1.6231,
+        "sma50": -0.2228,
+        "sma100": 6.1007,
+        "sma200": 23.6303
       },
       "range_52week": {
         "high": 48218.8711,
@@ -44,13 +44,13 @@
       },
       "sma50_detail": {
         "trading_days": 50,
-        "first_date": "2026-06-04",
+        "first_date": "2026-06-09",
         "last_date": "2026-08-19",
-        "sum_close": 2243033.6289,
-        "average_close": 44860.6726
+        "sum_close": 2240960.8477,
+        "average_close": 44819.217
       },
       "data_quality": {
-        "history_days": 239,
+        "history_days": 242,
         "sma20_valid": true,
         "sma50_valid": true,
         "sma100_valid": true,
@@ -59,8 +59,8 @@
         "possible_split_date": null,
         "possible_split_ratio": null,
         "large_price_gap_detected": false,
-        "largest_gap_percent": 8.6472,
-        "largest_gap_date": "2026-08-03",
+        "largest_gap_percent": 7.9794,
+        "largest_gap_date": "2026-07-31",
         "adjusted_close_divergence_detected": false,
         "warning_level": "green",
         "notes": [
