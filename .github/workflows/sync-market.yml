@@ -44,11 +44,13 @@ jobs:
         run: |
           python -m json.tool data/market_report.json > /dev/null
           python -m json.tool data/status.json > /dev/null
-          for f in data/stocks/*.json; do python -m json.tool "$f" > /dev/null; done
+          if compgen -G "data/stocks/*.json" > /dev/null; then
+            for f in data/stocks/*.json; do python -m json.tool "$f" > /dev/null; done
+          fi
 
       - name: Commit latest valid snapshot
         run: |
-          if git diff --quiet -- data/; then
+          if [ -z "$(git status --porcelain -- data/)" ]; then
             echo "No market data changes to commit."
             exit 0
           fi
