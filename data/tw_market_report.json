@@ -1,0 +1,867 @@
+{
+  "generated_at": "2026-08-20T17:32:54.330Z",
+  "market": "Taiwan",
+  "market_date": "2026-08-19",
+  "indices": {
+    "taiex": {
+      "symbol": "^TWII",
+      "name": "加權指數",
+      "currency": "TWD",
+      "exchange": "TAI",
+      "asof": "2026-08-19",
+      "previous_date": "2026-08-18",
+      "price": {
+        "close": 44719.3516,
+        "previous_close": 45308.6797,
+        "change": -589.3281,
+        "change_percent": -1.3007
+      },
+      "volume": {
+        "current": null,
+        "previous": null,
+        "change_percent": null,
+        "average_20d": null,
+        "vs_average_20d_percent": null,
+        "note": "Index volume from Yahoo Finance is not used as Taiwan market turnover."
+      },
+      "moving_average": {
+        "sma20": 43971.6002,
+        "sma50": 44860.6726,
+        "sma100": 41813.983,
+        "sma200": 35924.6698
+      },
+      "distance_to_moving_average_percent": {
+        "sma20": 1.7005,
+        "sma50": -0.315,
+        "sma100": 6.9483,
+        "sma200": 24.4809
+      },
+      "range_52week": {
+        "high": 48218.8711,
+        "low": 23620.2402,
+        "distance_from_high_percent": -7.2576,
+        "distance_from_low_percent": 89.3264
+      },
+      "sma50_detail": {
+        "trading_days": 50,
+        "first_date": "2026-06-04",
+        "last_date": "2026-08-19",
+        "sum_close": 2243033.6289,
+        "average_close": 44860.6726
+      },
+      "data_quality": {
+        "history_days": 239,
+        "sma20_valid": true,
+        "sma50_valid": true,
+        "sma100_valid": true,
+        "sma200_valid": true,
+        "possible_split_detected": false,
+        "possible_split_date": null,
+        "possible_split_ratio": null,
+        "large_price_gap_detected": false,
+        "largest_gap_percent": 8.6472,
+        "largest_gap_date": "2026-08-03",
+        "adjusted_close_divergence_detected": false,
+        "warning_level": "green",
+        "notes": [
+          "No major data-quality anomaly detected."
+        ]
+      },
+      "summary": {
+        "daily_trend": "down",
+        "versus_sma50": "below",
+        "volume_signal": "not_applicable"
+      },
+      "source": "Yahoo Finance Chart API",
+      "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+      "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification.",
+      "market": "Taiwan"
+    }
+  },
+  "watchlist": {
+    "2002": {
+      "symbol": "2002.TW",
+      "name": "中鋼",
+      "currency": "TWD",
+      "exchange": "TAI",
+      "asof": "2026-08-19",
+      "previous_date": "2026-08-18",
+      "price": {
+        "close": 18.95,
+        "previous_close": 18.95,
+        "change": 0,
+        "change_percent": 0
+      },
+      "volume": {
+        "current": 31016698,
+        "previous": 18048139,
+        "change_percent": 71.8554,
+        "average_20d": 44832440.1,
+        "vs_average_20d_percent": -30.8164
+      },
+      "moving_average": {
+        "sma20": 19.105,
+        "sma50": 18.93,
+        "sma100": 19.0255,
+        "sma200": 19.0583
+      },
+      "distance_to_moving_average_percent": {
+        "sma20": -0.8113,
+        "sma50": 0.1057,
+        "sma100": -0.3968,
+        "sma200": -0.5683
+      },
+      "range_52week": {
+        "high": 21.6,
+        "low": 17.6,
+        "distance_from_high_percent": -12.2685,
+        "distance_from_low_percent": 7.6705
+      },
+      "sma50_detail": {
+        "trading_days": 50,
+        "first_date": "2026-06-10",
+        "last_date": "2026-08-19",
+        "sum_close": 946.5,
+        "average_close": 18.93
+      },
+      "data_quality": {
+        "history_days": 243,
+        "sma20_valid": true,
+        "sma50_valid": true,
+        "sma100_valid": true,
+        "sma200_valid": true,
+        "possible_split_detected": false,
+        "possible_split_date": null,
+        "possible_split_ratio": null,
+        "large_price_gap_detected": false,
+        "largest_gap_percent": 9.9174,
+        "largest_gap_date": "2026-05-25",
+        "adjusted_close_divergence_detected": false,
+        "warning_level": "green",
+        "notes": [
+          "No major data-quality anomaly detected."
+        ],
+        "stale_data": false,
+        "market_date": "2026-08-19",
+        "symbol_asof": "2026-08-19",
+        "stale_reason": null,
+        "corporate_action_active": false
+      },
+      "summary": {
+        "daily_trend": "flat",
+        "versus_sma50": "above",
+        "volume_signal": "low volume"
+      },
+      "source": "Yahoo Finance Chart API",
+      "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+      "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification.",
+      "tw_code": "2002",
+      "market": "Taiwan",
+      "market_status": {
+        "status": "normal",
+        "trading": true,
+        "corporate_action_active": false,
+        "reason": null,
+        "last_trading_date": null,
+        "expected_resume_date": null,
+        "price_basis_reset": false,
+        "price_basis_reset_pending": false,
+        "technical_analysis_valid": true
+      },
+      "technical_analysis": {
+        "valid": true,
+        "status": "valid",
+        "reason": null
+      }
+    },
+    "2330": {
+      "symbol": "2330.TW",
+      "name": "台積電",
+      "currency": "TWD",
+      "exchange": "TAI",
+      "asof": "2026-08-19",
+      "previous_date": "2026-08-18",
+      "price": {
+        "close": 2350,
+        "previous_close": 2380,
+        "change": -30,
+        "change_percent": -1.2605
+      },
+      "volume": {
+        "current": 20098985,
+        "previous": 17294892,
+        "change_percent": 16.2134,
+        "average_20d": 27391460.8,
+        "vs_average_20d_percent": -26.6232
+      },
+      "moving_average": {
+        "sma20": 2359.75,
+        "sma50": 2385.6,
+        "sma100": 2272.7,
+        "sma200": 1958.15
+      },
+      "distance_to_moving_average_percent": {
+        "sma20": -0.4132,
+        "sma50": -1.4923,
+        "sma100": 3.4012,
+        "sma200": 20.0112
+      },
+      "range_52week": {
+        "high": 2535,
+        "low": 1135,
+        "distance_from_high_percent": -7.2978,
+        "distance_from_low_percent": 107.0485
+      },
+      "sma50_detail": {
+        "trading_days": 50,
+        "first_date": "2026-06-10",
+        "last_date": "2026-08-19",
+        "sum_close": 119280,
+        "average_close": 2385.6
+      },
+      "data_quality": {
+        "history_days": 243,
+        "sma20_valid": true,
+        "sma50_valid": true,
+        "sma100_valid": true,
+        "sma200_valid": true,
+        "possible_split_detected": false,
+        "possible_split_date": null,
+        "possible_split_ratio": null,
+        "large_price_gap_detected": false,
+        "largest_gap_percent": 9.9773,
+        "largest_gap_date": "2026-07-31",
+        "adjusted_close_divergence_detected": false,
+        "warning_level": "green",
+        "notes": [
+          "No major data-quality anomaly detected."
+        ],
+        "stale_data": false,
+        "market_date": "2026-08-19",
+        "symbol_asof": "2026-08-19",
+        "stale_reason": null,
+        "corporate_action_active": false
+      },
+      "summary": {
+        "daily_trend": "down",
+        "versus_sma50": "below",
+        "volume_signal": "low volume"
+      },
+      "source": "Yahoo Finance Chart API",
+      "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+      "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification.",
+      "tw_code": "2330",
+      "market": "Taiwan",
+      "market_status": {
+        "status": "normal",
+        "trading": true,
+        "corporate_action_active": false,
+        "reason": null,
+        "last_trading_date": null,
+        "expected_resume_date": null,
+        "price_basis_reset": false,
+        "price_basis_reset_pending": false,
+        "technical_analysis_valid": true
+      },
+      "technical_analysis": {
+        "valid": true,
+        "status": "valid",
+        "reason": null
+      }
+    },
+    "2337": {
+      "symbol": "2337.TW",
+      "name": "旺宏",
+      "currency": "TWD",
+      "exchange": "TAI",
+      "asof": "2026-08-19",
+      "previous_date": "2026-08-18",
+      "price": {
+        "close": 119,
+        "previous_close": 122,
+        "change": -3,
+        "change_percent": -2.459
+      },
+      "volume": {
+        "current": 49355745,
+        "previous": 105560659,
+        "change_percent": -53.2442,
+        "average_20d": 86276498.7,
+        "vs_average_20d_percent": -42.7935
+      },
+      "moving_average": {
+        "sma20": 121.565,
+        "sma50": 137.596,
+        "sma100": 143.123,
+        "sma200": 104.4325
+      },
+      "distance_to_moving_average_percent": {
+        "sma20": -2.11,
+        "sma50": -13.5149,
+        "sma100": -16.8547,
+        "sma200": 13.9492
+      },
+      "range_52week": {
+        "high": 192,
+        "low": 19,
+        "distance_from_high_percent": -38.0208,
+        "distance_from_low_percent": 526.3158
+      },
+      "sma50_detail": {
+        "trading_days": 50,
+        "first_date": "2026-06-10",
+        "last_date": "2026-08-19",
+        "sum_close": 6879.8,
+        "average_close": 137.596
+      },
+      "data_quality": {
+        "history_days": 243,
+        "sma20_valid": true,
+        "sma50_valid": true,
+        "sma100_valid": true,
+        "sma200_valid": true,
+        "possible_split_detected": false,
+        "possible_split_date": null,
+        "possible_split_ratio": null,
+        "large_price_gap_detected": false,
+        "largest_gap_percent": 10,
+        "largest_gap_date": "2026-04-28",
+        "adjusted_close_divergence_detected": false,
+        "warning_level": "green",
+        "notes": [
+          "No major data-quality anomaly detected."
+        ],
+        "stale_data": false,
+        "market_date": "2026-08-19",
+        "symbol_asof": "2026-08-19",
+        "stale_reason": null,
+        "corporate_action_active": false
+      },
+      "summary": {
+        "daily_trend": "down",
+        "versus_sma50": "below",
+        "volume_signal": "low volume"
+      },
+      "source": "Yahoo Finance Chart API",
+      "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+      "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification.",
+      "tw_code": "2337",
+      "market": "Taiwan",
+      "market_status": {
+        "status": "normal",
+        "trading": true,
+        "corporate_action_active": false,
+        "reason": null,
+        "last_trading_date": null,
+        "expected_resume_date": null,
+        "price_basis_reset": false,
+        "price_basis_reset_pending": false,
+        "technical_analysis_valid": true
+      },
+      "technical_analysis": {
+        "valid": true,
+        "status": "valid",
+        "reason": null
+      }
+    },
+    "2449": {
+      "symbol": "2449.TW",
+      "name": "京元電子",
+      "currency": "TWD",
+      "exchange": "TAI",
+      "asof": "2026-08-19",
+      "previous_date": "2026-08-18",
+      "price": {
+        "close": 235,
+        "previous_close": 236,
+        "change": -1,
+        "change_percent": -0.4237
+      },
+      "volume": {
+        "current": 14980909,
+        "previous": 19066186,
+        "change_percent": -21.4268,
+        "average_20d": 20542123.35,
+        "vs_average_20d_percent": -27.0722
+      },
+      "moving_average": {
+        "sma20": 242.9667,
+        "sma50": 272.8629,
+        "sma100": 277.7648,
+        "sma200": 260.0705
+      },
+      "distance_to_moving_average_percent": {
+        "sma20": -3.2789,
+        "sma50": -13.8762,
+        "sma100": -15.396,
+        "sma200": -9.6399
+      },
+      "range_52week": {
+        "high": 350,
+        "low": 120.9524,
+        "distance_from_high_percent": -32.8571,
+        "distance_from_low_percent": 94.2913
+      },
+      "sma50_detail": {
+        "trading_days": 50,
+        "first_date": "2026-06-10",
+        "last_date": "2026-08-19",
+        "sum_close": 13643.1428,
+        "average_close": 272.8629
+      },
+      "data_quality": {
+        "history_days": 243,
+        "sma20_valid": true,
+        "sma50_valid": true,
+        "sma100_valid": true,
+        "sma200_valid": true,
+        "possible_split_detected": false,
+        "possible_split_date": null,
+        "possible_split_ratio": null,
+        "large_price_gap_detected": false,
+        "largest_gap_percent": 10.2174,
+        "largest_gap_date": "2026-07-28",
+        "adjusted_close_divergence_detected": false,
+        "warning_level": "green",
+        "notes": [
+          "No major data-quality anomaly detected."
+        ],
+        "stale_data": false,
+        "market_date": "2026-08-19",
+        "symbol_asof": "2026-08-19",
+        "stale_reason": null,
+        "corporate_action_active": false
+      },
+      "summary": {
+        "daily_trend": "down",
+        "versus_sma50": "below",
+        "volume_signal": "low volume"
+      },
+      "source": "Yahoo Finance Chart API",
+      "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+      "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification.",
+      "tw_code": "2449",
+      "market": "Taiwan",
+      "market_status": {
+        "status": "normal",
+        "trading": true,
+        "corporate_action_active": false,
+        "reason": null,
+        "last_trading_date": null,
+        "expected_resume_date": null,
+        "price_basis_reset": false,
+        "price_basis_reset_pending": false,
+        "technical_analysis_valid": true
+      },
+      "technical_analysis": {
+        "valid": true,
+        "status": "valid",
+        "reason": null
+      }
+    },
+    "2515": {
+      "symbol": "2515.TW",
+      "name": "中工",
+      "currency": "TWD",
+      "exchange": "TAI",
+      "asof": "2026-08-19",
+      "previous_date": "2026-08-18",
+      "price": {
+        "close": 11.85,
+        "previous_close": 11.75,
+        "change": 0.1,
+        "change_percent": 0.8511
+      },
+      "volume": {
+        "current": 3599847,
+        "previous": 3041972,
+        "change_percent": 18.3393,
+        "average_20d": 6658333.7,
+        "vs_average_20d_percent": -45.9347
+      },
+      "moving_average": {
+        "sma20": 11.9175,
+        "sma50": 12.3959,
+        "sma100": 12.464,
+        "sma200": 13.0917
+      },
+      "distance_to_moving_average_percent": {
+        "sma20": -0.5664,
+        "sma50": -4.4039,
+        "sma100": -4.9262,
+        "sma200": -9.4846
+      },
+      "range_52week": {
+        "high": 17.7602,
+        "low": 9.4295,
+        "distance_from_high_percent": -33.2778,
+        "distance_from_low_percent": 25.6693
+      },
+      "sma50_detail": {
+        "trading_days": 50,
+        "first_date": "2026-06-10",
+        "last_date": "2026-08-19",
+        "sum_close": 619.7934,
+        "average_close": 12.3959
+      },
+      "data_quality": {
+        "history_days": 243,
+        "sma20_valid": true,
+        "sma50_valid": true,
+        "sma100_valid": true,
+        "sma200_valid": true,
+        "possible_split_detected": false,
+        "possible_split_date": null,
+        "possible_split_ratio": null,
+        "large_price_gap_detected": false,
+        "largest_gap_percent": 9.9206,
+        "largest_gap_date": "2026-05-21",
+        "adjusted_close_divergence_detected": false,
+        "warning_level": "green",
+        "notes": [
+          "No major data-quality anomaly detected."
+        ],
+        "stale_data": false,
+        "market_date": "2026-08-19",
+        "symbol_asof": "2026-08-19",
+        "stale_reason": null,
+        "corporate_action_active": false
+      },
+      "summary": {
+        "daily_trend": "up",
+        "versus_sma50": "below",
+        "volume_signal": "low volume"
+      },
+      "source": "Yahoo Finance Chart API",
+      "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+      "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification.",
+      "tw_code": "2515",
+      "market": "Taiwan",
+      "market_status": {
+        "status": "normal",
+        "trading": true,
+        "corporate_action_active": false,
+        "reason": null,
+        "last_trading_date": null,
+        "expected_resume_date": null,
+        "price_basis_reset": false,
+        "price_basis_reset_pending": false,
+        "technical_analysis_valid": true
+      },
+      "technical_analysis": {
+        "valid": true,
+        "status": "valid",
+        "reason": null
+      }
+    },
+    "2615": {
+      "symbol": "2615.TW",
+      "name": "萬海",
+      "currency": "TWD",
+      "exchange": "TAI",
+      "asof": "2026-08-19",
+      "previous_date": "2026-08-18",
+      "price": {
+        "close": 106.5,
+        "previous_close": 105,
+        "change": 1.5,
+        "change_percent": 1.4286
+      },
+      "volume": {
+        "current": 40954403,
+        "previous": 70662811,
+        "change_percent": -42.0425,
+        "average_20d": 17305302.7,
+        "vs_average_20d_percent": 136.6581
+      },
+      "moving_average": {
+        "sma20": 88.545,
+        "sma50": 83.75,
+        "sma100": 81.106,
+        "sma200": 79.887
+      },
+      "distance_to_moving_average_percent": {
+        "sma20": 20.2778,
+        "sma50": 27.1642,
+        "sma100": 31.3096,
+        "sma200": 33.3133
+      },
+      "range_52week": {
+        "high": 108,
+        "low": 73,
+        "distance_from_high_percent": -1.3889,
+        "distance_from_low_percent": 45.8904
+      },
+      "sma50_detail": {
+        "trading_days": 50,
+        "first_date": "2026-06-10",
+        "last_date": "2026-08-19",
+        "sum_close": 4187.5,
+        "average_close": 83.75
+      },
+      "data_quality": {
+        "history_days": 243,
+        "sma20_valid": true,
+        "sma50_valid": true,
+        "sma100_valid": true,
+        "sma200_valid": true,
+        "possible_split_detected": false,
+        "possible_split_date": null,
+        "possible_split_ratio": null,
+        "large_price_gap_detected": false,
+        "largest_gap_percent": 9.9738,
+        "largest_gap_date": "2025-10-14",
+        "adjusted_close_divergence_detected": false,
+        "warning_level": "green",
+        "notes": [
+          "No major data-quality anomaly detected."
+        ],
+        "stale_data": false,
+        "market_date": "2026-08-19",
+        "symbol_asof": "2026-08-19",
+        "stale_reason": null,
+        "corporate_action_active": false
+      },
+      "summary": {
+        "daily_trend": "up",
+        "versus_sma50": "above",
+        "volume_signal": "high volume"
+      },
+      "source": "Yahoo Finance Chart API",
+      "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+      "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification.",
+      "tw_code": "2615",
+      "market": "Taiwan",
+      "market_status": {
+        "status": "normal",
+        "trading": true,
+        "corporate_action_active": false,
+        "reason": null,
+        "last_trading_date": null,
+        "expected_resume_date": null,
+        "price_basis_reset": false,
+        "price_basis_reset_pending": false,
+        "technical_analysis_valid": true
+      },
+      "technical_analysis": {
+        "valid": true,
+        "status": "valid",
+        "reason": null
+      }
+    },
+    "3363": {
+      "symbol": "3363.TWO",
+      "name": "上詮",
+      "currency": "TWD",
+      "exchange": "TWO",
+      "asof": "2026-08-19",
+      "previous_date": "2026-08-18",
+      "price": {
+        "close": 584,
+        "previous_close": 586,
+        "change": -2,
+        "change_percent": -0.3413
+      },
+      "volume": {
+        "current": 1994582,
+        "previous": 3835298,
+        "change_percent": -47.9941,
+        "average_20d": 3600479.75,
+        "vs_average_20d_percent": -44.6023
+      },
+      "moving_average": {
+        "sma20": 572.05,
+        "sma50": 599.44,
+        "sma100": 702.65,
+        "sma200": 575.1745
+      },
+      "distance_to_moving_average_percent": {
+        "sma20": 2.089,
+        "sma50": -2.5757,
+        "sma100": -16.8861,
+        "sma200": 1.5344
+      },
+      "range_52week": {
+        "high": 1065,
+        "low": 328,
+        "distance_from_high_percent": -45.1643,
+        "distance_from_low_percent": 78.0488
+      },
+      "sma50_detail": {
+        "trading_days": 50,
+        "first_date": "2026-06-10",
+        "last_date": "2026-08-19",
+        "sum_close": 29972,
+        "average_close": 599.44
+      },
+      "data_quality": {
+        "history_days": 243,
+        "sma20_valid": true,
+        "sma50_valid": true,
+        "sma100_valid": true,
+        "sma200_valid": true,
+        "possible_split_detected": false,
+        "possible_split_date": null,
+        "possible_split_ratio": null,
+        "large_price_gap_detected": false,
+        "largest_gap_percent": 10,
+        "largest_gap_date": "2025-12-03",
+        "adjusted_close_divergence_detected": false,
+        "warning_level": "green",
+        "notes": [
+          "No major data-quality anomaly detected."
+        ],
+        "stale_data": false,
+        "market_date": "2026-08-19",
+        "symbol_asof": "2026-08-19",
+        "stale_reason": null,
+        "corporate_action_active": false
+      },
+      "summary": {
+        "daily_trend": "down",
+        "versus_sma50": "below",
+        "volume_signal": "low volume"
+      },
+      "source": "Yahoo Finance Chart API",
+      "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+      "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification.",
+      "tw_code": "3363",
+      "market": "Taiwan",
+      "market_status": {
+        "status": "normal",
+        "trading": true,
+        "corporate_action_active": false,
+        "reason": null,
+        "last_trading_date": null,
+        "expected_resume_date": null,
+        "price_basis_reset": false,
+        "price_basis_reset_pending": false,
+        "technical_analysis_valid": true
+      },
+      "technical_analysis": {
+        "valid": true,
+        "status": "valid",
+        "reason": null
+      }
+    },
+    "6176": {
+      "symbol": "6176.TW",
+      "name": "瑞儀",
+      "currency": "TWD",
+      "exchange": "TAI",
+      "asof": "2026-08-19",
+      "previous_date": "2026-08-18",
+      "price": {
+        "close": 108.4,
+        "previous_close": 108.4,
+        "change": 0,
+        "change_percent": 0
+      },
+      "volume": {
+        "current": 0,
+        "previous": 0,
+        "change_percent": null,
+        "average_20d": 3205296.35,
+        "vs_average_20d_percent": -100
+      },
+      "moving_average": {
+        "sma20": 111.74,
+        "sma50": 115.6613,
+        "sma100": 123.5907,
+        "sma200": 140.8567
+      },
+      "distance_to_moving_average_percent": {
+        "sma20": -2.9891,
+        "sma50": -6.2781,
+        "sma100": -12.2911,
+        "sma200": -23.0424
+      },
+      "range_52week": {
+        "high": 194.6667,
+        "low": 107.6,
+        "distance_from_high_percent": -44.3151,
+        "distance_from_low_percent": 0.7435
+      },
+      "sma50_detail": {
+        "trading_days": 50,
+        "first_date": "2026-06-10",
+        "last_date": "2026-08-19",
+        "sum_close": 5783.0667,
+        "average_close": 115.6613
+      },
+      "data_quality": {
+        "history_days": 243,
+        "sma20_valid": true,
+        "sma50_valid": true,
+        "sma100_valid": true,
+        "sma200_valid": true,
+        "possible_split_detected": false,
+        "possible_split_date": null,
+        "possible_split_ratio": null,
+        "large_price_gap_detected": false,
+        "largest_gap_percent": 10,
+        "largest_gap_date": "2026-04-27",
+        "adjusted_close_divergence_detected": true,
+        "warning_level": "yellow",
+        "notes": [
+          "Adjusted Close differs materially from regular Close; verify dividend or corporate-action effects.",
+          "減資換股整理期間; official last trading date 2026-08-12, last close 81.3, expected resume date 2026-08-24."
+        ],
+        "stale_data": false,
+        "market_date": "2026-08-19",
+        "symbol_asof": "2026-08-19",
+        "stale_reason": "No new exchange trade is expected during the corporate-action suspension period; vendor-adjusted snapshots are not treated as actual trades.",
+        "corporate_action_active": true
+      },
+      "summary": {
+        "daily_trend": "flat",
+        "versus_sma50": "below",
+        "volume_signal": "not_applicable"
+      },
+      "source": "Yahoo Finance Chart API",
+      "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+      "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification.",
+      "tw_code": "6176",
+      "market": "Taiwan",
+      "market_status": {
+        "status": "corporate_action",
+        "trading": false,
+        "corporate_action_active": true,
+        "reason": "減資換股整理期間",
+        "action_type": "capital_reduction",
+        "last_trading_date": "2026-08-12",
+        "last_trading_close": 81.3,
+        "suspension_start_date": "2026-08-13",
+        "suspension_end_date": "2026-08-21",
+        "expected_resume_date": "2026-08-24",
+        "price_basis_reset": true,
+        "price_basis_reset_pending": true,
+        "technical_analysis_valid": false,
+        "source_note": "Official schedule: old shares last traded 2026-08-12; trading suspended 2026-08-13 through 2026-08-21; new shares resume trading 2026-08-24. Pre-action last close: TWD 81.3."
+      },
+      "corporate_action_reference": {
+        "official_last_trading_date": "2026-08-12",
+        "official_last_trading_close": 81.3,
+        "currency": "TWD",
+        "suspension_start_date": "2026-08-13",
+        "suspension_end_date": "2026-08-21",
+        "expected_resume_date": "2026-08-24",
+        "reporting_rule": "Use official_last_trading_close/date in reports. Do not describe Yahoo adjusted snapshot as an actual trade during suspension."
+      },
+      "vendor_adjusted_snapshot": {
+        "source": "Yahoo Finance Chart API",
+        "asof": "2026-08-19",
+        "close": 108.4,
+        "note": "Vendor snapshot may reflect corporate-action-adjusted history and is not treated as an exchange trade during suspension."
+      },
+      "technical_analysis": {
+        "valid": false,
+        "status": "suspended",
+        "reason": "corporate_action_price_basis_reset_requires_verification"
+      }
+    }
+  },
+  "source": "Yahoo Finance Chart API",
+  "version": "4.1",
+  "note": "Taiwan listed stocks use .TW and OTC stocks use .TWO. TAIEX volume is not used as market turnover. Corporate-action states can override stale-data interpretation."
+}
