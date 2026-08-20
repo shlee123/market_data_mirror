@@ -10,6 +10,10 @@ on:
     paths:
       - ".github/workflows/sync-market.yml"
       - "scripts/**"
+  pull_request:
+    branches:
+      - main
+    types: [opened]
 
 permissions:
   contents: write
@@ -23,8 +27,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Checkout
+      - name: Checkout main
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -54,4 +60,4 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/
           git commit -m "data: refresh market mirror"
-          git push
+          git push origin HEAD:main
