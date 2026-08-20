@@ -1,0 +1,72 @@
+{
+  "symbol": "AMKR",
+  "name": "Amkor Technology",
+  "currency": "USD",
+  "exchange": "NMS",
+  "asof": "2026-08-20",
+  "previous_date": "2026-08-19",
+  "price": {
+    "close": 50.74,
+    "previous_close": 50.89,
+    "change": -0.15,
+    "change_percent": -0.2947
+  },
+  "volume": {
+    "current": 2268477,
+    "previous": 7131900,
+    "change_percent": -68.1925,
+    "average_20d": 6265218.85,
+    "vs_average_20d_percent": -63.7925
+  },
+  "moving_average": {
+    "sma20": 53.9745,
+    "sma50": 66.7738,
+    "sma100": 66.7055,
+    "sma200": 55.3463
+  },
+  "distance_to_moving_average_percent": {
+    "sma20": -5.9926,
+    "sma50": -24.0121,
+    "sma100": -23.9343,
+    "sma200": -8.3227
+  },
+  "range_52week": {
+    "high": 96.68,
+    "low": 22.74,
+    "distance_from_high_percent": -47.5176,
+    "distance_from_low_percent": 123.1311
+  },
+  "sma50_detail": {
+    "trading_days": 50,
+    "first_date": "2026-06-10",
+    "last_date": "2026-08-20",
+    "sum_close": 3338.69,
+    "average_close": 66.7738
+  },
+  "data_quality": {
+    "history_days": 252,
+    "sma20_valid": true,
+    "sma50_valid": true,
+    "sma100_valid": true,
+    "sma200_valid": true,
+    "possible_split_detected": false,
+    "possible_split_date": null,
+    "possible_split_ratio": null,
+    "large_price_gap_detected": false,
+    "largest_gap_percent": 24.7406,
+    "largest_gap_date": "2026-07-28",
+    "adjusted_close_divergence_detected": false,
+    "warning_level": "green",
+    "notes": [
+      "No major data-quality anomaly detected."
+    ]
+  },
+  "summary": {
+    "daily_trend": "down",
+    "versus_sma50": "below",
+    "volume_signal": "low volume"
+  },
+  "source": "Yahoo Finance Chart API",
+  "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+  "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification."
+}

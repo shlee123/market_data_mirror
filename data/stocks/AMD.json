@@ -1,0 +1,72 @@
+{
+  "symbol": "AMD",
+  "name": "Advanced Micro Devices",
+  "currency": "USD",
+  "exchange": "NMS",
+  "asof": "2026-08-20",
+  "previous_date": "2026-08-19",
+  "price": {
+    "close": 463.71,
+    "previous_close": 466.42,
+    "change": -2.71,
+    "change_percent": -0.581
+  },
+  "volume": {
+    "current": 9271511,
+    "previous": 19089400,
+    "change_percent": -51.4311,
+    "average_20d": 26889105.55,
+    "vs_average_20d_percent": -65.5195
+  },
+  "moving_average": {
+    "sma20": 483.263,
+    "sma50": 509.7022,
+    "sma100": 439.8136,
+    "sma200": 328.7665
+  },
+  "distance_to_moving_average_percent": {
+    "sma20": -4.046,
+    "sma50": -9.0233,
+    "sma100": 5.4333,
+    "sma200": 41.0454
+  },
+  "range_52week": {
+    "high": 584.73,
+    "low": 149.22,
+    "distance_from_high_percent": -20.6967,
+    "distance_from_low_percent": 210.7559
+  },
+  "sma50_detail": {
+    "trading_days": 50,
+    "first_date": "2026-06-10",
+    "last_date": "2026-08-20",
+    "sum_close": 25485.11,
+    "average_close": 509.7022
+  },
+  "data_quality": {
+    "history_days": 252,
+    "sma20_valid": true,
+    "sma50_valid": true,
+    "sma100_valid": true,
+    "sma200_valid": true,
+    "possible_split_detected": false,
+    "possible_split_date": null,
+    "possible_split_ratio": null,
+    "large_price_gap_detected": false,
+    "largest_gap_percent": 23.708,
+    "largest_gap_date": "2025-10-06",
+    "adjusted_close_divergence_detected": false,
+    "warning_level": "green",
+    "notes": [
+      "No major data-quality anomaly detected."
+    ]
+  },
+  "summary": {
+    "daily_trend": "down",
+    "versus_sma50": "below",
+    "volume_signal": "low volume"
+  },
+  "source": "Yahoo Finance Chart API",
+  "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+  "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification."
+}

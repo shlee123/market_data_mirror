@@ -1,0 +1,1019 @@
+{
+  "generated_at": "2026-08-20T17:26:28.108Z",
+  "market": "US",
+  "indices": {
+    "sp500": {
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "currency": "USD",
+      "exchange": "SNP",
+      "asof": "2026-08-20",
+      "previous_date": "2026-08-19",
+      "price": {
+        "close": 7667.6099,
+        "previous_close": 7707.98,
+        "change": -40.3701,
+        "change_percent": -0.5237
+      },
+      "volume": {
+        "current": 1291709000,
+        "previous": 5184100000,
+        "change_percent": -75.0833,
+        "average_20d": 4905196450,
+        "vs_average_20d_percent": -73.6665
+      },
+      "moving_average": {
+        "sma20": 7632.629,
+        "sma50": 7533.4288,
+        "sma100": 7364.1572,
+        "sma200": 7091.7443
+      },
+      "distance_to_moving_average_percent": {
+        "sma20": 0.4583,
+        "sma50": 1.7811,
+        "sma100": 4.1207,
+        "sma200": 8.1202
+      },
+      "range_52week": {
+        "high": 7816.7002,
+        "low": 6316.9102,
+        "distance_from_high_percent": -1.9073,
+        "distance_from_low_percent": 21.3823
+      },
+      "sma50_detail": {
+        "trading_days": 50,
+        "first_date": "2026-06-10",
+        "last_date": "2026-08-20",
+        "sum_close": 376671.4404,
+        "average_close": 7533.4288
+      },
+      "data_quality": {
+        "history_days": 252,
+        "sma20_valid": true,
+        "sma50_valid": true,
+        "sma100_valid": true,
+        "sma200_valid": true,
+        "possible_split_detected": false,
+        "possible_split_date": null,
+        "possible_split_ratio": null,
+        "large_price_gap_detected": false,
+        "largest_gap_percent": 2.9131,
+        "largest_gap_date": "2026-03-31",
+        "adjusted_close_divergence_detected": false,
+        "warning_level": "green",
+        "notes": [
+          "No major data-quality anomaly detected."
+        ]
+      },
+      "summary": {
+        "daily_trend": "down",
+        "versus_sma50": "above",
+        "volume_signal": "low volume"
+      },
+      "source": "Yahoo Finance Chart API",
+      "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+      "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification."
+    },
+    "nasdaq": {
+      "symbol": "^IXIC",
+      "name": "Nasdaq Composite",
+      "currency": "USD",
+      "exchange": "NIM",
+      "asof": "2026-08-20",
+      "previous_date": "2026-08-19",
+      "price": {
+        "close": 26094.582,
+        "previous_close": 26331.0898,
+        "change": -236.5078,
+        "change_percent": -0.8982
+      },
+      "volume": {
+        "current": 4640075000,
+        "previous": 8173140000,
+        "change_percent": -43.2278,
+        "average_20d": 8331708750,
+        "vs_average_20d_percent": -44.3082
+      },
+      "moving_average": {
+        "sma20": 26007.843,
+        "sma50": 25930.8454,
+        "sma100": 25444.4471,
+        "sma200": 24230.2514
+      },
+      "distance_to_moving_average_percent": {
+        "sma20": 0.3335,
+        "sma50": 0.6314,
+        "sma100": 2.5551,
+        "sma200": 7.6942
+      },
+      "range_52week": {
+        "high": 27190.2109,
+        "low": 20690.25,
+        "distance_from_high_percent": -4.0295,
+        "distance_from_low_percent": 26.1202
+      },
+      "sma50_detail": {
+        "trading_days": 50,
+        "first_date": "2026-06-10",
+        "last_date": "2026-08-20",
+        "sum_close": 1296542.2676,
+        "average_close": 25930.8454
+      },
+      "data_quality": {
+        "history_days": 252,
+        "sma20_valid": true,
+        "sma50_valid": true,
+        "sma100_valid": true,
+        "sma200_valid": true,
+        "possible_split_detected": false,
+        "possible_split_date": null,
+        "possible_split_ratio": null,
+        "large_price_gap_detected": false,
+        "largest_gap_percent": 4.18,
+        "largest_gap_date": "2026-06-05",
+        "adjusted_close_divergence_detected": false,
+        "warning_level": "green",
+        "notes": [
+          "No major data-quality anomaly detected."
+        ]
+      },
+      "summary": {
+        "daily_trend": "down",
+        "versus_sma50": "above",
+        "volume_signal": "low volume"
+      },
+      "source": "Yahoo Finance Chart API",
+      "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+      "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification."
+    },
+    "dow": {
+      "symbol": "^DJI",
+      "name": "Dow Jones Industrial Average",
+      "currency": "USD",
+      "exchange": "DJI",
+      "asof": "2026-08-20",
+      "previous_date": "2026-08-19",
+      "price": {
+        "close": 52955.5117,
+        "previous_close": 53463.0508,
+        "change": -507.5391,
+        "change_percent": -0.9493
+      },
+      "volume": {
+        "current": 216024430,
+        "previous": 451460000,
+        "change_percent": -52.1498,
+        "average_20d": 464860221.5,
+        "vs_average_20d_percent": -53.5292
+      },
+      "moving_average": {
+        "sma20": 53252.9781,
+        "sma50": 52526.0535,
+        "sma100": 50903.8481,
+        "sma200": 49525.7953
+      },
+      "distance_to_moving_average_percent": {
+        "sma20": -0.5586,
+        "sma50": 0.8176,
+        "sma100": 4.0305,
+        "sma200": 6.9251
+      },
+      "range_52week": {
+        "high": 54744.3281,
+        "low": 44579.0313,
+        "distance_from_high_percent": -3.2676,
+        "distance_from_low_percent": 18.7902
+      },
+      "sma50_detail": {
+        "trading_days": 50,
+        "first_date": "2026-06-10",
+        "last_date": "2026-08-20",
+        "sum_close": 2626302.6758,
+        "average_close": 52526.0535
+      },
+      "data_quality": {
+        "history_days": 252,
+        "sma20_valid": true,
+        "sma50_valid": true,
+        "sma100_valid": true,
+        "sma200_valid": true,
+        "possible_split_detected": false,
+        "possible_split_date": null,
+        "possible_split_ratio": null,
+        "large_price_gap_detected": false,
+        "largest_gap_percent": 2.8453,
+        "largest_gap_date": "2026-04-08",
+        "adjusted_close_divergence_detected": false,
+        "warning_level": "green",
+        "notes": [
+          "No major data-quality anomaly detected."
+        ]
+      },
+      "summary": {
+        "daily_trend": "down",
+        "versus_sma50": "above",
+        "volume_signal": "low volume"
+      },
+      "source": "Yahoo Finance Chart API",
+      "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+      "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification."
+    }
+  },
+  "watchlist": {
+    "ARM": {
+      "symbol": "ARM",
+      "name": "Arm Holdings",
+      "currency": "USD",
+      "exchange": "NMS",
+      "asof": "2026-08-20",
+      "previous_date": "2026-08-19",
+      "price": {
+        "close": 248.615,
+        "previous_close": 249.34,
+        "change": -0.725,
+        "change_percent": -0.2908
+      },
+      "volume": {
+        "current": 1565526,
+        "previous": 4310500,
+        "change_percent": -63.6811,
+        "average_20d": 5320716.3,
+        "vs_average_20d_percent": -70.5768
+      },
+      "moving_average": {
+        "sma20": 261.5047,
+        "sma50": 303.6037,
+        "sma100": 267.4303,
+        "sma200": 196.7552
+      },
+      "distance_to_moving_average_percent": {
+        "sma20": -4.929,
+        "sma50": -18.112,
+        "sma100": -7.0356,
+        "sma200": 26.3575
+      },
+      "range_52week": {
+        "high": 452.7,
+        "low": 100.02,
+        "distance_from_high_percent": -45.0817,
+        "distance_from_low_percent": 148.5653
+      },
+      "sma50_detail": {
+        "trading_days": 50,
+        "first_date": "2026-06-10",
+        "last_date": "2026-08-20",
+        "sum_close": 15180.1849,
+        "average_close": 303.6037
+      },
+      "data_quality": {
+        "history_days": 252,
+        "sma20_valid": true,
+        "sma50_valid": true,
+        "sma100_valid": true,
+        "sma200_valid": true,
+        "possible_split_detected": false,
+        "possible_split_date": null,
+        "possible_split_ratio": null,
+        "large_price_gap_detected": false,
+        "largest_gap_percent": 17.3597,
+        "largest_gap_date": "2026-08-04",
+        "adjusted_close_divergence_detected": false,
+        "warning_level": "green",
+        "notes": [
+          "No major data-quality anomaly detected."
+        ]
+      },
+      "summary": {
+        "daily_trend": "down",
+        "versus_sma50": "below",
+        "volume_signal": "low volume"
+      },
+      "source": "Yahoo Finance Chart API",
+      "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+      "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification."
+    },
+    "SNDK": {
+      "symbol": "SNDK",
+      "name": "SanDisk",
+      "currency": "USD",
+      "exchange": "NMS",
+      "asof": "2026-08-20",
+      "previous_date": "2026-08-19",
+      "price": {
+        "close": 1587.0601,
+        "previous_close": 1568.87,
+        "change": 18.1901,
+        "change_percent": 1.1594
+      },
+      "volume": {
+        "current": 8067533,
+        "previous": 16104900,
+        "change_percent": -49.9063,
+        "average_20d": 17363696.65,
+        "vs_average_20d_percent": -53.5379
+      },
+      "moving_average": {
+        "sma20": 1372.4775,
+        "sma50": 1654.8466,
+        "sma100": 1438.0581,
+        "sma200": 932.2011
+      },
+      "distance_to_moving_average_percent": {
+        "sma20": 15.6347,
+        "sma50": -4.0962,
+        "sma100": 10.3613,
+        "sma200": 70.2487
+      },
+      "range_52week": {
+        "high": 2354.3899,
+        "low": 43.202,
+        "distance_from_high_percent": -32.5915,
+        "distance_from_low_percent": 3573.5801
+      },
+      "sma50_detail": {
+        "trading_days": 50,
+        "first_date": "2026-06-10",
+        "last_date": "2026-08-20",
+        "sum_close": 82742.3298,
+        "average_close": 1654.8466
+      },
+      "data_quality": {
+        "history_days": 252,
+        "sma20_valid": true,
+        "sma50_valid": true,
+        "sma100_valid": true,
+        "sma200_valid": true,
+        "possible_split_detected": false,
+        "possible_split_date": null,
+        "possible_split_ratio": null,
+        "large_price_gap_detected": false,
+        "largest_gap_percent": 27.565,
+        "largest_gap_date": "2026-01-06",
+        "adjusted_close_divergence_detected": false,
+        "warning_level": "green",
+        "notes": [
+          "No major data-quality anomaly detected."
+        ]
+      },
+      "summary": {
+        "daily_trend": "up",
+        "versus_sma50": "below",
+        "volume_signal": "low volume"
+      },
+      "source": "Yahoo Finance Chart API",
+      "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+      "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification."
+    },
+    "MRVL": {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "currency": "USD",
+      "exchange": "NMS",
+      "asof": "2026-08-20",
+      "previous_date": "2026-08-19",
+      "price": {
+        "close": 244.2,
+        "previous_close": 237.27,
+        "change": 6.93,
+        "change_percent": 2.9207
+      },
+      "volume": {
+        "current": 17190613,
+        "previous": 43790200,
+        "change_percent": -60.7432,
+        "average_20d": 23228555.65,
+        "vs_average_20d_percent": -25.9936
+      },
+      "moving_average": {
+        "sma20": 207.9365,
+        "sma50": 234.0238,
+        "sma100": 203.3164,
+        "sma200": 144.3034
+      },
+      "distance_to_moving_average_percent": {
+        "sma20": 17.4397,
+        "sma50": 4.3484,
+        "sma100": 20.1084,
+        "sma200": 69.2268
+      },
+      "range_52week": {
+        "high": 329.88,
+        "low": 61.44,
+        "distance_from_high_percent": -25.9731,
+        "distance_from_low_percent": 297.4609
+      },
+      "sma50_detail": {
+        "trading_days": 50,
+        "first_date": "2026-06-10",
+        "last_date": "2026-08-20",
+        "sum_close": 11701.19,
+        "average_close": 234.0238
+      },
+      "data_quality": {
+        "history_days": 252,
+        "sma20_valid": true,
+        "sma50_valid": true,
+        "sma100_valid": true,
+        "sma200_valid": true,
+        "possible_split_detected": false,
+        "possible_split_date": null,
+        "possible_split_ratio": null,
+        "large_price_gap_detected": false,
+        "largest_gap_percent": 32.5206,
+        "largest_gap_date": "2026-06-02",
+        "adjusted_close_divergence_detected": false,
+        "warning_level": "green",
+        "notes": [
+          "No major data-quality anomaly detected."
+        ]
+      },
+      "summary": {
+        "daily_trend": "up",
+        "versus_sma50": "above",
+        "volume_signal": "low volume"
+      },
+      "source": "Yahoo Finance Chart API",
+      "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+      "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification."
+    },
+    "MU": {
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "currency": "USD",
+      "exchange": "NMS",
+      "asof": "2026-08-20",
+      "previous_date": "2026-08-19",
+      "price": {
+        "close": 954.66,
+        "previous_close": 937.11,
+        "change": 17.55,
+        "change_percent": 1.8728
+      },
+      "volume": {
+        "current": 15624533,
+        "previous": 26661900,
+        "change_percent": -41.3975,
+        "average_20d": 39686131.65,
+        "vs_average_20d_percent": -60.6297
+      },
+      "moving_average": {
+        "sma20": 892.9675,
+        "sma50": 962.6998,
+        "sma100": 801.7546,
+        "sma200": 567.3397
+      },
+      "distance_to_moving_average_percent": {
+        "sma20": 6.9087,
+        "sma50": -0.8351,
+        "sma100": 19.0713,
+        "sma200": 68.2696
+      },
+      "range_52week": {
+        "high": 1255,
+        "low": 113.46,
+        "distance_from_high_percent": -23.9315,
+        "distance_from_low_percent": 741.4066
+      },
+      "sma50_detail": {
+        "trading_days": 50,
+        "first_date": "2026-06-10",
+        "last_date": "2026-08-20",
+        "sum_close": 48134.9901,
+        "average_close": 962.6998
+      },
+      "data_quality": {
+        "history_days": 252,
+        "sma20_valid": true,
+        "sma50_valid": true,
+        "sma100_valid": true,
+        "sma200_valid": true,
+        "possible_split_detected": false,
+        "possible_split_date": null,
+        "possible_split_ratio": null,
+        "large_price_gap_detected": false,
+        "largest_gap_percent": 19.2916,
+        "largest_gap_date": "2026-05-26",
+        "adjusted_close_divergence_detected": false,
+        "warning_level": "green",
+        "notes": [
+          "No major data-quality anomaly detected."
+        ]
+      },
+      "summary": {
+        "daily_trend": "up",
+        "versus_sma50": "below",
+        "volume_signal": "low volume"
+      },
+      "source": "Yahoo Finance Chart API",
+      "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+      "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification."
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "currency": "USD",
+      "exchange": "NMS",
+      "asof": "2026-08-20",
+      "previous_date": "2026-08-19",
+      "price": {
+        "close": 216.42,
+        "previous_close": 217.56,
+        "change": -1.14,
+        "change_percent": -0.524
+      },
+      "volume": {
+        "current": 46948275,
+        "previous": 96389700,
+        "change_percent": -51.2933,
+        "average_20d": 115083838.75,
+        "vs_average_20d_percent": -59.2052
+      },
+      "moving_average": {
+        "sma20": 212.762,
+        "sma50": 207.2824,
+        "sma100": 206.1454,
+        "sma200": 195.2462
+      },
+      "distance_to_moving_average_percent": {
+        "sma20": 1.7193,
+        "sma50": 4.4083,
+        "sma100": 4.9842,
+        "sma200": 10.8447
+      },
+      "range_52week": {
+        "high": 236.54,
+        "low": 164.07,
+        "distance_from_high_percent": -8.506,
+        "distance_from_low_percent": 31.9071
+      },
+      "sma50_detail": {
+        "trading_days": 50,
+        "first_date": "2026-06-10",
+        "last_date": "2026-08-20",
+        "sum_close": 10364.1199,
+        "average_close": 207.2824
+      },
+      "data_quality": {
+        "history_days": 252,
+        "sma20_valid": true,
+        "sma50_valid": true,
+        "sma100_valid": true,
+        "sma200_valid": true,
+        "possible_split_detected": false,
+        "possible_split_date": null,
+        "possible_split_ratio": null,
+        "large_price_gap_detected": false,
+        "largest_gap_percent": 7.8718,
+        "largest_gap_date": "2026-02-06",
+        "adjusted_close_divergence_detected": false,
+        "warning_level": "green",
+        "notes": [
+          "No major data-quality anomaly detected."
+        ]
+      },
+      "summary": {
+        "daily_trend": "down",
+        "versus_sma50": "above",
+        "volume_signal": "low volume"
+      },
+      "source": "Yahoo Finance Chart API",
+      "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+      "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification."
+    },
+    "AVGO": {
+      "symbol": "AVGO",
+      "name": "Broadcom",
+      "currency": "USD",
+      "exchange": "NMS",
+      "asof": "2026-08-20",
+      "previous_date": "2026-08-19",
+      "price": {
+        "close": 362.8999,
+        "previous_close": 362.48,
+        "change": 0.4199,
+        "change_percent": 0.1158
+      },
+      "volume": {
+        "current": 8621422,
+        "previous": 35008300,
+        "change_percent": -75.3732,
+        "average_20d": 19179561.1,
+        "vs_average_20d_percent": -55.0489
+      },
+      "moving_average": {
+        "sma20": 396.682,
+        "sma50": 388.5532,
+        "sma100": 395.2671,
+        "sma200": 369.1628
+      },
+      "distance_to_moving_average_percent": {
+        "sma20": -8.5162,
+        "sma50": -6.6023,
+        "sma100": -8.1887,
+        "sma200": -1.6965
+      },
+      "range_52week": {
+        "high": 495,
+        "low": 281.87,
+        "distance_from_high_percent": -26.6869,
+        "distance_from_low_percent": 28.7473
+      },
+      "sma50_detail": {
+        "trading_days": 50,
+        "first_date": "2026-06-10",
+        "last_date": "2026-08-20",
+        "sum_close": 19427.6599,
+        "average_close": 388.5532
+      },
+      "data_quality": {
+        "history_days": 252,
+        "sma20_valid": true,
+        "sma50_valid": true,
+        "sma100_valid": true,
+        "sma200_valid": true,
+        "possible_split_detected": false,
+        "possible_split_date": null,
+        "possible_split_ratio": null,
+        "large_price_gap_detected": false,
+        "largest_gap_percent": 12.5869,
+        "largest_gap_date": "2026-06-04",
+        "adjusted_close_divergence_detected": false,
+        "warning_level": "green",
+        "notes": [
+          "No major data-quality anomaly detected."
+        ]
+      },
+      "summary": {
+        "daily_trend": "up",
+        "versus_sma50": "below",
+        "volume_signal": "low volume"
+      },
+      "source": "Yahoo Finance Chart API",
+      "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+      "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification."
+    },
+    "NASA": {
+      "symbol": "NASA",
+      "name": "Tema Space Innovators ETF",
+      "currency": "USD",
+      "exchange": "PCX",
+      "asof": "2026-08-20",
+      "previous_date": "2026-08-19",
+      "price": {
+        "close": 23.98,
+        "previous_close": 24.99,
+        "change": -1.01,
+        "change_percent": -4.0416
+      },
+      "volume": {
+        "current": 798721,
+        "previous": 1681000,
+        "change_percent": -52.4854,
+        "average_20d": 1492051.05,
+        "vs_average_20d_percent": -46.4683
+      },
+      "moving_average": {
+        "sma20": 24.142,
+        "sma50": 26.293,
+        "sma100": null,
+        "sma200": null
+      },
+      "distance_to_moving_average_percent": {
+        "sma20": -0.671,
+        "sma50": -8.797,
+        "sma100": null,
+        "sma200": null
+      },
+      "range_52week": {
+        "high": 42.68,
+        "low": 20.46,
+        "distance_from_high_percent": -43.8144,
+        "distance_from_low_percent": 17.2043
+      },
+      "sma50_detail": {
+        "trading_days": 50,
+        "first_date": "2026-06-10",
+        "last_date": "2026-08-20",
+        "sum_close": 1314.65,
+        "average_close": 26.293
+      },
+      "data_quality": {
+        "history_days": 99,
+        "sma20_valid": true,
+        "sma50_valid": true,
+        "sma100_valid": false,
+        "sma200_valid": false,
+        "possible_split_detected": false,
+        "possible_split_date": null,
+        "possible_split_ratio": null,
+        "large_price_gap_detected": false,
+        "largest_gap_percent": 12.8041,
+        "largest_gap_date": "2026-06-11",
+        "adjusted_close_divergence_detected": false,
+        "warning_level": "yellow",
+        "notes": [
+          "Less than 200 trading days available; SMA200 may be unavailable."
+        ]
+      },
+      "summary": {
+        "daily_trend": "down",
+        "versus_sma50": "below",
+        "volume_signal": "low volume"
+      },
+      "source": "Yahoo Finance Chart API",
+      "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+      "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification."
+    },
+    "AMKR": {
+      "symbol": "AMKR",
+      "name": "Amkor Technology",
+      "currency": "USD",
+      "exchange": "NMS",
+      "asof": "2026-08-20",
+      "previous_date": "2026-08-19",
+      "price": {
+        "close": 50.74,
+        "previous_close": 50.89,
+        "change": -0.15,
+        "change_percent": -0.2947
+      },
+      "volume": {
+        "current": 2268477,
+        "previous": 7131900,
+        "change_percent": -68.1925,
+        "average_20d": 6265218.85,
+        "vs_average_20d_percent": -63.7925
+      },
+      "moving_average": {
+        "sma20": 53.9745,
+        "sma50": 66.7738,
+        "sma100": 66.7055,
+        "sma200": 55.3463
+      },
+      "distance_to_moving_average_percent": {
+        "sma20": -5.9926,
+        "sma50": -24.0121,
+        "sma100": -23.9343,
+        "sma200": -8.3227
+      },
+      "range_52week": {
+        "high": 96.68,
+        "low": 22.74,
+        "distance_from_high_percent": -47.5176,
+        "distance_from_low_percent": 123.1311
+      },
+      "sma50_detail": {
+        "trading_days": 50,
+        "first_date": "2026-06-10",
+        "last_date": "2026-08-20",
+        "sum_close": 3338.69,
+        "average_close": 66.7738
+      },
+      "data_quality": {
+        "history_days": 252,
+        "sma20_valid": true,
+        "sma50_valid": true,
+        "sma100_valid": true,
+        "sma200_valid": true,
+        "possible_split_detected": false,
+        "possible_split_date": null,
+        "possible_split_ratio": null,
+        "large_price_gap_detected": false,
+        "largest_gap_percent": 24.7406,
+        "largest_gap_date": "2026-07-28",
+        "adjusted_close_divergence_detected": false,
+        "warning_level": "green",
+        "notes": [
+          "No major data-quality anomaly detected."
+        ]
+      },
+      "summary": {
+        "daily_trend": "down",
+        "versus_sma50": "below",
+        "volume_signal": "low volume"
+      },
+      "source": "Yahoo Finance Chart API",
+      "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+      "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification."
+    },
+    "AAOI": {
+      "symbol": "AAOI",
+      "name": "Applied Optoelectronics",
+      "currency": "USD",
+      "exchange": "NGM",
+      "asof": "2026-08-20",
+      "previous_date": "2026-08-19",
+      "price": {
+        "close": 129.28,
+        "previous_close": 122.19,
+        "change": 7.09,
+        "change_percent": 5.8024
+      },
+      "volume": {
+        "current": 6451393,
+        "previous": 12261100,
+        "change_percent": -47.3832,
+        "average_20d": 12959079.65,
+        "vs_average_20d_percent": -50.2172
+      },
+      "moving_average": {
+        "sma20": 120.033,
+        "sma50": 129.9096,
+        "sma100": 144.9652,
+        "sma200": 96.9605
+      },
+      "distance_to_moving_average_percent": {
+        "sma20": 7.7037,
+        "sma50": -0.4846,
+        "sma100": -10.82,
+        "sma200": 33.3326
+      },
+      "range_52week": {
+        "high": 233.67,
+        "low": 18.5,
+        "distance_from_high_percent": -44.6741,
+        "distance_from_low_percent": 598.8108
+      },
+      "sma50_detail": {
+        "trading_days": 50,
+        "first_date": "2026-06-10",
+        "last_date": "2026-08-20",
+        "sum_close": 6495.48,
+        "average_close": 129.9096
+      },
+      "data_quality": {
+        "history_days": 252,
+        "sma20_valid": true,
+        "sma50_valid": true,
+        "sma100_valid": true,
+        "sma200_valid": true,
+        "possible_split_detected": false,
+        "possible_split_date": null,
+        "possible_split_ratio": null,
+        "large_price_gap_detected": true,
+        "largest_gap_percent": 56.8821,
+        "largest_gap_date": "2026-02-27",
+        "adjusted_close_divergence_detected": false,
+        "warning_level": "red",
+        "notes": [
+          "Large single-day price gap detected (56.8821%) near 2026-02-27."
+        ]
+      },
+      "summary": {
+        "daily_trend": "up",
+        "versus_sma50": "below",
+        "volume_signal": "low volume"
+      },
+      "source": "Yahoo Finance Chart API",
+      "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+      "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification."
+    },
+    "COHR": {
+      "symbol": "COHR",
+      "name": "Coherent",
+      "currency": "USD",
+      "exchange": "NYQ",
+      "asof": "2026-08-20",
+      "previous_date": "2026-08-19",
+      "price": {
+        "close": 286.19,
+        "previous_close": 287.47,
+        "change": -1.28,
+        "change_percent": -0.4453
+      },
+      "volume": {
+        "current": 2853167,
+        "previous": 7390600,
+        "change_percent": -61.3946,
+        "average_20d": 7611308.35,
+        "vs_average_20d_percent": -62.5141
+      },
+      "moving_average": {
+        "sma20": 303.91,
+        "sma50": 330.8022,
+        "sma100": 334.8746,
+        "sma200": 269.0264
+      },
+      "distance_to_moving_average_percent": {
+        "sma20": -5.8307,
+        "sma50": -13.4861,
+        "sma100": -14.5382,
+        "sma200": 6.3799
+      },
+      "range_52week": {
+        "high": 440,
+        "low": 84.35,
+        "distance_from_high_percent": -34.9568,
+        "distance_from_low_percent": 239.2887
+      },
+      "sma50_detail": {
+        "trading_days": 50,
+        "first_date": "2026-06-10",
+        "last_date": "2026-08-20",
+        "sum_close": 16540.11,
+        "average_close": 330.8022
+      },
+      "data_quality": {
+        "history_days": 252,
+        "sma20_valid": true,
+        "sma50_valid": true,
+        "sma100_valid": true,
+        "sma200_valid": true,
+        "possible_split_detected": false,
+        "possible_split_date": null,
+        "possible_split_ratio": null,
+        "large_price_gap_detected": false,
+        "largest_gap_percent": 18.3243,
+        "largest_gap_date": "2025-11-06",
+        "adjusted_close_divergence_detected": false,
+        "warning_level": "green",
+        "notes": [
+          "No major data-quality anomaly detected."
+        ]
+      },
+      "summary": {
+        "daily_trend": "down",
+        "versus_sma50": "below",
+        "volume_signal": "low volume"
+      },
+      "source": "Yahoo Finance Chart API",
+      "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+      "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification."
+    },
+    "AMD": {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "currency": "USD",
+      "exchange": "NMS",
+      "asof": "2026-08-20",
+      "previous_date": "2026-08-19",
+      "price": {
+        "close": 463.71,
+        "previous_close": 466.42,
+        "change": -2.71,
+        "change_percent": -0.581
+      },
+      "volume": {
+        "current": 9271511,
+        "previous": 19089400,
+        "change_percent": -51.4311,
+        "average_20d": 26889105.55,
+        "vs_average_20d_percent": -65.5195
+      },
+      "moving_average": {
+        "sma20": 483.263,
+        "sma50": 509.7022,
+        "sma100": 439.8136,
+        "sma200": 328.7665
+      },
+      "distance_to_moving_average_percent": {
+        "sma20": -4.046,
+        "sma50": -9.0233,
+        "sma100": 5.4333,
+        "sma200": 41.0454
+      },
+      "range_52week": {
+        "high": 584.73,
+        "low": 149.22,
+        "distance_from_high_percent": -20.6967,
+        "distance_from_low_percent": 210.7559
+      },
+      "sma50_detail": {
+        "trading_days": 50,
+        "first_date": "2026-06-10",
+        "last_date": "2026-08-20",
+        "sum_close": 25485.11,
+        "average_close": 509.7022
+      },
+      "data_quality": {
+        "history_days": 252,
+        "sma20_valid": true,
+        "sma50_valid": true,
+        "sma100_valid": true,
+        "sma200_valid": true,
+        "possible_split_detected": false,
+        "possible_split_date": null,
+        "possible_split_ratio": null,
+        "large_price_gap_detected": false,
+        "largest_gap_percent": 23.708,
+        "largest_gap_date": "2025-10-06",
+        "adjusted_close_divergence_detected": false,
+        "warning_level": "green",
+        "notes": [
+          "No major data-quality anomaly detected."
+        ]
+      },
+      "summary": {
+        "daily_trend": "down",
+        "versus_sma50": "below",
+        "volume_signal": "low volume"
+      },
+      "source": "Yahoo Finance Chart API",
+      "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+      "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification."
+    }
+  },
+  "source": "Yahoo Finance Chart API",
+  "version": "4.1",
+  "note": "SMA uses regular daily Close. 52-week range uses daily High/Low. Data-quality warnings are advisory."
+}

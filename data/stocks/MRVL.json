@@ -1,0 +1,72 @@
+{
+  "symbol": "MRVL",
+  "name": "Marvell Technology",
+  "currency": "USD",
+  "exchange": "NMS",
+  "asof": "2026-08-20",
+  "previous_date": "2026-08-19",
+  "price": {
+    "close": 244.2,
+    "previous_close": 237.27,
+    "change": 6.93,
+    "change_percent": 2.9207
+  },
+  "volume": {
+    "current": 17190772,
+    "previous": 43790200,
+    "change_percent": -60.7429,
+    "average_20d": 23228563.6,
+    "vs_average_20d_percent": -25.993
+  },
+  "moving_average": {
+    "sma20": 207.9365,
+    "sma50": 234.0238,
+    "sma100": 203.3164,
+    "sma200": 144.3034
+  },
+  "distance_to_moving_average_percent": {
+    "sma20": 17.4397,
+    "sma50": 4.3484,
+    "sma100": 20.1084,
+    "sma200": 69.2268
+  },
+  "range_52week": {
+    "high": 329.88,
+    "low": 61.44,
+    "distance_from_high_percent": -25.9731,
+    "distance_from_low_percent": 297.4609
+  },
+  "sma50_detail": {
+    "trading_days": 50,
+    "first_date": "2026-06-10",
+    "last_date": "2026-08-20",
+    "sum_close": 11701.19,
+    "average_close": 234.0238
+  },
+  "data_quality": {
+    "history_days": 252,
+    "sma20_valid": true,
+    "sma50_valid": true,
+    "sma100_valid": true,
+    "sma200_valid": true,
+    "possible_split_detected": false,
+    "possible_split_date": null,
+    "possible_split_ratio": null,
+    "large_price_gap_detected": false,
+    "largest_gap_percent": 32.5206,
+    "largest_gap_date": "2026-06-02",
+    "adjusted_close_divergence_detected": false,
+    "warning_level": "green",
+    "notes": [
+      "No major data-quality anomaly detected."
+    ]
+  },
+  "summary": {
+    "daily_trend": "up",
+    "versus_sma50": "above",
+    "volume_signal": "low volume"
+  },
+  "source": "Yahoo Finance Chart API",
+  "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+  "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification."
+}

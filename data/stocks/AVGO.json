@@ -1,0 +1,72 @@
+{
+  "symbol": "AVGO",
+  "name": "Broadcom",
+  "currency": "USD",
+  "exchange": "NMS",
+  "asof": "2026-08-20",
+  "previous_date": "2026-08-19",
+  "price": {
+    "close": 362.8999,
+    "previous_close": 362.48,
+    "change": 0.4199,
+    "change_percent": 0.1158
+  },
+  "volume": {
+    "current": 8621450,
+    "previous": 35008300,
+    "change_percent": -75.3731,
+    "average_20d": 19179562.5,
+    "vs_average_20d_percent": -55.0488
+  },
+  "moving_average": {
+    "sma20": 396.682,
+    "sma50": 388.5532,
+    "sma100": 395.2671,
+    "sma200": 369.1628
+  },
+  "distance_to_moving_average_percent": {
+    "sma20": -8.5162,
+    "sma50": -6.6023,
+    "sma100": -8.1887,
+    "sma200": -1.6965
+  },
+  "range_52week": {
+    "high": 495,
+    "low": 281.87,
+    "distance_from_high_percent": -26.6869,
+    "distance_from_low_percent": 28.7473
+  },
+  "sma50_detail": {
+    "trading_days": 50,
+    "first_date": "2026-06-10",
+    "last_date": "2026-08-20",
+    "sum_close": 19427.6599,
+    "average_close": 388.5532
+  },
+  "data_quality": {
+    "history_days": 252,
+    "sma20_valid": true,
+    "sma50_valid": true,
+    "sma100_valid": true,
+    "sma200_valid": true,
+    "possible_split_detected": false,
+    "possible_split_date": null,
+    "possible_split_ratio": null,
+    "large_price_gap_detected": false,
+    "largest_gap_percent": 12.5869,
+    "largest_gap_date": "2026-06-04",
+    "adjusted_close_divergence_detected": false,
+    "warning_level": "green",
+    "notes": [
+      "No major data-quality anomaly detected."
+    ]
+  },
+  "summary": {
+    "daily_trend": "up",
+    "versus_sma50": "below",
+    "volume_signal": "low volume"
+  },
+  "source": "Yahoo Finance Chart API",
+  "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+  "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification."
+}

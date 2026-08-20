@@ -1,0 +1,72 @@
+{
+  "symbol": "NASA",
+  "name": "Tema Space Innovators ETF",
+  "currency": "USD",
+  "exchange": "PCX",
+  "asof": "2026-08-20",
+  "previous_date": "2026-08-19",
+  "price": {
+    "close": 23.98,
+    "previous_close": 24.99,
+    "change": -1.01,
+    "change_percent": -4.0416
+  },
+  "volume": {
+    "current": 798721,
+    "previous": 1681000,
+    "change_percent": -52.4854,
+    "average_20d": 1492051.05,
+    "vs_average_20d_percent": -46.4683
+  },
+  "moving_average": {
+    "sma20": 24.142,
+    "sma50": 26.293,
+    "sma100": null,
+    "sma200": null
+  },
+  "distance_to_moving_average_percent": {
+    "sma20": -0.671,
+    "sma50": -8.797,
+    "sma100": null,
+    "sma200": null
+  },
+  "range_52week": {
+    "high": 42.68,
+    "low": 20.46,
+    "distance_from_high_percent": -43.8144,
+    "distance_from_low_percent": 17.2043
+  },
+  "sma50_detail": {
+    "trading_days": 50,
+    "first_date": "2026-06-10",
+    "last_date": "2026-08-20",
+    "sum_close": 1314.65,
+    "average_close": 26.293
+  },
+  "data_quality": {
+    "history_days": 99,
+    "sma20_valid": true,
+    "sma50_valid": true,
+    "sma100_valid": false,
+    "sma200_valid": false,
+    "possible_split_detected": false,
+    "possible_split_date": null,
+    "possible_split_ratio": null,
+    "large_price_gap_detected": false,
+    "largest_gap_percent": 12.8041,
+    "largest_gap_date": "2026-06-11",
+    "adjusted_close_divergence_detected": false,
+    "warning_level": "yellow",
+    "notes": [
+      "Less than 200 trading days available; SMA200 may be unavailable."
+    ]
+  },
+  "summary": {
+    "daily_trend": "down",
+    "versus_sma50": "below",
+    "volume_signal": "low volume"
+  },
+  "source": "Yahoo Finance Chart API",
+  "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+  "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification."
+}

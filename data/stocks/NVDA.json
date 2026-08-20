@@ -1,0 +1,72 @@
+{
+  "symbol": "NVDA",
+  "name": "NVIDIA",
+  "currency": "USD",
+  "exchange": "NMS",
+  "asof": "2026-08-20",
+  "previous_date": "2026-08-19",
+  "price": {
+    "close": 216.415,
+    "previous_close": 217.56,
+    "change": -1.145,
+    "change_percent": -0.5263
+  },
+  "volume": {
+    "current": 46948596,
+    "previous": 96389700,
+    "change_percent": -51.2929,
+    "average_20d": 115083854.8,
+    "vs_average_20d_percent": -59.2049
+  },
+  "moving_average": {
+    "sma20": 212.7617,
+    "sma50": 207.2823,
+    "sma100": 206.1453,
+    "sma200": 195.2461
+  },
+  "distance_to_moving_average_percent": {
+    "sma20": 1.7171,
+    "sma50": 4.4059,
+    "sma100": 4.9818,
+    "sma200": 10.8422
+  },
+  "range_52week": {
+    "high": 236.54,
+    "low": 164.07,
+    "distance_from_high_percent": -8.5081,
+    "distance_from_low_percent": 31.9041
+  },
+  "sma50_detail": {
+    "trading_days": 50,
+    "first_date": "2026-06-10",
+    "last_date": "2026-08-20",
+    "sum_close": 10364.1149,
+    "average_close": 207.2823
+  },
+  "data_quality": {
+    "history_days": 252,
+    "sma20_valid": true,
+    "sma50_valid": true,
+    "sma100_valid": true,
+    "sma200_valid": true,
+    "possible_split_detected": false,
+    "possible_split_date": null,
+    "possible_split_ratio": null,
+    "large_price_gap_detected": false,
+    "largest_gap_percent": 7.8718,
+    "largest_gap_date": "2026-02-06",
+    "adjusted_close_divergence_detected": false,
+    "warning_level": "green",
+    "notes": [
+      "No major data-quality anomaly detected."
+    ]
+  },
+  "summary": {
+    "daily_trend": "down",
+    "versus_sma50": "above",
+    "volume_signal": "low volume"
+  },
+  "source": "Yahoo Finance Chart API",
+  "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+  "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification."
+}

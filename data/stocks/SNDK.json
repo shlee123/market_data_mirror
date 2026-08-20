@@ -1,0 +1,72 @@
+{
+  "symbol": "SNDK",
+  "name": "SanDisk",
+  "currency": "USD",
+  "exchange": "NMS",
+  "asof": "2026-08-20",
+  "previous_date": "2026-08-19",
+  "price": {
+    "close": 1587.16,
+    "previous_close": 1568.87,
+    "change": 18.29,
+    "change_percent": 1.1658
+  },
+  "volume": {
+    "current": 8071163,
+    "previous": 16104900,
+    "change_percent": -49.8838,
+    "average_20d": 17363878.15,
+    "vs_average_20d_percent": -53.5175
+  },
+  "moving_average": {
+    "sma20": 1372.4825,
+    "sma50": 1654.8486,
+    "sma100": 1438.0591,
+    "sma200": 932.2016
+  },
+  "distance_to_moving_average_percent": {
+    "sma20": 15.6415,
+    "sma50": -4.0903,
+    "sma100": 10.3682,
+    "sma200": 70.2593
+  },
+  "range_52week": {
+    "high": 2354.3899,
+    "low": 43.202,
+    "distance_from_high_percent": -32.5872,
+    "distance_from_low_percent": 3573.8115
+  },
+  "sma50_detail": {
+    "trading_days": 50,
+    "first_date": "2026-06-10",
+    "last_date": "2026-08-20",
+    "sum_close": 82742.4298,
+    "average_close": 1654.8486
+  },
+  "data_quality": {
+    "history_days": 252,
+    "sma20_valid": true,
+    "sma50_valid": true,
+    "sma100_valid": true,
+    "sma200_valid": true,
+    "possible_split_detected": false,
+    "possible_split_date": null,
+    "possible_split_ratio": null,
+    "large_price_gap_detected": false,
+    "largest_gap_percent": 27.565,
+    "largest_gap_date": "2026-01-06",
+    "adjusted_close_divergence_detected": false,
+    "warning_level": "green",
+    "notes": [
+      "No major data-quality anomaly detected."
+    ]
+  },
+  "summary": {
+    "daily_trend": "up",
+    "versus_sma50": "below",
+    "volume_signal": "low volume"
+  },
+  "source": "Yahoo Finance Chart API",
+  "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+  "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification."
+}

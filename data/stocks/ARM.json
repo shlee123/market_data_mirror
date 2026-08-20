@@ -1,0 +1,72 @@
+{
+  "symbol": "ARM",
+  "name": "Arm Holdings",
+  "currency": "USD",
+  "exchange": "NMS",
+  "asof": "2026-08-20",
+  "previous_date": "2026-08-19",
+  "price": {
+    "close": 248.615,
+    "previous_close": 249.34,
+    "change": -0.725,
+    "change_percent": -0.2908
+  },
+  "volume": {
+    "current": 1565553,
+    "previous": 4310500,
+    "change_percent": -63.6805,
+    "average_20d": 5320717.65,
+    "vs_average_20d_percent": -70.5763
+  },
+  "moving_average": {
+    "sma20": 261.5047,
+    "sma50": 303.6037,
+    "sma100": 267.4303,
+    "sma200": 196.7552
+  },
+  "distance_to_moving_average_percent": {
+    "sma20": -4.929,
+    "sma50": -18.112,
+    "sma100": -7.0356,
+    "sma200": 26.3575
+  },
+  "range_52week": {
+    "high": 452.7,
+    "low": 100.02,
+    "distance_from_high_percent": -45.0817,
+    "distance_from_low_percent": 148.5653
+  },
+  "sma50_detail": {
+    "trading_days": 50,
+    "first_date": "2026-06-10",
+    "last_date": "2026-08-20",
+    "sum_close": 15180.1849,
+    "average_close": 303.6037
+  },
+  "data_quality": {
+    "history_days": 252,
+    "sma20_valid": true,
+    "sma50_valid": true,
+    "sma100_valid": true,
+    "sma200_valid": true,
+    "possible_split_detected": false,
+    "possible_split_date": null,
+    "possible_split_ratio": null,
+    "large_price_gap_detected": false,
+    "largest_gap_percent": 17.3597,
+    "largest_gap_date": "2026-08-04",
+    "adjusted_close_divergence_detected": false,
+    "warning_level": "green",
+    "notes": [
+      "No major data-quality anomaly detected."
+    ]
+  },
+  "summary": {
+    "daily_trend": "down",
+    "versus_sma50": "below",
+    "volume_signal": "low volume"
+  },
+  "source": "Yahoo Finance Chart API",
+  "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+  "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification."
+}

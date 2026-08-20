@@ -1,0 +1,25 @@
+{
+  "sync_status": "success",
+  "synced_at": "2026-08-20T17:26:30.428037Z",
+  "worker_base_url": "https://lively-tooth-f895.shlee123.workers.dev",
+  "worker_version": "4.1",
+  "market_generated_at": "2026-08-20T17:26:28.108Z",
+  "source": "Yahoo Finance Chart API",
+  "watchlist_count": 11,
+  "stock_success_count": 11,
+  "stock_failure_count": 0,
+  "stocks": [
+    "AAOI",
+    "AMD",
+    "AMKR",
+    "ARM",
+    "AVGO",
+    "COHR",
+    "MRVL",
+    "MU",
+    "NASA",
+    "NVDA",
+    "SNDK"
+  ],
+  "failed_stocks": {}
+}

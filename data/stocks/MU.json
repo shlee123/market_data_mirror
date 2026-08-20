@@ -1,0 +1,72 @@
+{
+  "symbol": "MU",
+  "name": "Micron Technology",
+  "currency": "USD",
+  "exchange": "NMS",
+  "asof": "2026-08-20",
+  "previous_date": "2026-08-19",
+  "price": {
+    "close": 954.47,
+    "previous_close": 937.11,
+    "change": 17.36,
+    "change_percent": 1.8525
+  },
+  "volume": {
+    "current": 15626983,
+    "previous": 26661900,
+    "change_percent": -41.3883,
+    "average_20d": 39686254.15,
+    "vs_average_20d_percent": -60.6237
+  },
+  "moving_average": {
+    "sma20": 892.958,
+    "sma50": 962.696,
+    "sma100": 801.7527,
+    "sma200": 567.3387
+  },
+  "distance_to_moving_average_percent": {
+    "sma20": 6.8886,
+    "sma50": -0.8545,
+    "sma100": 19.0479,
+    "sma200": 68.2364
+  },
+  "range_52week": {
+    "high": 1255,
+    "low": 113.46,
+    "distance_from_high_percent": -23.9466,
+    "distance_from_low_percent": 741.2392
+  },
+  "sma50_detail": {
+    "trading_days": 50,
+    "first_date": "2026-06-10",
+    "last_date": "2026-08-20",
+    "sum_close": 48134.8001,
+    "average_close": 962.696
+  },
+  "data_quality": {
+    "history_days": 252,
+    "sma20_valid": true,
+    "sma50_valid": true,
+    "sma100_valid": true,
+    "sma200_valid": true,
+    "possible_split_detected": false,
+    "possible_split_date": null,
+    "possible_split_ratio": null,
+    "large_price_gap_detected": false,
+    "largest_gap_percent": 19.2916,
+    "largest_gap_date": "2026-05-26",
+    "adjusted_close_divergence_detected": false,
+    "warning_level": "green",
+    "notes": [
+      "No major data-quality anomaly detected."
+    ]
+  },
+  "summary": {
+    "daily_trend": "up",
+    "versus_sma50": "below",
+    "volume_signal": "low volume"
+  },
+  "source": "Yahoo Finance Chart API",
+  "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
+  "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification."
+}
