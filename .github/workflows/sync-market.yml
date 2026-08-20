@@ -44,6 +44,7 @@ jobs:
         run: |
           python -m json.tool data/market_report.json > /dev/null
           python -m json.tool data/status.json > /dev/null
+          if [ -f data/tw_market_report.json ]; then python -m json.tool data/tw_market_report.json > /dev/null; fi
           if compgen -G "data/stocks/*.json" > /dev/null; then
             for f in data/stocks/*.json; do python -m json.tool "$f" > /dev/null; done
           fi
