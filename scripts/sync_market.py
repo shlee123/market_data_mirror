@@ -28,9 +28,9 @@ US_WATCHLIST = {
     "AVGO": "Broadcom",
     "NASA": "Tema Space Innovators ETF",
     "AMKR": "Amkor Technology",
-    "SKYT": "SkyWater Technology",
-    "LITE": "Lumentum Holdings",
-    "AAPL": "Apple",
+    "AAOI": "Applied Optoelectronics",
+    "COHR": "Coherent",
+    "AMD": "Advanced Micro Devices",
     "INTC": "Intel",
     "NFLX": "Netflix",
 }
