@@ -36,13 +36,6 @@
     "distance_from_high_percent": -44.7511,
     "distance_from_low_percent": 597.8379
   },
-  "sma50_detail": {
-    "trading_days": 50,
-    "first_date": "2026-06-10",
-    "last_date": "2026-08-20",
-    "sum_close": 6495.3,
-    "average_close": 129.906
-  },
   "data_quality": {
     "history_days": 251,
     "sma20_valid": true,
@@ -52,13 +45,14 @@
     "possible_split_detected": false,
     "possible_split_date": null,
     "possible_split_ratio": null,
+    "possible_split_source": null,
     "large_price_gap_detected": true,
     "largest_gap_percent": 56.8821,
     "largest_gap_date": "2026-02-27",
     "adjusted_close_divergence_detected": false,
     "warning_level": "red",
     "notes": [
-      "Large single-day price gap detected (56.8821%) near 2026-02-27."
+      "Large single-day Close gap detected (56.8821%) near 2026-02-27."
     ]
   },
   "summary": {
@@ -66,7 +60,6 @@
     "versus_sma50": "below",
     "volume_signal": "low volume"
   },
-  "source": "Yahoo Finance Chart API",
-  "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
-  "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification."
+  "source": "yfinance / Yahoo Finance",
+  "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
 }

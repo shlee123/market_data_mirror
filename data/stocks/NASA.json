@@ -36,13 +36,6 @@
     "distance_from_high_percent": -43.0178,
     "distance_from_low_percent": 18.8661
   },
-  "sma50_detail": {
-    "trading_days": 50,
-    "first_date": "2026-06-10",
-    "last_date": "2026-08-20",
-    "sum_close": 1314.99,
-    "average_close": 26.2998
-  },
   "data_quality": {
     "history_days": 99,
     "sma20_valid": true,
@@ -52,6 +45,7 @@
     "possible_split_detected": false,
     "possible_split_date": null,
     "possible_split_ratio": null,
+    "possible_split_source": null,
     "large_price_gap_detected": false,
     "largest_gap_percent": 12.8041,
     "largest_gap_date": "2026-06-11",
@@ -66,7 +60,6 @@
     "versus_sma50": "below",
     "volume_signal": "low volume"
   },
-  "source": "Yahoo Finance Chart API",
-  "calculation": "SMA uses regular daily Close; 52-week range uses daily High/Low",
-  "disclaimer": "Data-quality warnings are advisory. Corporate actions may require manual verification."
+  "source": "yfinance / Yahoo Finance",
+  "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
 }
