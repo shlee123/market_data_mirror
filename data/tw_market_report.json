@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-20T23:50:12.645Z",
+  "generated_at": "2026-08-21T01:11:56.272Z",
   "market": "Taiwan",
-  "market_date": "2026-08-19",
+  "market_date": "2026-08-20",
   "indices": {
     "taiex": {
       "symbol": "^TWII",
       "name": "加權指數",
       "currency": "TWD",
       "exchange": "TAI",
-      "asof": "2026-08-19",
-      "previous_date": "2026-08-18",
+      "asof": "2026-08-20",
+      "previous_date": "2026-08-19",
       "price": {
-        "close": 44719.3516,
-        "previous_close": 45308.6797,
-        "change": -589.3281,
-        "change_percent": -1.3007
+        "close": 44933.7383,
+        "previous_close": 44719.3516,
+        "change": 214.3867,
+        "change_percent": 0.4794
       },
       "volume": {
         "current": null,
@@ -25,29 +25,29 @@
         "note": "Index volume from Yahoo Finance is not used as Taiwan market turnover."
       },
       "moving_average": {
-        "sma20": 43971.6002,
-        "sma50": 44860.6726,
-        "sma100": 41813.983,
-        "sma200": 35924.6698
+        "sma20": 44095.8021,
+        "sma50": 44845.7981,
+        "sma100": 41936.0954,
+        "sma200": 36012.8266
       },
       "distance_to_moving_average_percent": {
-        "sma20": 1.7005,
-        "sma50": -0.315,
-        "sma100": 6.9483,
-        "sma200": 24.4809
+        "sma20": 1.9003,
+        "sma50": 0.1961,
+        "sma100": 7.1481,
+        "sma200": 24.7715
       },
       "range_52week": {
         "high": 48218.8711,
-        "low": 23620.2402,
-        "distance_from_high_percent": -7.2576,
-        "distance_from_low_percent": 89.3264
+        "low": 23739.8301,
+        "distance_from_high_percent": -6.813,
+        "distance_from_low_percent": 89.2757
       },
       "sma50_detail": {
         "trading_days": 50,
-        "first_date": "2026-06-04",
-        "last_date": "2026-08-19",
-        "sum_close": 2243033.6289,
-        "average_close": 44860.6726
+        "first_date": "2026-06-05",
+        "last_date": "2026-08-20",
+        "sum_close": 2242289.9063,
+        "average_close": 44845.7981
       },
       "data_quality": {
         "history_days": 239,
@@ -68,8 +68,8 @@
         ]
       },
       "summary": {
-        "daily_trend": "down",
-        "versus_sma50": "below",
+        "daily_trend": "up",
+        "versus_sma50": "above",
         "volume_signal": "not_applicable"
       },
       "source": "Yahoo Finance Chart API",
@@ -125,7 +125,7 @@
         "average_close": 18.943
       },
       "data_quality": {
-        "history_days": 244,
+        "history_days": 243,
         "sma20_valid": true,
         "sma50_valid": true,
         "sma100_valid": true,
@@ -137,15 +137,14 @@
         "largest_gap_percent": 9.9174,
         "largest_gap_date": "2026-05-25",
         "adjusted_close_divergence_detected": false,
-        "warning_level": "yellow",
+        "warning_level": "green",
         "notes": [
-          "No major data-quality anomaly detected.",
-          "Stale market data detected: symbol as-of 2026-08-20, market date 2026-08-19."
+          "No major data-quality anomaly detected."
         ],
-        "stale_data": true,
-        "market_date": "2026-08-19",
+        "stale_data": false,
+        "market_date": "2026-08-20",
         "symbol_asof": "2026-08-20",
-        "stale_reason": "Symbol as-of 2026-08-20 is older than Taiwan market date 2026-08-19.",
+        "stale_reason": null,
         "corporate_action_active": false
       },
       "summary": {
@@ -170,9 +169,9 @@
         "technical_analysis_valid": true
       },
       "technical_analysis": {
-        "valid": false,
-        "status": "stale_data",
-        "reason": "latest_price_not_aligned_with_market_date"
+        "valid": true,
+        "status": "valid",
+        "reason": null
       }
     },
     "2330": {
@@ -221,7 +220,7 @@
         "average_close": 2388
       },
       "data_quality": {
-        "history_days": 244,
+        "history_days": 243,
         "sma20_valid": true,
         "sma50_valid": true,
         "sma100_valid": true,
@@ -233,15 +232,14 @@
         "largest_gap_percent": 9.9773,
         "largest_gap_date": "2026-07-31",
         "adjusted_close_divergence_detected": false,
-        "warning_level": "yellow",
+        "warning_level": "green",
         "notes": [
-          "No major data-quality anomaly detected.",
-          "Stale market data detected: symbol as-of 2026-08-20, market date 2026-08-19."
+          "No major data-quality anomaly detected."
         ],
-        "stale_data": true,
-        "market_date": "2026-08-19",
+        "stale_data": false,
+        "market_date": "2026-08-20",
         "symbol_asof": "2026-08-20",
-        "stale_reason": "Symbol as-of 2026-08-20 is older than Taiwan market date 2026-08-19.",
+        "stale_reason": null,
         "corporate_action_active": false
       },
       "summary": {
@@ -266,9 +264,9 @@
         "technical_analysis_valid": true
       },
       "technical_analysis": {
-        "valid": false,
-        "status": "stale_data",
-        "reason": "latest_price_not_aligned_with_market_date"
+        "valid": true,
+        "status": "valid",
+        "reason": null
       }
     },
     "2337": {
@@ -305,9 +303,9 @@
       },
       "range_52week": {
         "high": 192,
-        "low": 19,
+        "low": 19.1,
         "distance_from_high_percent": -36.4583,
-        "distance_from_low_percent": 542.1053
+        "distance_from_low_percent": 538.7434
       },
       "sma50_detail": {
         "trading_days": 50,
@@ -317,7 +315,7 @@
         "average_close": 137.336
       },
       "data_quality": {
-        "history_days": 244,
+        "history_days": 243,
         "sma20_valid": true,
         "sma50_valid": true,
         "sma100_valid": true,
@@ -329,15 +327,14 @@
         "largest_gap_percent": 10,
         "largest_gap_date": "2026-04-28",
         "adjusted_close_divergence_detected": false,
-        "warning_level": "yellow",
+        "warning_level": "green",
         "notes": [
-          "No major data-quality anomaly detected.",
-          "Stale market data detected: symbol as-of 2026-08-20, market date 2026-08-19."
+          "No major data-quality anomaly detected."
         ],
-        "stale_data": true,
-        "market_date": "2026-08-19",
+        "stale_data": false,
+        "market_date": "2026-08-20",
         "symbol_asof": "2026-08-20",
-        "stale_reason": "Symbol as-of 2026-08-20 is older than Taiwan market date 2026-08-19.",
+        "stale_reason": null,
         "corporate_action_active": false
       },
       "summary": {
@@ -362,9 +359,9 @@
         "technical_analysis_valid": true
       },
       "technical_analysis": {
-        "valid": false,
-        "status": "stale_data",
-        "reason": "latest_price_not_aligned_with_market_date"
+        "valid": true,
+        "status": "valid",
+        "reason": null
       }
     },
     "2449": {
@@ -401,9 +398,9 @@
       },
       "range_52week": {
         "high": 350,
-        "low": 120.9524,
+        "low": 123.3333,
         "distance_from_high_percent": -32.8571,
-        "distance_from_low_percent": 94.2913
+        "distance_from_low_percent": 90.5405
       },
       "sma50_detail": {
         "trading_days": 50,
@@ -413,7 +410,7 @@
         "average_close": 272.3819
       },
       "data_quality": {
-        "history_days": 244,
+        "history_days": 243,
         "sma20_valid": true,
         "sma50_valid": true,
         "sma100_valid": true,
@@ -425,15 +422,14 @@
         "largest_gap_percent": 10.2174,
         "largest_gap_date": "2026-07-28",
         "adjusted_close_divergence_detected": false,
-        "warning_level": "yellow",
+        "warning_level": "green",
         "notes": [
-          "No major data-quality anomaly detected.",
-          "Stale market data detected: symbol as-of 2026-08-20, market date 2026-08-19."
+          "No major data-quality anomaly detected."
         ],
-        "stale_data": true,
-        "market_date": "2026-08-19",
+        "stale_data": false,
+        "market_date": "2026-08-20",
         "symbol_asof": "2026-08-20",
-        "stale_reason": "Symbol as-of 2026-08-20 is older than Taiwan market date 2026-08-19.",
+        "stale_reason": null,
         "corporate_action_active": false
       },
       "summary": {
@@ -458,9 +454,9 @@
         "technical_analysis_valid": true
       },
       "technical_analysis": {
-        "valid": false,
-        "status": "stale_data",
-        "reason": "latest_price_not_aligned_with_market_date"
+        "valid": true,
+        "status": "valid",
+        "reason": null
       }
     },
     "2515": {
@@ -509,7 +505,7 @@
         "average_close": 12.3911
       },
       "data_quality": {
-        "history_days": 244,
+        "history_days": 243,
         "sma20_valid": true,
         "sma50_valid": true,
         "sma100_valid": true,
@@ -521,15 +517,14 @@
         "largest_gap_percent": 9.9206,
         "largest_gap_date": "2026-05-21",
         "adjusted_close_divergence_detected": false,
-        "warning_level": "yellow",
+        "warning_level": "green",
         "notes": [
-          "No major data-quality anomaly detected.",
-          "Stale market data detected: symbol as-of 2026-08-20, market date 2026-08-19."
+          "No major data-quality anomaly detected."
         ],
-        "stale_data": true,
-        "market_date": "2026-08-19",
+        "stale_data": false,
+        "market_date": "2026-08-20",
         "symbol_asof": "2026-08-20",
-        "stale_reason": "Symbol as-of 2026-08-20 is older than Taiwan market date 2026-08-19.",
+        "stale_reason": null,
         "corporate_action_active": false
       },
       "summary": {
@@ -554,9 +549,9 @@
         "technical_analysis_valid": true
       },
       "technical_analysis": {
-        "valid": false,
-        "status": "stale_data",
-        "reason": "latest_price_not_aligned_with_market_date"
+        "valid": true,
+        "status": "valid",
+        "reason": null
       }
     },
     "2615": {
@@ -605,7 +600,7 @@
         "average_close": 84.358
       },
       "data_quality": {
-        "history_days": 244,
+        "history_days": 243,
         "sma20_valid": true,
         "sma50_valid": true,
         "sma100_valid": true,
@@ -617,15 +612,14 @@
         "largest_gap_percent": 9.9738,
         "largest_gap_date": "2025-10-14",
         "adjusted_close_divergence_detected": false,
-        "warning_level": "yellow",
+        "warning_level": "green",
         "notes": [
-          "No major data-quality anomaly detected.",
-          "Stale market data detected: symbol as-of 2026-08-20, market date 2026-08-19."
+          "No major data-quality anomaly detected."
         ],
-        "stale_data": true,
-        "market_date": "2026-08-19",
+        "stale_data": false,
+        "market_date": "2026-08-20",
         "symbol_asof": "2026-08-20",
-        "stale_reason": "Symbol as-of 2026-08-20 is older than Taiwan market date 2026-08-19.",
+        "stale_reason": null,
         "corporate_action_active": false
       },
       "summary": {
@@ -650,9 +644,9 @@
         "technical_analysis_valid": true
       },
       "technical_analysis": {
-        "valid": false,
-        "status": "stale_data",
-        "reason": "latest_price_not_aligned_with_market_date"
+        "valid": true,
+        "status": "valid",
+        "reason": null
       }
     },
     "3363": {
@@ -701,7 +695,7 @@
         "average_close": 596.7
       },
       "data_quality": {
-        "history_days": 244,
+        "history_days": 243,
         "sma20_valid": true,
         "sma50_valid": true,
         "sma100_valid": true,
@@ -713,15 +707,14 @@
         "largest_gap_percent": 10,
         "largest_gap_date": "2025-12-03",
         "adjusted_close_divergence_detected": false,
-        "warning_level": "yellow",
+        "warning_level": "green",
         "notes": [
-          "No major data-quality anomaly detected.",
-          "Stale market data detected: symbol as-of 2026-08-20, market date 2026-08-19."
+          "No major data-quality anomaly detected."
         ],
-        "stale_data": true,
-        "market_date": "2026-08-19",
+        "stale_data": false,
+        "market_date": "2026-08-20",
         "symbol_asof": "2026-08-20",
-        "stale_reason": "Symbol as-of 2026-08-20 is older than Taiwan market date 2026-08-19.",
+        "stale_reason": null,
         "corporate_action_active": false
       },
       "summary": {
@@ -746,9 +739,9 @@
         "technical_analysis_valid": true
       },
       "technical_analysis": {
-        "valid": false,
-        "status": "stale_data",
-        "reason": "latest_price_not_aligned_with_market_date"
+        "valid": true,
+        "status": "valid",
+        "reason": null
       }
     },
     "6176": {
@@ -797,7 +790,7 @@
         "average_close": 115.4533
       },
       "data_quality": {
-        "history_days": 244,
+        "history_days": 243,
         "sma20_valid": true,
         "sma50_valid": true,
         "sma100_valid": true,
@@ -815,7 +808,7 @@
           "減資換股整理期間; official last trading date 2026-08-12, last close 81.3, expected resume date 2026-08-24."
         ],
         "stale_data": false,
-        "market_date": "2026-08-19",
+        "market_date": "2026-08-20",
         "symbol_asof": "2026-08-20",
         "stale_reason": "No new exchange trade is expected during the corporate-action suspension period; vendor-adjusted snapshots are not treated as actual trades.",
         "corporate_action_active": true
