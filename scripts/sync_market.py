@@ -28,9 +28,11 @@ US_WATCHLIST = {
     "AVGO": "Broadcom",
     "NASA": "Tema Space Innovators ETF",
     "AMKR": "Amkor Technology",
-    "AAOI": "Applied Optoelectronics",
-    "COHR": "Coherent",
-    "AMD": "Advanced Micro Devices",
+    "SKYT": "SkyWater Technology",
+    "LITE": "Lumentum Holdings",
+    "AAPL": "Apple",
+    "INTC": "Intel",
+    "NFLX": "Netflix",
 }
 TW_INDEX = ("加權指數", "^TWII")
 TW_WATCHLIST = {
