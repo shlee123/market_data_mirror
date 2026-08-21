@@ -31,6 +31,8 @@ US_WATCHLIST = {
     "AAOI": "Applied Optoelectronics",
     "COHR": "Coherent",
     "AMD": "Advanced Micro Devices",
+    "INTC": "Intel",
+    "NFLX": "Netflix",
 }
 TW_INDEX = ("加權指數", "^TWII")
 TW_WATCHLIST = {
