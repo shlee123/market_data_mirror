@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Direct GitHub Actions -> yfinance backend. Cloudflare Worker is not required.
 import json
 import math
 import sys
