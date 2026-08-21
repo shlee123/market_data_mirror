@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-08-21T02:05:01.913738Z",
+  "return_code": 1,
+  "success": false,
+  "log_tail": [
+    "ERROR: ^TWII: yfinance failed after 3 attempts: No module named 'sklearn'"
+  ]
+}
