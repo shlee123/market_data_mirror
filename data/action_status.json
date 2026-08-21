@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-08-21T02:06:21.204673Z",
+  "timestamp": "2026-08-21T13:24:23.024302Z",
   "return_code": 0,
   "success": true,
   "log_tail": [
     "$6176.TW: possibly delisted; no price data found  (period=5d)",
     "{",
     "  \"sync_status\": \"success\",",
-    "  \"synced_at\": \"2026-08-21T02:06:10.488810Z\",",
+    "  \"synced_at\": \"2026-08-21T13:24:14.237700Z\",",
     "  \"source\": \"yfinance / Yahoo Finance\",",
     "  \"backend\": \"GitHub Actions\",",
     "  \"worker_dependency\": false,",
@@ -15,8 +15,8 @@
     "  \"tw_watchlist_count\": 8,",
     "  \"tw_success_count\": 8,",
     "  \"failures\": {},",
-    "  \"market_generated_at\": \"2026-08-21T02:06:10.488810Z\",",
-    "  \"tw_market_generated_at\": \"2026-08-21T02:06:10.488810Z\"",
+    "  \"market_generated_at\": \"2026-08-21T13:24:14.237700Z\",",
+    "  \"tw_market_generated_at\": \"2026-08-21T13:24:14.237700Z\"",
     "}"
   ]
 }
