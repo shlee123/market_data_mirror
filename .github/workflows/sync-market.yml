@@ -39,7 +39,7 @@ jobs:
       - name: Install Python packages
         run: |
           python -m pip install --upgrade pip
-          pip install yfinance pandas
+          pip install yfinance pandas scikit-learn
 
       - name: Fetch market data directly with yfinance
         id: refresh
