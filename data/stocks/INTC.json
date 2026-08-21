@@ -1,40 +1,40 @@
 {
-  "symbol": "SNDK",
-  "name": "SanDisk",
+  "symbol": "INTC",
+  "name": "Intel",
   "currency": "USD",
   "exchange": "NMS",
   "asof": "2026-08-21",
   "previous_date": "2026-08-20",
   "price": {
-    "close": 1601.235,
-    "previous_close": 1600.62,
-    "change": 0.615,
-    "change_percent": 0.0384
+    "close": 90.18,
+    "previous_close": 92.13,
+    "change": -1.95,
+    "change_percent": -2.1166
   },
   "volume": {
-    "current": 5368325,
-    "previous": 11379700,
-    "change_percent": -52.8254,
-    "average_20d": 17102431.25,
-    "vs_average_20d_percent": -68.6107
+    "current": 64836516,
+    "previous": 85397600,
+    "change_percent": -24.0769,
+    "average_20d": 113077715.8,
+    "vs_average_20d_percent": -42.662
   },
   "moving_average": {
-    "sma20": 1381.3892,
-    "sma50": 1654.2779,
-    "sma100": 1448.481,
-    "sma200": 939.2401
+    "sma20": 95.7045,
+    "sma50": 108.1836,
+    "sma100": 100.441,
+    "sma200": 71.5085
   },
   "distance_to_moving_average_percent": {
-    "sma20": 15.9148,
-    "sma50": -3.2064,
-    "sma100": 10.5458,
-    "sma200": 70.482
+    "sma20": -5.7725,
+    "sma50": -16.6417,
+    "sma100": -10.2159,
+    "sma200": 26.1109
   },
   "range_52week": {
-    "high": 2354.3899,
-    "low": 43.56,
-    "distance_from_high_percent": -31.9894,
-    "distance_from_low_percent": 3575.9296
+    "high": 142.35,
+    "low": 22.78,
+    "distance_from_high_percent": -36.6491,
+    "distance_from_low_percent": 295.8736
   },
   "data_quality": {
     "history_days": 252,
@@ -47,8 +47,8 @@
     "possible_split_ratio": null,
     "possible_split_source": null,
     "large_price_gap_detected": false,
-    "largest_gap_percent": 27.565,
-    "largest_gap_date": "2026-01-06",
+    "largest_gap_percent": 23.5999,
+    "largest_gap_date": "2026-04-24",
     "adjusted_close_divergence_detected": false,
     "warning_level": "green",
     "notes": [
@@ -56,7 +56,7 @@
     ]
   },
   "summary": {
-    "daily_trend": "up",
+    "daily_trend": "down",
     "versus_sma50": "below",
     "volume_signal": "low volume"
   },
