@@ -42,9 +42,35 @@ jobs:
           pip install yfinance pandas
 
       - name: Fetch market data directly with yfinance
-        run: python scripts/sync_market.py
+        id: refresh
+        shell: bash
+        run: |
+          set +e
+          python scripts/sync_market.py > refresh.log 2>&1
+          rc=$?
+          cat refresh.log
+          python - "$rc" <<'PY'
+          import json, sys
+          from datetime import datetime, timezone
+          from pathlib import Path
+          rc = int(sys.argv[1])
+          log = Path("refresh.log").read_text(encoding="utf-8", errors="replace")
+          Path("data").mkdir(exist_ok=True)
+          Path("data/action_status.json").write_text(
+              json.dumps({
+                  "timestamp": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+                  "return_code": rc,
+                  "success": rc == 0,
+                  "log_tail": log.splitlines()[-80:],
+              }, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8",
+          )
+          PY
+          echo "rc=$rc" >> "$GITHUB_OUTPUT"
+          exit 0
 
       - name: Validate generated JSON
+        if: steps.refresh.outputs.rc == '0'
         run: |
           python -m json.tool data/market_report.json > /dev/null
           python -m json.tool data/tw_market_report.json > /dev/null
@@ -53,10 +79,11 @@ jobs:
             for f in data/stocks/*.json; do python -m json.tool "$f" > /dev/null; done
           fi
 
-      - name: Commit latest valid snapshot
+      - name: Commit snapshot and diagnostic status
+        if: always()
         run: |
           if [ -z "$(git status --porcelain -- data/)" ]; then
-            echo "No market data changes to commit."
+            echo "No data changes to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
@@ -64,3 +91,7 @@ jobs:
           git add data/
           git commit -m "data: refresh market data via yfinance"
           git push origin HEAD:main
+
+      - name: Fail if yfinance refresh failed
+        if: steps.refresh.outputs.rc != '0'
+        run: exit 1
