@@ -3,38 +3,38 @@
   "name": "Arm Holdings",
   "currency": "USD",
   "exchange": "NMS",
-  "asof": "2026-08-26",
-  "previous_date": "2026-08-25",
+  "asof": "2026-08-27",
+  "previous_date": "2026-08-26",
   "price": {
-    "close": 251.06,
-    "previous_close": 241.56,
-    "change": 9.5,
-    "change_percent": 3.9328
+    "close": 255.21,
+    "previous_close": 251.06,
+    "change": 4.15,
+    "change_percent": 1.653
   },
   "volume": {
-    "current": 3830094,
-    "previous": 3485400,
-    "change_percent": 9.8897,
-    "average_20d": 4839324.7,
-    "vs_average_20d_percent": -20.8548
+    "current": 4862183,
+    "previous": 4092200,
+    "change_percent": 18.8159,
+    "average_20d": 4455244.15,
+    "vs_average_20d_percent": 9.1339
   },
   "moving_average": {
-    "sma20": 260.5475,
-    "sma50": 294.2798,
-    "sma100": 271.2743,
-    "sma200": 198.4001
+    "sma20": 261.231,
+    "sma50": 291.4572,
+    "sma100": 272.3387,
+    "sma200": 198.9142
   },
   "distance_to_moving_average_percent": {
-    "sma20": -3.6414,
-    "sma50": -14.6866,
-    "sma100": -7.4516,
-    "sma200": 26.5423
+    "sma20": -2.3049,
+    "sma50": -12.4365,
+    "sma100": -6.2895,
+    "sma200": 28.3016
   },
   "range_52week": {
     "high": 452.7,
     "low": 100.02,
-    "distance_from_high_percent": -44.5416,
-    "distance_from_low_percent": 151.0098
+    "distance_from_high_percent": -43.6249,
+    "distance_from_low_percent": 155.159
   },
   "data_quality": {
     "history_days": 251,
@@ -58,7 +58,7 @@
   "summary": {
     "daily_trend": "up",
     "versus_sma50": "below",
-    "volume_signal": "low volume"
+    "volume_signal": "normal volume"
   },
   "source": "yfinance / Yahoo Finance",
   "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
