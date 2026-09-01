@@ -3,41 +3,41 @@
   "name": "Marvell Technology",
   "currency": "USD",
   "exchange": "NMS",
-  "asof": "2026-08-31",
-  "previous_date": "2026-08-28",
+  "asof": "2026-09-01",
+  "previous_date": "2026-08-31",
   "price": {
-    "close": 211.66,
-    "previous_close": 216.62,
-    "change": -4.96,
-    "change_percent": -2.2897
+    "close": 208.38,
+    "previous_close": 211.66,
+    "change": -3.28,
+    "change_percent": -1.5497
   },
   "volume": {
-    "current": 23518678,
-    "previous": 48858000,
-    "change_percent": -51.8632,
-    "average_20d": 24945338.9,
-    "vs_average_20d_percent": -5.7191
+    "current": 13329373,
+    "previous": 23568100,
+    "change_percent": -43.4432,
+    "average_20d": 23924203.65,
+    "vs_average_20d_percent": -44.285
   },
   "moving_average": {
-    "sma20": 225.059,
-    "sma50": 226.5776,
-    "sma100": 212.2598,
-    "sma200": 149.2569
+    "sma20": 224.5485,
+    "sma50": 224.588,
+    "sma100": 213.1443,
+    "sma200": 149.8521
   },
   "distance_to_moving_average_percent": {
-    "sma20": -5.9535,
-    "sma50": -6.5839,
-    "sma100": -0.2826,
-    "sma200": 41.8092
+    "sma20": -7.2004,
+    "sma50": -7.2168,
+    "sma100": -2.2352,
+    "sma200": 39.0571
   },
   "range_52week": {
     "high": 329.88,
     "low": 61.44,
-    "distance_from_high_percent": -35.8373,
-    "distance_from_low_percent": 244.4987
+    "distance_from_high_percent": -36.8316,
+    "distance_from_low_percent": 239.1602
   },
   "data_quality": {
-    "history_days": 251,
+    "history_days": 252,
     "sma20_valid": true,
     "sma50_valid": true,
     "sma100_valid": true,
@@ -58,7 +58,7 @@
   "summary": {
     "daily_trend": "down",
     "versus_sma50": "below",
-    "volume_signal": "normal volume"
+    "volume_signal": "low volume"
   },
   "source": "yfinance / Yahoo Finance",
   "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
