@@ -3,41 +3,41 @@
   "name": "Netflix",
   "currency": "USD",
   "exchange": "NMS",
-  "asof": "2026-09-02",
-  "previous_date": "2026-09-01",
+  "asof": "2026-09-03",
+  "previous_date": "2026-09-02",
   "price": {
-    "close": 82.5,
-    "previous_close": 80.81,
-    "change": 1.69,
-    "change_percent": 2.0913
+    "close": 81.6892,
+    "previous_close": 82.73,
+    "change": -1.0408,
+    "change_percent": -1.2581
   },
   "volume": {
-    "current": 21992669,
-    "previous": 21164900,
-    "change_percent": 3.911,
-    "average_20d": 27516753.45,
-    "vs_average_20d_percent": -20.0753
+    "current": 8085383,
+    "previous": 22033800,
+    "change_percent": -63.3046,
+    "average_20d": 26478444.15,
+    "vs_average_20d_percent": -69.4643
   },
   "moving_average": {
-    "sma20": 78.644,
-    "sma50": 75.072,
-    "sma100": 81.5565,
-    "sma200": 87.1853
+    "sma20": 79.0555,
+    "sma50": 75.2736,
+    "sma100": 81.3441,
+    "sma200": 87.0388
   },
   "distance_to_moving_average_percent": {
-    "sma20": 4.9031,
-    "sma50": 9.8945,
-    "sma100": 1.1569,
-    "sma200": -5.374
+    "sma20": 3.3315,
+    "sma50": 8.523,
+    "sma100": 0.4242,
+    "sma200": -6.1462
   },
   "range_52week": {
     "high": 126.71,
     "low": 65.08,
-    "distance_from_high_percent": -34.8907,
-    "distance_from_low_percent": 26.7671
+    "distance_from_high_percent": -35.5306,
+    "distance_from_low_percent": 25.5212
   },
   "data_quality": {
-    "history_days": 252,
+    "history_days": 253,
     "sma20_valid": true,
     "sma50_valid": true,
     "sma100_valid": true,
@@ -56,7 +56,7 @@
     ]
   },
   "summary": {
-    "daily_trend": "up",
+    "daily_trend": "down",
     "versus_sma50": "above",
     "volume_signal": "low volume"
   },
