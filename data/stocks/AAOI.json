@@ -3,38 +3,38 @@
   "name": "Applied Optoelectronics",
   "currency": "USD",
   "exchange": "NGM",
-  "asof": "2026-09-04",
-  "previous_date": "2026-09-03",
+  "asof": "2026-09-08",
+  "previous_date": "2026-09-04",
   "price": {
-    "close": 105.53,
-    "previous_close": 100.38,
-    "change": 5.15,
-    "change_percent": 5.1305
+    "close": 114.195,
+    "previous_close": 105.53,
+    "change": 8.665,
+    "change_percent": 8.2109
   },
   "volume": {
-    "current": 6786800,
-    "previous": 5918000,
-    "change_percent": 14.6806,
-    "average_20d": 9722810.0,
-    "vs_average_20d_percent": -30.1971
+    "current": 7855606,
+    "previous": 6786800,
+    "change_percent": 15.7483,
+    "average_20d": 9190155.3,
+    "vs_average_20d_percent": -14.5215
   },
   "moving_average": {
-    "sma20": 121.108,
-    "sma50": 117.632,
-    "sma100": 143.9402,
-    "sma200": 101.5104
+    "sma20": 120.1773,
+    "sma50": 117.2021,
+    "sma100": 143.6567,
+    "sma200": 101.9769
   },
   "distance_to_moving_average_percent": {
-    "sma20": -12.8629,
-    "sma50": -10.288,
-    "sma100": -26.6848,
-    "sma200": 3.9598
+    "sma20": -4.9779,
+    "sma50": -2.5657,
+    "sma100": -20.5084,
+    "sma200": 11.9812
   },
   "range_52week": {
     "high": 233.67,
     "low": 18.5,
-    "distance_from_high_percent": -54.838,
-    "distance_from_low_percent": 470.4324
+    "distance_from_high_percent": -51.1298,
+    "distance_from_low_percent": 517.2703
   },
   "data_quality": {
     "history_days": 252,
@@ -58,7 +58,7 @@
   "summary": {
     "daily_trend": "up",
     "versus_sma50": "below",
-    "volume_signal": "low volume"
+    "volume_signal": "normal volume"
   },
   "source": "yfinance / Yahoo Finance",
   "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
