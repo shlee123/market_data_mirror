@@ -3,38 +3,38 @@
   "name": "Advanced Micro Devices",
   "currency": "USD",
   "exchange": "NMS",
-  "asof": "2026-09-11",
-  "previous_date": "2026-09-10",
+  "asof": "2026-09-14",
+  "previous_date": "2026-09-11",
   "price": {
-    "close": 516.13,
-    "previous_close": 503.6,
-    "change": 12.53,
-    "change_percent": 2.4881
+    "close": 485.7,
+    "previous_close": 516.13,
+    "change": -30.43,
+    "change_percent": -5.8958
   },
   "volume": {
-    "current": 19001000,
-    "previous": 16005500,
-    "change_percent": 18.7154,
-    "average_20d": 18016740.0,
-    "vs_average_20d_percent": 5.463
+    "current": 5137215,
+    "previous": 19001000,
+    "change_percent": -72.9634,
+    "average_20d": 16995085.75,
+    "vs_average_20d_percent": -69.7724
   },
   "moving_average": {
-    "sma20": 482.0355,
-    "sma50": 496.5488,
-    "sma100": 476.1315,
-    "sma200": 346.9126
+    "sma20": 480.601,
+    "sma50": 495.9064,
+    "sma100": 478.1436,
+    "sma200": 348.2658
   },
   "distance_to_moving_average_percent": {
-    "sma20": 7.073,
-    "sma50": 3.9435,
-    "sma100": 8.4007,
-    "sma200": 48.7781
+    "sma20": 1.061,
+    "sma50": -2.0581,
+    "sma100": 1.5804,
+    "sma200": 39.4624
   },
   "range_52week": {
     "high": 584.73,
     "low": 149.85,
-    "distance_from_high_percent": -11.7319,
-    "distance_from_low_percent": 244.4311
+    "distance_from_high_percent": -16.936,
+    "distance_from_low_percent": 224.1241
   },
   "data_quality": {
     "history_days": 251,
@@ -56,9 +56,9 @@
     ]
   },
   "summary": {
-    "daily_trend": "up",
-    "versus_sma50": "above",
-    "volume_signal": "normal volume"
+    "daily_trend": "down",
+    "versus_sma50": "below",
+    "volume_signal": "low volume"
   },
   "source": "yfinance / Yahoo Finance",
   "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
