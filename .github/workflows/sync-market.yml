@@ -4,8 +4,10 @@ on:
   schedule:
     # Taiwan time 06:30, Mon-Fri (22:30 UTC Sun-Thu)
     - cron: "30 22 * * 0-4"
-    # Taiwan time 13:40, Mon-Fri (05:40 UTC Mon-Fri)
-    - cron: "40 5 * * 1-5"
+    # Taiwan close backups: 13:35, 13:45, 13:55 Mon-Fri (05:35/45/55 UTC)
+    - cron: "35 5 * * 1-5"
+    - cron: "45 5 * * 1-5"
+    - cron: "55 5 * * 1-5"
   workflow_dispatch:
   push:
     branches:
