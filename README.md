@@ -24,11 +24,11 @@ For known Taiwan corporate actions, explicit overrides take precedence for repor
 The workflow runs automatically at:
 
 - 06:30 Asia/Taipei, Monday-Friday (`22:30 UTC`, Sunday-Thursday)
-- 13:40 Asia/Taipei, Monday-Friday (`05:40 UTC`, Monday-Friday)
+- 13:35, 13:45, and 13:55 Asia/Taipei, Monday-Friday (`05:35/45/55 UTC`, Monday-Friday)
 
 It can also be run manually with `workflow_dispatch`.
 
-These times refresh the mirror shortly before the U.S. morning report and after the Taiwan market close, leaving about 20 minutes before the 14:00 Taiwan noon report. A push that changes the workflow or scripts also triggers a test refresh.
+These times refresh the mirror shortly before the U.S. morning report and provide three redundant post-close attempts before the 14:00 Taiwan noon report. The noon-report automation also verifies that `market_date` matches the current Taiwan trading date and requests an on-demand Action re-run when the mirror is stale. A push that changes the workflow or scripts also triggers a test refresh.
 
 ## Failure behavior
 
