@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-17T00:41:28.238991Z",
+  "generated_at": "2026-09-17T06:00:05.363837Z",
   "market": "Taiwan",
-  "market_date": "2026-09-16",
+  "market_date": "2026-09-17",
   "indices": {
     "taiex": {
       "symbol": "^TWII",
       "name": "加權指數",
       "currency": "TWD",
       "exchange": "TAI",
-      "asof": "2026-09-16",
-      "previous_date": "2026-09-15",
+      "asof": "2026-09-17",
+      "previous_date": "2026-09-16",
       "price": {
-        "close": 45808.8516,
-        "previous_close": 45511.4883,
-        "change": 297.3633,
-        "change_percent": 0.6534
+        "close": 46288.0,
+        "previous_close": 45848.8984,
+        "change": 439.1016,
+        "change_percent": 0.9577
       },
       "volume": {
         "current": null,
@@ -25,22 +25,22 @@
         "note": "Index volume from Yahoo/yfinance is not used as Taiwan market turnover."
       },
       "moving_average": {
-        "sma20": 46090.1701,
-        "sma50": 44970.9827,
-        "sma100": 44303.9662,
-        "sma200": 38004.138
+        "sma20": 46159.8855,
+        "sma50": 44982.8555,
+        "sma100": 44371.0804,
+        "sma200": 38098.6464
       },
       "distance_to_moving_average_percent": {
-        "sma20": -0.6104,
-        "sma50": 1.8631,
-        "sma100": 3.3967,
-        "sma200": 20.5365
+        "sma20": 0.2775,
+        "sma50": 2.9014,
+        "sma100": 4.3202,
+        "sma200": 21.4951
       },
       "range_52week": {
         "high": 48218.8711,
-        "low": 25335.4609,
-        "distance_from_high_percent": -4.9981,
-        "distance_from_low_percent": 80.8092
+        "low": 25422.9609,
+        "distance_from_high_percent": -4.0044,
+        "distance_from_low_percent": 82.0716
       },
       "data_quality": {
         "history_days": 243,
@@ -77,38 +77,38 @@
       "name": "中鋼",
       "currency": "TWD",
       "exchange": "TAI",
-      "asof": "2026-09-16",
-      "previous_date": "2026-09-15",
+      "asof": "2026-09-17",
+      "previous_date": "2026-09-16",
       "price": {
-        "close": 18.65,
+        "close": 18.7,
         "previous_close": 18.65,
-        "change": 0.0,
-        "change_percent": 0.0
+        "change": 0.05,
+        "change_percent": 0.2681
       },
       "volume": {
-        "current": 26257798,
-        "previous": 30366538,
-        "change_percent": -13.5305,
-        "average_20d": 26423976.25,
-        "vs_average_20d_percent": -0.6289
+        "current": 16836961,
+        "previous": 26257798,
+        "change_percent": -35.8782,
+        "average_20d": 24188026.65,
+        "vs_average_20d_percent": -30.3913
       },
       "moving_average": {
-        "sma20": 19.06,
-        "sma50": 18.992,
-        "sma100": 18.905,
-        "sma200": 19.1363
+        "sma20": 19.0275,
+        "sma50": 18.995,
+        "sma100": 18.9045,
+        "sma200": 19.1415
       },
       "distance_to_moving_average_percent": {
-        "sma20": -2.1511,
-        "sma50": -1.8008,
-        "sma100": -1.3489,
-        "sma200": -2.5412
+        "sma20": -1.7212,
+        "sma50": -1.553,
+        "sma100": -1.0817,
+        "sma200": -2.3065
       },
       "range_52week": {
         "high": 21.6,
         "low": 17.6,
-        "distance_from_high_percent": -13.6574,
-        "distance_from_low_percent": 5.9659
+        "distance_from_high_percent": -13.4259,
+        "distance_from_low_percent": 6.25
       },
       "data_quality": {
         "history_days": 244,
@@ -129,14 +129,14 @@
           "No major data-quality anomaly detected."
         ],
         "stale_data": false,
-        "market_date": "2026-09-16",
-        "symbol_asof": "2026-09-16",
+        "market_date": "2026-09-17",
+        "symbol_asof": "2026-09-17",
         "corporate_action_active": false
       },
       "summary": {
-        "daily_trend": "flat",
+        "daily_trend": "up",
         "versus_sma50": "below",
-        "volume_signal": "normal volume"
+        "volume_signal": "low volume"
       },
       "source": "yfinance / Yahoo Finance",
       "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low.",
@@ -167,38 +167,38 @@
       "name": "台積電",
       "currency": "TWD",
       "exchange": "TAI",
-      "asof": "2026-09-16",
-      "previous_date": "2026-09-15",
+      "asof": "2026-09-17",
+      "previous_date": "2026-09-16",
       "price": {
-        "close": 2380.0,
-        "previous_close": 2385.0,
-        "change": -5.0,
-        "change_percent": -0.2096
+        "close": 2425.0,
+        "previous_close": 2380.0,
+        "change": 45.0,
+        "change_percent": 1.8908
       },
       "volume": {
-        "current": 17989104,
-        "previous": 13515970,
-        "change_percent": 33.0952,
-        "average_20d": 17067838.1,
-        "vs_average_20d_percent": 5.3977
+        "current": 17461556,
+        "previous": 17989104,
+        "change_percent": -2.9326,
+        "average_20d": 17182917.9,
+        "vs_average_20d_percent": 1.6216
       },
       "moving_average": {
-        "sma20": 2411.75,
-        "sma50": 2389.0,
-        "sma100": 2358.2,
-        "sma200": 2052.725
+        "sma20": 2414.25,
+        "sma50": 2389.2,
+        "sma100": 2360.3,
+        "sma200": 2057.925
       },
       "distance_to_moving_average_percent": {
-        "sma20": -1.3165,
-        "sma50": -0.3767,
-        "sma100": 0.9244,
-        "sma200": 15.9434
+        "sma20": 0.4453,
+        "sma50": 1.4984,
+        "sma100": 2.7412,
+        "sma200": 17.8371
       },
       "range_52week": {
         "high": 2535.0,
-        "low": 1260.0,
-        "distance_from_high_percent": -6.1144,
-        "distance_from_low_percent": 88.8889
+        "low": 1265.0,
+        "distance_from_high_percent": -4.3393,
+        "distance_from_low_percent": 91.6996
       },
       "data_quality": {
         "history_days": 244,
@@ -219,13 +219,13 @@
           "No major data-quality anomaly detected."
         ],
         "stale_data": false,
-        "market_date": "2026-09-16",
-        "symbol_asof": "2026-09-16",
+        "market_date": "2026-09-17",
+        "symbol_asof": "2026-09-17",
         "corporate_action_active": false
       },
       "summary": {
-        "daily_trend": "down",
-        "versus_sma50": "below",
+        "daily_trend": "up",
+        "versus_sma50": "above",
         "volume_signal": "normal volume"
       },
       "source": "yfinance / Yahoo Finance",
@@ -257,38 +257,38 @@
       "name": "旺宏",
       "currency": "TWD",
       "exchange": "TAI",
-      "asof": "2026-09-16",
-      "previous_date": "2026-09-15",
+      "asof": "2026-09-17",
+      "previous_date": "2026-09-16",
       "price": {
-        "close": 119.0,
-        "previous_close": 114.5,
-        "change": 4.5,
-        "change_percent": 3.9301
+        "close": 116.5,
+        "previous_close": 119.0,
+        "change": -2.5,
+        "change_percent": -2.1008
       },
       "volume": {
-        "current": 21115032,
-        "previous": 16454981,
-        "change_percent": 28.32,
-        "average_20d": 31671641.8,
-        "vs_average_20d_percent": -33.3314
+        "current": 29222952,
+        "previous": 21115032,
+        "change_percent": 38.3988,
+        "average_20d": 30713045.9,
+        "vs_average_20d_percent": -4.8517
       },
       "moving_average": {
-        "sma20": 122.4,
-        "sma50": 124.586,
-        "sma100": 140.558,
-        "sma200": 113.1133
+        "sma20": 122.125,
+        "sma50": 124.046,
+        "sma100": 140.128,
+        "sma200": 113.5233
       },
       "distance_to_moving_average_percent": {
-        "sma20": -2.7778,
-        "sma50": -4.4836,
-        "sma100": -15.3374,
-        "sma200": 5.2043
+        "sma20": -4.6059,
+        "sma50": -6.0832,
+        "sma100": -16.8617,
+        "sma200": 2.6221
       },
       "range_52week": {
         "high": 192.0,
-        "low": 22.6,
-        "distance_from_high_percent": -38.0208,
-        "distance_from_low_percent": 426.5487
+        "low": 23.65,
+        "distance_from_high_percent": -39.3229,
+        "distance_from_low_percent": 392.6004
       },
       "data_quality": {
         "history_days": 244,
@@ -309,14 +309,14 @@
           "No major data-quality anomaly detected."
         ],
         "stale_data": false,
-        "market_date": "2026-09-16",
-        "symbol_asof": "2026-09-16",
+        "market_date": "2026-09-17",
+        "symbol_asof": "2026-09-17",
         "corporate_action_active": false
       },
       "summary": {
-        "daily_trend": "up",
+        "daily_trend": "down",
         "versus_sma50": "below",
-        "volume_signal": "low volume"
+        "volume_signal": "normal volume"
       },
       "source": "yfinance / Yahoo Finance",
       "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low.",
@@ -347,38 +347,38 @@
       "name": "京元電子",
       "currency": "TWD",
       "exchange": "TAI",
-      "asof": "2026-09-16",
-      "previous_date": "2026-09-15",
+      "asof": "2026-09-17",
+      "previous_date": "2026-09-16",
       "price": {
-        "close": 261.5,
-        "previous_close": 257.0,
-        "change": 4.5,
-        "change_percent": 1.751
+        "close": 265.0,
+        "previous_close": 261.5,
+        "change": 3.5,
+        "change_percent": 1.3384
       },
       "volume": {
-        "current": 7576894,
-        "previous": 7202078,
-        "change_percent": 5.2043,
-        "average_20d": 19656913.0,
-        "vs_average_20d_percent": -61.4543
+        "current": 14943826,
+        "previous": 7576894,
+        "change_percent": 97.2289,
+        "average_20d": 19828141.65,
+        "vs_average_20d_percent": -24.6332
       },
       "moving_average": {
-        "sma20": 258.125,
-        "sma50": 257.0367,
-        "sma100": 276.2136,
-        "sma200": 266.1115
+        "sma20": 259.625,
+        "sma50": 256.4605,
+        "sma100": 276.1636,
+        "sma200": 266.4627
       },
       "distance_to_moving_average_percent": {
-        "sma20": 1.3075,
-        "sma50": 1.7364,
-        "sma100": -5.3269,
-        "sma200": -1.7329
+        "sma20": 2.0703,
+        "sma50": 3.3298,
+        "sma100": -4.0424,
+        "sma200": -0.5489
       },
       "range_52week": {
         "high": 350.0,
         "low": 148.0952,
-        "distance_from_high_percent": -25.2857,
-        "distance_from_low_percent": 76.5756
+        "distance_from_high_percent": -24.2857,
+        "distance_from_low_percent": 78.9389
       },
       "data_quality": {
         "history_days": 244,
@@ -399,8 +399,8 @@
           "Split/corporate-action signal detected near 2026-07-28; verify historical continuity."
         ],
         "stale_data": false,
-        "market_date": "2026-09-16",
-        "symbol_asof": "2026-09-16",
+        "market_date": "2026-09-17",
+        "symbol_asof": "2026-09-17",
         "corporate_action_active": false
       },
       "summary": {
@@ -437,38 +437,38 @@
       "name": "中工",
       "currency": "TWD",
       "exchange": "TAI",
-      "asof": "2026-09-16",
-      "previous_date": "2026-09-15",
+      "asof": "2026-09-17",
+      "previous_date": "2026-09-16",
       "price": {
-        "close": 11.8,
-        "previous_close": 11.75,
-        "change": 0.05,
-        "change_percent": 0.4255
+        "close": 12.05,
+        "previous_close": 11.8,
+        "change": 0.25,
+        "change_percent": 2.1186
       },
       "volume": {
-        "current": 1883608,
-        "previous": 5078357,
-        "change_percent": -62.9091,
-        "average_20d": 4454271.5,
-        "vs_average_20d_percent": -57.7123
+        "current": 12682443,
+        "previous": 1883608,
+        "change_percent": 573.3059,
+        "average_20d": 4799691.75,
+        "vs_average_20d_percent": 164.2345
       },
       "moving_average": {
-        "sma20": 11.9825,
-        "sma50": 12.1046,
-        "sma100": 12.3055,
-        "sma200": 12.8443
+        "sma20": 11.9875,
+        "sma50": 12.0809,
+        "sma100": 12.2984,
+        "sma200": 12.8343
       },
       "distance_to_moving_average_percent": {
-        "sma20": -1.5231,
-        "sma50": -2.5164,
-        "sma100": -4.1079,
-        "sma200": -8.1305
+        "sma20": 0.5214,
+        "sma50": -0.2558,
+        "sma100": -2.0198,
+        "sma200": -6.111
       },
       "range_52week": {
         "high": 17.7602,
         "low": 9.4295,
-        "distance_from_high_percent": -33.5594,
-        "distance_from_low_percent": 25.139
+        "distance_from_high_percent": -32.1517,
+        "distance_from_low_percent": 27.7903
       },
       "data_quality": {
         "history_days": 244,
@@ -489,14 +489,14 @@
           "Split/corporate-action signal detected near 2026-07-16; verify historical continuity."
         ],
         "stale_data": false,
-        "market_date": "2026-09-16",
-        "symbol_asof": "2026-09-16",
+        "market_date": "2026-09-17",
+        "symbol_asof": "2026-09-17",
         "corporate_action_active": false
       },
       "summary": {
         "daily_trend": "up",
         "versus_sma50": "below",
-        "volume_signal": "low volume"
+        "volume_signal": "high volume"
       },
       "source": "yfinance / Yahoo Finance",
       "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low.",
@@ -527,38 +527,38 @@
       "name": "萬海",
       "currency": "TWD",
       "exchange": "TAI",
-      "asof": "2026-09-16",
-      "previous_date": "2026-09-15",
+      "asof": "2026-09-17",
+      "previous_date": "2026-09-16",
       "price": {
-        "close": 115.0,
-        "previous_close": 112.0,
-        "change": 3.0,
-        "change_percent": 2.6786
+        "close": 120.5,
+        "previous_close": 115.0,
+        "change": 5.5,
+        "change_percent": 4.7826
       },
       "volume": {
-        "current": 25618528,
-        "previous": 8008161,
-        "change_percent": 219.9053,
-        "average_20d": 38139711.2,
-        "vs_average_20d_percent": -32.8298
+        "current": 18530276,
+        "previous": 25618528,
+        "change_percent": -27.6685,
+        "average_20d": 35272507.05,
+        "vs_average_20d_percent": -47.4654
       },
       "moving_average": {
-        "sma20": 115.25,
-        "sma50": 97.76,
-        "sma100": 88.864,
-        "sma200": 83.275
+        "sma20": 115.6,
+        "sma50": 98.562,
+        "sma100": 89.319,
+        "sma200": 83.479
       },
       "distance_to_moving_average_percent": {
-        "sma20": -0.2169,
-        "sma50": 17.635,
-        "sma100": 29.4112,
-        "sma200": 38.0967
+        "sma20": 4.2388,
+        "sma50": 22.2581,
+        "sma100": 34.9097,
+        "sma200": 44.3477
       },
       "range_52week": {
         "high": 134.5,
         "low": 73.0,
-        "distance_from_high_percent": -14.4981,
-        "distance_from_low_percent": 57.5342
+        "distance_from_high_percent": -10.4089,
+        "distance_from_low_percent": 65.0685
       },
       "data_quality": {
         "history_days": 244,
@@ -579,8 +579,8 @@
           "No major data-quality anomaly detected."
         ],
         "stale_data": false,
-        "market_date": "2026-09-16",
-        "symbol_asof": "2026-09-16",
+        "market_date": "2026-09-17",
+        "symbol_asof": "2026-09-17",
         "corporate_action_active": false
       },
       "summary": {
@@ -617,38 +617,38 @@
       "name": "上詮",
       "currency": "TWD",
       "exchange": "TWO",
-      "asof": "2026-09-16",
-      "previous_date": "2026-09-15",
+      "asof": "2026-09-17",
+      "previous_date": "2026-09-16",
       "price": {
-        "close": 684.0,
-        "previous_close": 648.0,
-        "change": 36.0,
-        "change_percent": 5.5556
+        "close": 655.0,
+        "previous_close": 684.0,
+        "change": -29.0,
+        "change_percent": -4.2398
       },
       "volume": {
-        "current": 3032644,
-        "previous": 2546941,
-        "change_percent": 19.0701,
-        "average_20d": 4842016.9,
-        "vs_average_20d_percent": -37.3682
+        "current": 4176158,
+        "previous": 3032644,
+        "change_percent": 37.7068,
+        "average_20d": 4905953.15,
+        "vs_average_20d_percent": -14.8757
       },
       "moving_average": {
-        "sma20": 691.05,
-        "sma50": 618.12,
-        "sma100": 687.0,
-        "sma200": 608.667
+        "sma20": 693.3,
+        "sma50": 619.06,
+        "sma100": 686.1,
+        "sma200": 610.2845
       },
       "distance_to_moving_average_percent": {
-        "sma20": -1.0202,
-        "sma50": 10.6581,
-        "sma100": -0.4367,
-        "sma200": 12.3767
+        "sma20": -5.5243,
+        "sma50": 5.8056,
+        "sma100": -4.5329,
+        "sma200": 7.327
       },
       "range_52week": {
         "high": 1065.0,
         "low": 328.0,
-        "distance_from_high_percent": -35.7746,
-        "distance_from_low_percent": 108.5366
+        "distance_from_high_percent": -38.4977,
+        "distance_from_low_percent": 99.6951
       },
       "data_quality": {
         "history_days": 244,
@@ -669,14 +669,14 @@
           "No major data-quality anomaly detected."
         ],
         "stale_data": false,
-        "market_date": "2026-09-16",
-        "symbol_asof": "2026-09-16",
+        "market_date": "2026-09-17",
+        "symbol_asof": "2026-09-17",
         "corporate_action_active": false
       },
       "summary": {
-        "daily_trend": "up",
+        "daily_trend": "down",
         "versus_sma50": "above",
-        "volume_signal": "low volume"
+        "volume_signal": "normal volume"
       },
       "source": "yfinance / Yahoo Finance",
       "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low.",
@@ -707,38 +707,38 @@
       "name": "瑞儀",
       "currency": "TWD",
       "exchange": "TAI",
-      "asof": "2026-09-16",
-      "previous_date": "2026-09-15",
+      "asof": "2026-09-17",
+      "previous_date": "2026-09-16",
       "price": {
-        "close": 92.2,
-        "previous_close": 92.0,
-        "change": 0.2,
-        "change_percent": 0.2174
+        "close": 93.4,
+        "previous_close": 92.2,
+        "change": 1.2,
+        "change_percent": 1.3015
       },
       "volume": {
-        "current": 1305702,
-        "previous": 1924504,
-        "change_percent": -32.1538,
-        "average_20d": 2297545.7,
-        "vs_average_20d_percent": -43.1697
+        "current": 1657607,
+        "previous": 1305702,
+        "change_percent": 26.9514,
+        "average_20d": 2380426.05,
+        "vs_average_20d_percent": -30.3651
       },
       "moving_average": {
-        "sma20": 94.565,
-        "sma50": 106.1247,
-        "sma100": 117.7677,
-        "sma200": 133.4878
+        "sma20": 93.815,
+        "sma50": 105.5687,
+        "sma100": 117.3817,
+        "sma200": 133.1515
       },
       "distance_to_moving_average_percent": {
-        "sma20": -2.5009,
-        "sma50": -13.1211,
-        "sma100": -21.7103,
-        "sma200": -30.93
+        "sma20": -0.4424,
+        "sma50": -11.5268,
+        "sma100": -20.4305,
+        "sma200": -29.8543
       },
       "range_52week": {
         "high": 194.6667,
         "low": 87.9,
-        "distance_from_high_percent": -52.637,
-        "distance_from_low_percent": 4.8919
+        "distance_from_high_percent": -52.0205,
+        "distance_from_low_percent": 6.2571
       },
       "data_quality": {
         "history_days": 243,
@@ -759,8 +759,8 @@
           "No major data-quality anomaly detected."
         ],
         "stale_data": false,
-        "market_date": "2026-09-16",
-        "symbol_asof": "2026-09-16",
+        "market_date": "2026-09-17",
+        "symbol_asof": "2026-09-17",
         "corporate_action_active": true
       },
       "summary": {
