@@ -3,38 +3,38 @@
   "name": "NVIDIA",
   "currency": "USD",
   "exchange": "NMS",
-  "asof": "2026-09-16",
-  "previous_date": "2026-09-15",
+  "asof": "2026-09-17",
+  "previous_date": "2026-09-16",
   "price": {
-    "close": 213.9,
-    "previous_close": 212.17,
-    "change": 1.73,
-    "change_percent": 0.8154
+    "close": 219.2308,
+    "previous_close": 213.9,
+    "change": 5.3308,
+    "change_percent": 2.4922
   },
   "volume": {
-    "current": 96079300,
-    "previous": 88059700,
-    "change_percent": 9.107,
-    "average_20d": 129914955.0,
-    "vs_average_20d_percent": -26.0445
+    "current": 92845751,
+    "previous": 96563600,
+    "change_percent": -3.8502,
+    "average_20d": 129741592.55,
+    "vs_average_20d_percent": -28.4379
   },
   "moving_average": {
-    "sma20": 218.5185,
-    "sma50": 213.5784,
-    "sma100": 211.5906,
-    "sma200": 197.9547
+    "sma20": 218.602,
+    "sma50": 213.8806,
+    "sma100": 211.7002,
+    "sma200": 198.1659
   },
   "distance_to_moving_average_percent": {
-    "sma20": -2.1136,
-    "sma50": 0.1506,
-    "sma100": 1.0914,
-    "sma200": 8.055
+    "sma20": 0.2876,
+    "sma50": 2.5015,
+    "sma100": 3.5572,
+    "sma200": 10.6299
   },
   "range_52week": {
     "high": 236.54,
     "low": 164.27,
-    "distance_from_high_percent": -9.5713,
-    "distance_from_low_percent": 30.2124
+    "distance_from_high_percent": -7.3177,
+    "distance_from_low_percent": 33.4576
   },
   "data_quality": {
     "history_days": 251,
