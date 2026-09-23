@@ -3,38 +3,38 @@
   "name": "NVIDIA",
   "currency": "USD",
   "exchange": "NMS",
-  "asof": "2026-09-21",
-  "previous_date": "2026-09-18",
+  "asof": "2026-09-22",
+  "previous_date": "2026-09-21",
   "price": {
-    "close": 227.38,
-    "previous_close": 222.27,
-    "change": 5.11,
-    "change_percent": 2.299
+    "close": 228.56,
+    "previous_close": 227.38,
+    "change": 1.18,
+    "change_percent": 0.519
   },
   "volume": {
-    "current": 109479900,
-    "previous": 190287400,
-    "change_percent": -42.466,
-    "average_20d": 135230920.0,
-    "vs_average_20d_percent": -19.0423
+    "current": 93296546,
+    "previous": 109806100,
+    "change_percent": -15.0352,
+    "average_20d": 133152692.3,
+    "vs_average_20d_percent": -29.9327
   },
   "moving_average": {
-    "sma20": 219.5115,
-    "sma50": 214.601,
-    "sma100": 211.9,
-    "sma200": 198.6078
+    "sma20": 220.5155,
+    "sma50": 215.1016,
+    "sma100": 212.0931,
+    "sma200": 198.8526
   },
   "distance_to_moving_average_percent": {
-    "sma20": 3.5846,
-    "sma50": 5.9548,
-    "sma100": 7.3053,
-    "sma200": 14.4869
+    "sma20": 3.648,
+    "sma50": 6.2568,
+    "sma100": 7.764,
+    "sma200": 14.9394
   },
   "range_52week": {
     "high": 236.54,
     "low": 164.27,
-    "distance_from_high_percent": -3.8725,
-    "distance_from_low_percent": 38.4185
+    "distance_from_high_percent": -3.3736,
+    "distance_from_low_percent": 39.1368
   },
   "data_quality": {
     "history_days": 251,
@@ -58,7 +58,7 @@
   "summary": {
     "daily_trend": "up",
     "versus_sma50": "above",
-    "volume_signal": "normal volume"
+    "volume_signal": "low volume"
   },
   "source": "yfinance / Yahoo Finance",
   "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
