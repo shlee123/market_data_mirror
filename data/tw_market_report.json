@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T00:37:45.885589Z",
+  "generated_at": "2026-09-25T10:31:31.415160Z",
   "market": "Taiwan",
   "market_date": "2026-09-24",
   "indices": {
@@ -11,10 +11,10 @@
       "asof": "2026-09-24",
       "previous_date": "2026-09-23",
       "price": {
-        "close": 48038.2695,
+        "close": 48024.6016,
         "previous_close": 48157.2891,
-        "change": -119.0195,
-        "change_percent": -0.2471
+        "change": -132.6875,
+        "change_percent": -0.2755
       },
       "volume": {
         "current": null,
@@ -25,22 +25,22 @@
         "note": "Index volume from Yahoo/yfinance is not used as Taiwan market turnover."
       },
       "moving_average": {
-        "sma20": 46758.5629,
-        "sma50": 45227.0116,
-        "sma100": 44768.1921,
-        "sma200": 38619.2566
+        "sma20": 46757.8795,
+        "sma50": 45226.7383,
+        "sma100": 44768.0554,
+        "sma200": 38619.1883
       },
       "distance_to_moving_average_percent": {
-        "sma20": 2.7368,
-        "sma50": 6.2159,
-        "sma100": 7.3045,
-        "sma200": 24.3894
+        "sma20": 2.7091,
+        "sma50": 6.1863,
+        "sma100": 7.2743,
+        "sma200": 24.3542
       },
       "range_52week": {
         "high": 48601.5312,
         "low": 25469.0391,
-        "distance_from_high_percent": -1.1589,
-        "distance_from_low_percent": 88.6144
+        "distance_from_high_percent": -1.1871,
+        "distance_from_low_percent": 88.5607
       },
       "data_quality": {
         "history_days": 243,
