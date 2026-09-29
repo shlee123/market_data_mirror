@@ -3,38 +3,38 @@
   "name": "Broadcom",
   "currency": "USD",
   "exchange": "NMS",
-  "asof": "2026-09-25",
-  "previous_date": "2026-09-24",
+  "asof": "2026-09-28",
+  "previous_date": "2026-09-25",
   "price": {
-    "close": 352.81,
-    "previous_close": 350.36,
-    "change": 2.45,
-    "change_percent": 0.6993
+    "close": 349.57,
+    "previous_close": 352.81,
+    "change": -3.24,
+    "change_percent": -0.9183
   },
   "volume": {
-    "current": 16220900,
-    "previous": 20930400,
-    "change_percent": -22.5008,
-    "average_20d": 27399390.0,
-    "vs_average_20d_percent": -40.7983
+    "current": 21413300,
+    "previous": 16255500,
+    "change_percent": 31.7296,
+    "average_20d": 27641980.0,
+    "vs_average_20d_percent": -22.5334
   },
   "moving_average": {
-    "sma20": 358.032,
-    "sma50": 376.6252,
-    "sma100": 390.3501,
-    "sma200": 368.3509
+    "sma20": 357.071,
+    "sma50": 376.2,
+    "sma100": 389.5722,
+    "sma200": 368.0673
   },
   "distance_to_moving_average_percent": {
-    "sma20": -1.4585,
-    "sma50": -6.3233,
-    "sma100": -9.617,
-    "sma200": -4.219
+    "sma20": -2.1007,
+    "sma50": -7.0787,
+    "sma100": -10.2682,
+    "sma200": -5.0255
   },
   "range_52week": {
     "high": 495.0,
     "low": 289.96,
-    "distance_from_high_percent": -28.7253,
-    "distance_from_low_percent": 21.6754
+    "distance_from_high_percent": -29.3798,
+    "distance_from_low_percent": 20.558
   },
   "data_quality": {
     "history_days": 251,
@@ -56,7 +56,7 @@
     ]
   },
   "summary": {
-    "daily_trend": "up",
+    "daily_trend": "down",
     "versus_sma50": "below",
     "volume_signal": "low volume"
   },
