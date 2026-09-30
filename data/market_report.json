@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T11:44:43.014314Z",
+  "generated_at": "2026-09-30T01:21:43.635166Z",
   "market": "US",
   "indices": {
     "sp500": {
@@ -7,38 +7,38 @@
       "name": "S&P 500",
       "currency": "USD",
       "exchange": "SNP",
-      "asof": "2026-09-28",
-      "previous_date": "2026-09-25",
+      "asof": "2026-09-29",
+      "previous_date": "2026-09-28",
       "price": {
-        "close": 7683.6899,
-        "previous_close": 7743.4102,
-        "change": -59.7202,
-        "change_percent": -0.7712
+        "close": 7670.8398,
+        "previous_close": 7683.6899,
+        "change": -12.8501,
+        "change_percent": -0.1672
       },
       "volume": {
-        "current": 5129710000,
-        "previous": 4499180000,
-        "change_percent": 14.0143,
-        "average_20d": 5140333500.0,
-        "vs_average_20d_percent": -0.2067
+        "current": 2775639000,
+        "previous": 5129710000,
+        "change_percent": -45.8909,
+        "average_20d": 5009810950.0,
+        "vs_average_20d_percent": -44.5959
       },
       "moving_average": {
-        "sma20": 7671.073,
-        "sma50": 7640.6058,
-        "sma100": 7552.742,
-        "sma200": 7209.4187
+        "sma20": 7670.308,
+        "sma50": 7645.157,
+        "sma100": 7555.7992,
+        "sma200": 7213.3395
       },
       "distance_to_moving_average_percent": {
-        "sma20": 0.1645,
-        "sma50": 0.5639,
-        "sma100": 1.7338,
-        "sma200": 6.5785
+        "sma20": 0.0069,
+        "sma50": 0.3359,
+        "sma100": 1.5225,
+        "sma200": 6.3424
       },
       "range_52week": {
         "high": 7816.7002,
         "low": 6316.9102,
-        "distance_from_high_percent": -1.7016,
-        "distance_from_low_percent": 21.6368
+        "distance_from_high_percent": -1.866,
+        "distance_from_low_percent": 21.4334
       },
       "data_quality": {
         "history_days": 251,
@@ -62,7 +62,7 @@
       "summary": {
         "daily_trend": "down",
         "versus_sma50": "above",
-        "volume_signal": "normal volume"
+        "volume_signal": "low volume"
       },
       "source": "yfinance / Yahoo Finance",
       "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
@@ -72,38 +72,38 @@
       "name": "Nasdaq Composite",
       "currency": "USD",
       "exchange": "NIM",
-      "asof": "2026-09-28",
-      "previous_date": "2026-09-25",
+      "asof": "2026-09-29",
+      "previous_date": "2026-09-28",
       "price": {
-        "close": 26820.3809,
-        "previous_close": 27068.7207,
-        "change": -248.3398,
-        "change_percent": -0.9174
+        "close": 26797.541,
+        "previous_close": 26820.3809,
+        "change": -22.8398,
+        "change_percent": -0.0852
       },
       "volume": {
-        "current": 7030730000,
-        "previous": 7275260000,
-        "change_percent": -3.3611,
-        "average_20d": 8106874500.0,
-        "vs_average_20d_percent": -13.2745
+        "current": 6276261000,
+        "previous": 7030730000,
+        "change_percent": -10.731,
+        "average_20d": 8036701050.0,
+        "vs_average_20d_percent": -21.905
       },
       "moving_average": {
-        "sma20": 26504.359,
-        "sma50": 26195.5284,
-        "sma100": 26167.7864,
-        "sma200": 24658.489
+        "sma20": 26525.6915,
+        "sma50": 26221.3178,
+        "sma100": 26177.3724,
+        "sma200": 24674.2059
       },
       "distance_to_moving_average_percent": {
-        "sma20": 1.1923,
-        "sma50": 2.3853,
-        "sma100": 2.4939,
-        "sma200": 8.7673
+        "sma20": 1.0249,
+        "sma50": 2.1975,
+        "sma100": 2.3691,
+        "sma200": 8.6055
       },
       "range_52week": {
         "high": 27288.7891,
         "low": 20690.25,
-        "distance_from_high_percent": -1.7165,
-        "distance_from_low_percent": 29.6281
+        "distance_from_high_percent": -1.8002,
+        "distance_from_low_percent": 29.5177
       },
       "data_quality": {
         "history_days": 251,
@@ -127,7 +127,7 @@
       "summary": {
         "daily_trend": "down",
         "versus_sma50": "above",
-        "volume_signal": "normal volume"
+        "volume_signal": "low volume"
       },
       "source": "yfinance / Yahoo Finance",
       "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
@@ -137,38 +137,38 @@
       "name": "Dow Jones Industrial Average",
       "currency": "USD",
       "exchange": "DJI",
-      "asof": "2026-09-28",
-      "previous_date": "2026-09-25",
+      "asof": "2026-09-29",
+      "previous_date": "2026-09-28",
       "price": {
-        "close": 51481.5117,
-        "previous_close": 51828.6211,
-        "change": -347.1094,
-        "change_percent": -0.6697
+        "close": 51349.9219,
+        "previous_close": 51481.5117,
+        "change": -131.5898,
+        "change_percent": -0.2556
       },
       "volume": {
-        "current": 455450000,
-        "previous": 387540000,
-        "change_percent": 17.5234,
-        "average_20d": 434423500.0,
-        "vs_average_20d_percent": 4.8401
+        "current": 386242184,
+        "previous": 455450000,
+        "change_percent": -15.1955,
+        "average_20d": 429278609.2,
+        "vs_average_20d_percent": -10.0253
       },
       "moving_average": {
-        "sma20": 52272.0158,
-        "sma50": 52783.2517,
-        "sma100": 52001.6882,
-        "sma200": 50221.0231
+        "sma20": 52180.217,
+        "sma50": 52773.4649,
+        "sma100": 52016.0815,
+        "sma200": 50237.484
       },
       "distance_to_moving_average_percent": {
-        "sma20": -1.5123,
-        "sma50": -2.4662,
-        "sma100": -1.0003,
-        "sma200": 2.5099
+        "sma20": -1.5912,
+        "sma50": -2.6975,
+        "sma100": -1.2807,
+        "sma200": 2.2144
       },
       "range_52week": {
         "high": 54744.3281,
         "low": 45057.2812,
-        "distance_from_high_percent": -5.9601,
-        "distance_from_low_percent": 14.2579
+        "distance_from_high_percent": -6.2005,
+        "distance_from_low_percent": 13.9659
       },
       "data_quality": {
         "history_days": 251,
@@ -204,38 +204,38 @@
       "name": "Arm Holdings",
       "currency": "USD",
       "exchange": "NMS",
-      "asof": "2026-09-28",
-      "previous_date": "2026-09-25",
+      "asof": "2026-09-29",
+      "previous_date": "2026-09-28",
       "price": {
-        "close": 283.33,
-        "previous_close": 310.32,
-        "change": -26.99,
-        "change_percent": -8.6975
+        "close": 295.5,
+        "previous_close": 283.33,
+        "change": 12.17,
+        "change_percent": 4.2953
       },
       "volume": {
-        "current": 9046700,
-        "previous": 6994400,
-        "change_percent": 29.342,
-        "average_20d": 5557670.0,
-        "vs_average_20d_percent": 62.7786
+        "current": 6004334,
+        "previous": 9104000,
+        "change_percent": -34.0473,
+        "average_20d": 5753281.7,
+        "vs_average_20d_percent": 4.3636
       },
       "moving_average": {
-        "sma20": 270.249,
-        "sma50": 264.6388,
-        "sma100": 290.4281,
-        "sma200": 212.5378
+        "sma20": 272.9285,
+        "sma50": 265.1566,
+        "sma100": 291.0101,
+        "sma200": 213.3077
       },
       "distance_to_moving_average_percent": {
-        "sma20": 4.8403,
-        "sma50": 7.0629,
-        "sma100": -2.444,
-        "sma200": 33.308
+        "sma20": 8.2701,
+        "sma50": 11.4436,
+        "sma100": 1.5429,
+        "sma200": 38.5323
       },
       "range_52week": {
         "high": 452.7,
         "low": 100.02,
-        "distance_from_high_percent": -37.4133,
-        "distance_from_low_percent": 183.2733
+        "distance_from_high_percent": -34.725,
+        "distance_from_low_percent": 195.4409
       },
       "data_quality": {
         "history_days": 251,
@@ -257,9 +257,9 @@
         ]
       },
       "summary": {
-        "daily_trend": "down",
+        "daily_trend": "up",
         "versus_sma50": "above",
-        "volume_signal": "high volume"
+        "volume_signal": "normal volume"
       },
       "source": "yfinance / Yahoo Finance",
       "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
@@ -269,38 +269,38 @@
       "name": "SanDisk",
       "currency": "USD",
       "exchange": "NMS",
-      "asof": "2026-09-28",
-      "previous_date": "2026-09-25",
+      "asof": "2026-09-29",
+      "previous_date": "2026-09-28",
       "price": {
-        "close": 1712.89,
-        "previous_close": 1777.8,
-        "change": -64.91,
-        "change_percent": -3.6511
+        "close": 1726.7001,
+        "previous_close": 1712.89,
+        "change": 13.8101,
+        "change_percent": 0.8062
       },
       "volume": {
-        "current": 6632000,
-        "previous": 7341800,
-        "change_percent": -9.6679,
-        "average_20d": 10581660.0,
-        "vs_average_20d_percent": -37.3255
+        "current": 5920963,
+        "previous": 6662200,
+        "change_percent": -11.126,
+        "average_20d": 9710278.15,
+        "vs_average_20d_percent": -39.0238
       },
       "moving_average": {
-        "sma20": 1675.1842,
-        "sma50": 1523.9203,
-        "sma100": 1624.1099,
-        "sma200": 1115.3787
+        "sma20": 1683.1843,
+        "sma50": 1530.6353,
+        "sma100": 1627.2771,
+        "sma200": 1122.8479
       },
       "distance_to_moving_average_percent": {
-        "sma20": 2.2508,
-        "sma50": 12.4002,
-        "sma100": 5.4664,
-        "sma200": 53.5703
+        "sma20": 2.5853,
+        "sma50": 12.8094,
+        "sma100": 6.1098,
+        "sma200": 53.7786
       },
       "range_52week": {
         "high": 2354.3899,
-        "low": 103.348,
-        "distance_from_high_percent": -27.247,
-        "distance_from_low_percent": 1557.4003
+        "low": 112.0,
+        "distance_from_high_percent": -26.6604,
+        "distance_from_low_percent": 1441.6965
       },
       "data_quality": {
         "history_days": 251,
@@ -322,7 +322,7 @@
         ]
       },
       "summary": {
-        "daily_trend": "down",
+        "daily_trend": "up",
         "versus_sma50": "above",
         "volume_signal": "low volume"
       },
@@ -334,38 +334,38 @@
       "name": "Marvell Technology",
       "currency": "USD",
       "exchange": "NMS",
-      "asof": "2026-09-28",
-      "previous_date": "2026-09-25",
+      "asof": "2026-09-29",
+      "previous_date": "2026-09-28",
       "price": {
-        "close": 251.9,
-        "previous_close": 261.94,
-        "change": -10.04,
-        "change_percent": -3.8329
+        "close": 264.9,
+        "previous_close": 251.9,
+        "change": 13.0,
+        "change_percent": 5.1608
       },
       "volume": {
-        "current": 16869500,
-        "previous": 12427900,
-        "change_percent": 35.7389,
-        "average_20d": 18487090.0,
-        "vs_average_20d_percent": -8.7498
+        "current": 16268151,
+        "previous": 16916400,
+        "change_percent": -3.8321,
+        "average_20d": 18120302.55,
+        "vs_average_20d_percent": -10.2214
       },
       "moving_average": {
-        "sma20": 234.653,
-        "sma50": 221.834,
-        "sma100": 228.6931,
-        "sma200": 163.3268
+        "sma20": 237.315,
+        "sma50": 223.2332,
+        "sma100": 229.6206,
+        "sma200": 164.189
       },
       "distance_to_moving_average_percent": {
-        "sma20": 7.35,
-        "sma50": 13.5534,
-        "sma100": 10.1476,
-        "sma200": 54.2307
+        "sma20": 11.6238,
+        "sma50": 18.6651,
+        "sma100": 15.3642,
+        "sma200": 61.3385
       },
       "range_52week": {
         "high": 329.88,
         "low": 70.69,
-        "distance_from_high_percent": -23.6389,
-        "distance_from_low_percent": 256.3446
+        "distance_from_high_percent": -19.6981,
+        "distance_from_low_percent": 274.7347
       },
       "data_quality": {
         "history_days": 251,
@@ -387,7 +387,7 @@
         ]
       },
       "summary": {
-        "daily_trend": "down",
+        "daily_trend": "up",
         "versus_sma50": "above",
         "volume_signal": "normal volume"
       },
@@ -399,38 +399,38 @@
       "name": "Micron Technology",
       "currency": "USD",
       "exchange": "NMS",
-      "asof": "2026-09-28",
-      "previous_date": "2026-09-25",
+      "asof": "2026-09-29",
+      "previous_date": "2026-09-28",
       "price": {
-        "close": 1053.98,
-        "previous_close": 1082.28,
-        "change": -28.3,
-        "change_percent": -2.6149
+        "close": 1071.88,
+        "previous_close": 1053.98,
+        "change": 17.9,
+        "change_percent": 1.6983
       },
       "volume": {
-        "current": 22137600,
-        "previous": 20947900,
-        "change_percent": 5.6793,
-        "average_20d": 24968110.0,
-        "vs_average_20d_percent": -11.3365
+        "current": 18673307,
+        "previous": 22227200,
+        "change_percent": -15.9889,
+        "average_20d": 24777780.35,
+        "vs_average_20d_percent": -24.6369
       },
       "moving_average": {
-        "sma20": 1000.1985,
-        "sma50": 945.7158,
-        "sma100": 939.7023,
-        "sma200": 665.106
+        "sma20": 1005.856,
+        "sma50": 949.8442,
+        "sma100": 943.7552,
+        "sma200": 669.1469
       },
       "distance_to_moving_average_percent": {
-        "sma20": 5.3771,
-        "sma50": 11.4479,
-        "sma100": 12.1611,
-        "sma200": 58.468
+        "sma20": 6.564,
+        "sma50": 12.848,
+        "sma100": 13.5761,
+        "sma200": 60.1861
       },
       "range_52week": {
         "high": 1255.0,
-        "low": 159.97,
-        "distance_from_high_percent": -16.0175,
-        "distance_from_low_percent": 558.861
+        "low": 163.96,
+        "distance_from_high_percent": -14.5912,
+        "distance_from_low_percent": 553.7448
       },
       "data_quality": {
         "history_days": 251,
@@ -452,9 +452,9 @@
         ]
       },
       "summary": {
-        "daily_trend": "down",
+        "daily_trend": "up",
         "versus_sma50": "above",
-        "volume_signal": "normal volume"
+        "volume_signal": "low volume"
       },
       "source": "yfinance / Yahoo Finance",
       "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
@@ -464,38 +464,38 @@
       "name": "NVIDIA",
       "currency": "USD",
       "exchange": "NMS",
-      "asof": "2026-09-28",
-      "previous_date": "2026-09-25",
+      "asof": "2026-09-29",
+      "previous_date": "2026-09-28",
       "price": {
-        "close": 228.86,
-        "previous_close": 225.07,
-        "change": 3.79,
-        "change_percent": 1.6839
+        "close": 228.3531,
+        "previous_close": 228.86,
+        "change": -0.5069,
+        "change_percent": -0.2215
       },
       "volume": {
-        "current": 141544300,
-        "previous": 89947700,
-        "change_percent": 57.3629,
-        "average_20d": 113388900.0,
-        "vs_average_20d_percent": 24.8308
+        "current": 98224511,
+        "previous": 142344300,
+        "change_percent": -30.9951,
+        "average_20d": 112104990.55,
+        "vs_average_20d_percent": -12.3817
       },
       "moving_average": {
-        "sma20": 222.32,
-        "sma50": 216.498,
-        "sma100": 213.2064,
-        "sma200": 199.6927
+        "sma20": 222.6987,
+        "sma50": 216.9995,
+        "sma100": 213.4116,
+        "sma200": 199.9156
       },
       "distance_to_moving_average_percent": {
-        "sma20": 2.9417,
-        "sma50": 5.71,
-        "sma100": 7.342,
-        "sma200": 14.6061
+        "sma20": 2.539,
+        "sma50": 5.2321,
+        "sma100": 7.0013,
+        "sma200": 14.2248
       },
       "range_52week": {
         "high": 236.54,
         "low": 164.27,
-        "distance_from_high_percent": -3.2468,
-        "distance_from_low_percent": 39.3194
+        "distance_from_high_percent": -3.4611,
+        "distance_from_low_percent": 39.0108
       },
       "data_quality": {
         "history_days": 251,
@@ -517,9 +517,9 @@
         ]
       },
       "summary": {
-        "daily_trend": "up",
+        "daily_trend": "down",
         "versus_sma50": "above",
-        "volume_signal": "high volume"
+        "volume_signal": "normal volume"
       },
       "source": "yfinance / Yahoo Finance",
       "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
@@ -529,38 +529,38 @@
       "name": "Broadcom",
       "currency": "USD",
       "exchange": "NMS",
-      "asof": "2026-09-28",
-      "previous_date": "2026-09-25",
+      "asof": "2026-09-29",
+      "previous_date": "2026-09-28",
       "price": {
-        "close": 349.57,
-        "previous_close": 352.81,
-        "change": -3.24,
-        "change_percent": -0.9183
+        "close": 357.1801,
+        "previous_close": 349.57,
+        "change": 7.6101,
+        "change_percent": 2.177
       },
       "volume": {
-        "current": 21413300,
-        "previous": 16255500,
-        "change_percent": 31.7296,
-        "average_20d": 27641980.0,
-        "vs_average_20d_percent": -22.5334
+        "current": 18872234,
+        "previous": 21527900,
+        "change_percent": -12.3359,
+        "average_20d": 27493921.7,
+        "vs_average_20d_percent": -31.3585
       },
       "moving_average": {
-        "sma20": 357.071,
-        "sma50": 376.2,
-        "sma100": 389.5722,
-        "sma200": 368.0673
+        "sma20": 356.413,
+        "sma50": 375.7804,
+        "sma100": 388.8896,
+        "sma200": 367.7883
       },
       "distance_to_moving_average_percent": {
-        "sma20": -2.1007,
-        "sma50": -7.0787,
-        "sma100": -10.2682,
-        "sma200": -5.0255
+        "sma20": 0.2152,
+        "sma50": -4.9498,
+        "sma100": -8.1539,
+        "sma200": -2.8843
       },
       "range_52week": {
         "high": 495.0,
         "low": 289.96,
-        "distance_from_high_percent": -29.3798,
-        "distance_from_low_percent": 20.558
+        "distance_from_high_percent": -27.8424,
+        "distance_from_low_percent": 23.1825
       },
       "data_quality": {
         "history_days": 251,
@@ -582,7 +582,7 @@
         ]
       },
       "summary": {
-        "daily_trend": "down",
+        "daily_trend": "up",
         "versus_sma50": "below",
         "volume_signal": "low volume"
       },
@@ -594,41 +594,41 @@
       "name": "Tema Space Innovators ETF",
       "currency": "USD",
       "exchange": "PCX",
-      "asof": "2026-09-28",
-      "previous_date": "2026-09-25",
+      "asof": "2026-09-29",
+      "previous_date": "2026-09-28",
       "price": {
-        "close": 24.23,
-        "previous_close": 24.54,
-        "change": -0.31,
-        "change_percent": -1.2632
+        "close": 23.95,
+        "previous_close": 24.23,
+        "change": -0.28,
+        "change_percent": -1.1556
       },
       "volume": {
-        "current": 1139000,
-        "previous": 933700,
-        "change_percent": 21.9878,
-        "average_20d": 1438525.0,
-        "vs_average_20d_percent": -20.8217
+        "current": 1964108,
+        "previous": 1139000,
+        "change_percent": 72.4414,
+        "average_20d": 1491825.4,
+        "vs_average_20d_percent": 31.658
       },
       "moving_average": {
-        "sma20": 23.6795,
-        "sma50": 23.8506,
-        "sma100": 27.8906,
+        "sma20": 23.714,
+        "sma50": 23.8794,
+        "sma100": 27.8258,
         "sma200": null
       },
       "distance_to_moving_average_percent": {
-        "sma20": 2.3248,
-        "sma50": 1.5907,
-        "sma100": -13.1249,
+        "sma20": 0.9952,
+        "sma50": 0.2957,
+        "sma100": -13.9288,
         "sma200": null
       },
       "range_52week": {
         "high": 42.68,
         "low": 20.46,
-        "distance_from_high_percent": -43.2287,
-        "distance_from_low_percent": 18.4262
+        "distance_from_high_percent": -43.8847,
+        "distance_from_low_percent": 17.0577
       },
       "data_quality": {
-        "history_days": 125,
+        "history_days": 126,
         "sma20_valid": true,
         "sma50_valid": true,
         "sma100_valid": true,
@@ -649,7 +649,7 @@
       "summary": {
         "daily_trend": "down",
         "versus_sma50": "above",
-        "volume_signal": "low volume"
+        "volume_signal": "high volume"
       },
       "source": "yfinance / Yahoo Finance",
       "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
@@ -659,38 +659,38 @@
       "name": "Amkor Technology",
       "currency": "USD",
       "exchange": "NMS",
-      "asof": "2026-09-28",
-      "previous_date": "2026-09-25",
+      "asof": "2026-09-29",
+      "previous_date": "2026-09-28",
       "price": {
-        "close": 53.18,
-        "previous_close": 53.61,
-        "change": -0.43,
-        "change_percent": -0.8021
+        "close": 54.4,
+        "previous_close": 53.18,
+        "change": 1.22,
+        "change_percent": 2.2941
       },
       "volume": {
-        "current": 3419600,
-        "previous": 2555100,
-        "change_percent": 33.8343,
-        "average_20d": 3928985.0,
-        "vs_average_20d_percent": -12.9648
+        "current": 2682826,
+        "previous": 3447200,
+        "change_percent": -22.1738,
+        "average_20d": 3842961.3,
+        "vs_average_20d_percent": -30.1886
       },
       "moving_average": {
-        "sma20": 49.7925,
-        "sma50": 52.6386,
-        "sma100": 63.41,
-        "sma200": 57.1071
+        "sma20": 50.1475,
+        "sma50": 52.4754,
+        "sma100": 63.1818,
+        "sma200": 57.1449
       },
       "distance_to_moving_average_percent": {
-        "sma20": 6.8032,
-        "sma50": 1.0285,
-        "sma100": -16.1331,
-        "sma200": -6.8767
+        "sma20": 8.48,
+        "sma50": 3.6676,
+        "sma100": -13.8993,
+        "sma200": -4.8034
       },
       "range_52week": {
         "high": 96.68,
         "low": 28.03,
-        "distance_from_high_percent": -44.9938,
-        "distance_from_low_percent": 89.7253
+        "distance_from_high_percent": -43.7319,
+        "distance_from_low_percent": 94.0778
       },
       "data_quality": {
         "history_days": 251,
@@ -712,9 +712,9 @@
         ]
       },
       "summary": {
-        "daily_trend": "down",
+        "daily_trend": "up",
         "versus_sma50": "above",
-        "volume_signal": "normal volume"
+        "volume_signal": "low volume"
       },
       "source": "yfinance / Yahoo Finance",
       "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
@@ -724,38 +724,38 @@
       "name": "Applied Optoelectronics",
       "currency": "USD",
       "exchange": "NGM",
-      "asof": "2026-09-28",
-      "previous_date": "2026-09-25",
+      "asof": "2026-09-29",
+      "previous_date": "2026-09-28",
       "price": {
-        "close": 96.82,
-        "previous_close": 101.4,
-        "change": -4.58,
-        "change_percent": -4.5168
+        "close": 101.45,
+        "previous_close": 96.82,
+        "change": 4.63,
+        "change_percent": 4.7821
       },
       "volume": {
-        "current": 8137800,
-        "previous": 5511000,
-        "change_percent": 47.6647,
-        "average_20d": 6725995.0,
-        "vs_average_20d_percent": 20.9903
+        "current": 7251574,
+        "previous": 8195600,
+        "change_percent": -11.5187,
+        "average_20d": 6860988.7,
+        "vs_average_20d_percent": 5.6928
       },
       "moving_average": {
-        "sma20": 102.7625,
-        "sma50": 111.5884,
-        "sma100": 135.6921,
-        "sma200": 107.3429
+        "sma20": 102.4505,
+        "sma50": 111.557,
+        "sma100": 134.9212,
+        "sma200": 107.6752
       },
       "distance_to_moving_average_percent": {
-        "sma20": -5.7828,
-        "sma50": -13.2347,
-        "sma100": -28.6473,
-        "sma200": -9.8031
+        "sma20": -0.9766,
+        "sma50": -9.0599,
+        "sma100": -24.808,
+        "sma200": -5.7815
       },
       "range_52week": {
         "high": 233.67,
         "low": 18.5,
-        "distance_from_high_percent": -58.5655,
-        "distance_from_low_percent": 423.3513
+        "distance_from_high_percent": -56.5841,
+        "distance_from_low_percent": 448.3784
       },
       "data_quality": {
         "history_days": 251,
@@ -777,9 +777,9 @@
         ]
       },
       "summary": {
-        "daily_trend": "down",
+        "daily_trend": "up",
         "versus_sma50": "below",
-        "volume_signal": "high volume"
+        "volume_signal": "normal volume"
       },
       "source": "yfinance / Yahoo Finance",
       "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
@@ -789,38 +789,38 @@
       "name": "Coherent",
       "currency": "USD",
       "exchange": "NYQ",
-      "asof": "2026-09-28",
-      "previous_date": "2026-09-25",
+      "asof": "2026-09-29",
+      "previous_date": "2026-09-28",
       "price": {
-        "close": 282.45,
-        "previous_close": 295.83,
-        "change": -13.38,
-        "change_percent": -4.5229
+        "close": 293.8,
+        "previous_close": 282.45,
+        "change": 11.35,
+        "change_percent": 4.0184
       },
       "volume": {
-        "current": 6862200,
-        "previous": 4693700,
-        "change_percent": 46.2002,
-        "average_20d": 6326515.0,
-        "vs_average_20d_percent": 8.4673
+        "current": 5448638,
+        "previous": 6885000,
+        "change_percent": -20.8622,
+        "average_20d": 6347636.9,
+        "vs_average_20d_percent": -14.1627
       },
       "moving_average": {
-        "sma20": 290.5505,
-        "sma50": 296.8638,
-        "sma100": 331.1545,
-        "sma200": 286.6056
+        "sma20": 291.349,
+        "sma50": 297.0318,
+        "sma100": 330.6458,
+        "sma200": 287.0873
       },
       "distance_to_moving_average_percent": {
-        "sma20": -2.788,
-        "sma50": -4.8554,
-        "sma100": -14.7075,
-        "sma200": -1.4499
+        "sma20": 0.8413,
+        "sma50": -1.088,
+        "sma100": -11.1436,
+        "sma200": 2.3382
       },
       "range_52week": {
         "high": 440.0,
         "low": 105.02,
-        "distance_from_high_percent": -35.8068,
-        "distance_from_low_percent": 168.9488
+        "distance_from_high_percent": -33.2273,
+        "distance_from_low_percent": 179.7562
       },
       "data_quality": {
         "history_days": 251,
@@ -842,7 +842,7 @@
         ]
       },
       "summary": {
-        "daily_trend": "down",
+        "daily_trend": "up",
         "versus_sma50": "below",
         "volume_signal": "normal volume"
       },
@@ -854,38 +854,38 @@
       "name": "Advanced Micro Devices",
       "currency": "USD",
       "exchange": "NMS",
-      "asof": "2026-09-28",
-      "previous_date": "2026-09-25",
+      "asof": "2026-09-29",
+      "previous_date": "2026-09-28",
       "price": {
-        "close": 607.87,
-        "previous_close": 630.63,
-        "change": -22.76,
-        "change_percent": -3.6091
+        "close": 609.0387,
+        "previous_close": 607.87,
+        "change": 1.1687,
+        "change_percent": 0.1923
       },
       "volume": {
-        "current": 21995500,
-        "previous": 17632100,
-        "change_percent": 24.7469,
-        "average_20d": 21958380.0,
-        "vs_average_20d_percent": 0.169
+        "current": 16325476,
+        "previous": 22124100,
+        "change_percent": -26.2095,
+        "average_20d": 22157933.8,
+        "vs_average_20d_percent": -26.3222
       },
       "moving_average": {
-        "sma20": 535.2185,
-        "sma50": 506.9552,
-        "sma100": 503.0196,
-        "sma200": 366.6848
+        "sma20": 542.1344,
+        "sma50": 509.0646,
+        "sma100": 504.8961,
+        "sma200": 368.6229
       },
       "distance_to_moving_average_percent": {
-        "sma20": 13.5742,
-        "sma50": 19.9061,
-        "sma100": 20.8442,
-        "sma200": 65.7745
+        "sma20": 12.3409,
+        "sma50": 19.6388,
+        "sma100": 20.6265,
+        "sma200": 65.22
       },
       "range_52week": {
         "high": 639.0,
         "low": 159.33,
-        "distance_from_high_percent": -4.8717,
-        "distance_from_low_percent": 281.5163
+        "distance_from_high_percent": -4.6888,
+        "distance_from_low_percent": 282.2499
       },
       "data_quality": {
         "history_days": 251,
@@ -907,9 +907,9 @@
         ]
       },
       "summary": {
-        "daily_trend": "down",
+        "daily_trend": "up",
         "versus_sma50": "above",
-        "volume_signal": "normal volume"
+        "volume_signal": "low volume"
       },
       "source": "yfinance / Yahoo Finance",
       "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
@@ -919,38 +919,38 @@
       "name": "Intel",
       "currency": "USD",
       "exchange": "NMS",
-      "asof": "2026-09-28",
-      "previous_date": "2026-09-25",
+      "asof": "2026-09-29",
+      "previous_date": "2026-09-28",
       "price": {
-        "close": 116.03,
-        "previous_close": 123.0,
-        "change": -6.97,
-        "change_percent": -5.6667
+        "close": 116.7893,
+        "previous_close": 116.03,
+        "change": 0.7593,
+        "change_percent": 0.6544
       },
       "volume": {
-        "current": 111220000,
-        "previous": 97728400,
-        "change_percent": 13.8052,
-        "average_20d": 106965720.0,
-        "vs_average_20d_percent": 3.9772
+        "current": 86223627,
+        "previous": 112436900,
+        "change_percent": -23.3138,
+        "average_20d": 108078336.35,
+        "vs_average_20d_percent": -20.2212
       },
       "moving_average": {
-        "sma20": 105.8705,
-        "sma50": 99.4722,
-        "sma100": 108.3689,
-        "sma200": 79.5795
+        "sma20": 107.2345,
+        "sma50": 99.8668,
+        "sma100": 108.4067,
+        "sma200": 79.9595
       },
       "distance_to_moving_average_percent": {
-        "sma20": 9.5962,
-        "sma50": 16.6457,
-        "sma100": 7.0695,
-        "sma200": 45.8039
+        "sma20": 8.9102,
+        "sma50": 16.9451,
+        "sma100": 7.7325,
+        "sma200": 46.0606
       },
       "range_52week": {
         "high": 142.35,
         "low": 32.89,
-        "distance_from_high_percent": -18.4896,
-        "distance_from_low_percent": 252.782
+        "distance_from_high_percent": -17.9562,
+        "distance_from_low_percent": 255.0906
       },
       "data_quality": {
         "history_days": 251,
@@ -972,9 +972,9 @@
         ]
       },
       "summary": {
-        "daily_trend": "down",
+        "daily_trend": "up",
         "versus_sma50": "above",
-        "volume_signal": "normal volume"
+        "volume_signal": "low volume"
       },
       "source": "yfinance / Yahoo Finance",
       "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
@@ -984,38 +984,38 @@
       "name": "Netflix",
       "currency": "USD",
       "exchange": "NMS",
-      "asof": "2026-09-28",
-      "previous_date": "2026-09-25",
+      "asof": "2026-09-29",
+      "previous_date": "2026-09-28",
       "price": {
-        "close": 69.23,
-        "previous_close": 71.15,
-        "change": -1.92,
-        "change_percent": -2.6985
+        "close": 70.59,
+        "previous_close": 69.23,
+        "change": 1.36,
+        "change_percent": 1.9645
       },
       "volume": {
-        "current": 43145800,
-        "previous": 23203100,
-        "change_percent": 85.9484,
-        "average_20d": 33137125.0,
-        "vs_average_20d_percent": 30.2038
+        "current": 33202113,
+        "previous": 43366300,
+        "change_percent": -23.438,
+        "average_20d": 33271215.65,
+        "vs_average_20d_percent": -0.2077
       },
       "moving_average": {
-        "sma20": 76.1215,
-        "sma50": 75.5426,
-        "sma100": 78.0522,
-        "sma200": 84.5753
+        "sma20": 75.5985,
+        "sma50": 75.6024,
+        "sma100": 77.8754,
+        "sma200": 84.4647
       },
       "distance_to_moving_average_percent": {
-        "sma20": -9.0533,
-        "sma50": -8.3563,
-        "sma100": -11.3029,
-        "sma200": -18.1439
+        "sma20": -6.6251,
+        "sma50": -6.6299,
+        "sma100": -9.3552,
+        "sma200": -16.4266
       },
       "range_52week": {
         "high": 124.86,
         "low": 65.08,
-        "distance_from_high_percent": -44.5539,
-        "distance_from_low_percent": 6.3768
+        "distance_from_high_percent": -43.4647,
+        "distance_from_low_percent": 8.4665
       },
       "data_quality": {
         "history_days": 251,
@@ -1037,9 +1037,9 @@
         ]
       },
       "summary": {
-        "daily_trend": "down",
+        "daily_trend": "up",
         "versus_sma50": "below",
-        "volume_signal": "high volume"
+        "volume_signal": "normal volume"
       },
       "source": "yfinance / Yahoo Finance",
       "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."

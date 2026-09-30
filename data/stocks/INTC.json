@@ -3,38 +3,38 @@
   "name": "Intel",
   "currency": "USD",
   "exchange": "NMS",
-  "asof": "2026-09-28",
-  "previous_date": "2026-09-25",
+  "asof": "2026-09-29",
+  "previous_date": "2026-09-28",
   "price": {
-    "close": 116.03,
-    "previous_close": 123.0,
-    "change": -6.97,
-    "change_percent": -5.6667
+    "close": 116.7893,
+    "previous_close": 116.03,
+    "change": 0.7593,
+    "change_percent": 0.6544
   },
   "volume": {
-    "current": 111220000,
-    "previous": 97728400,
-    "change_percent": 13.8052,
-    "average_20d": 106965720.0,
-    "vs_average_20d_percent": 3.9772
+    "current": 86223627,
+    "previous": 112436900,
+    "change_percent": -23.3138,
+    "average_20d": 108078336.35,
+    "vs_average_20d_percent": -20.2212
   },
   "moving_average": {
-    "sma20": 105.8705,
-    "sma50": 99.4722,
-    "sma100": 108.3689,
-    "sma200": 79.5795
+    "sma20": 107.2345,
+    "sma50": 99.8668,
+    "sma100": 108.4067,
+    "sma200": 79.9595
   },
   "distance_to_moving_average_percent": {
-    "sma20": 9.5962,
-    "sma50": 16.6457,
-    "sma100": 7.0695,
-    "sma200": 45.8039
+    "sma20": 8.9102,
+    "sma50": 16.9451,
+    "sma100": 7.7325,
+    "sma200": 46.0606
   },
   "range_52week": {
     "high": 142.35,
     "low": 32.89,
-    "distance_from_high_percent": -18.4896,
-    "distance_from_low_percent": 252.782
+    "distance_from_high_percent": -17.9562,
+    "distance_from_low_percent": 255.0906
   },
   "data_quality": {
     "history_days": 251,
@@ -56,9 +56,9 @@
     ]
   },
   "summary": {
-    "daily_trend": "down",
+    "daily_trend": "up",
     "versus_sma50": "above",
-    "volume_signal": "normal volume"
+    "volume_signal": "low volume"
   },
   "source": "yfinance / Yahoo Finance",
   "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
