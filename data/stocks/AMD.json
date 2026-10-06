@@ -3,38 +3,38 @@
   "name": "Advanced Micro Devices",
   "currency": "USD",
   "exchange": "NMS",
-  "asof": "2026-10-02",
-  "previous_date": "2026-10-01",
+  "asof": "2026-10-05",
+  "previous_date": "2026-10-02",
   "price": {
-    "close": 633.91,
-    "previous_close": 615.73,
-    "change": 18.18,
-    "change_percent": 2.9526
+    "close": 631.75,
+    "previous_close": 633.91,
+    "change": -2.16,
+    "change_percent": -0.3407
   },
   "volume": {
-    "current": 19825500,
-    "previous": 17134500,
-    "change_percent": 15.7052,
-    "average_20d": 22701825.0,
-    "vs_average_20d_percent": -12.67
+    "current": 13690000,
+    "previous": 19865300,
+    "change_percent": -31.0859,
+    "average_20d": 22404380.0,
+    "vs_average_20d_percent": -38.8959
   },
   "moving_average": {
-    "sma20": 566.4895,
-    "sma50": 513.5342,
-    "sma100": 510.271,
-    "sma200": 374.7236
+    "sma20": 574.1985,
+    "sma50": 515.7302,
+    "sma100": 512.1056,
+    "sma200": 376.8365
   },
   "distance_to_moving_average_percent": {
-    "sma20": 11.9015,
-    "sma50": 23.4407,
-    "sma100": 24.2301,
-    "sma200": 69.1673
+    "sma20": 10.0229,
+    "sma50": 22.4962,
+    "sma100": 23.3632,
+    "sma200": 67.6457
   },
   "range_52week": {
     "high": 645.46,
-    "low": 163.14,
-    "distance_from_high_percent": -1.7894,
-    "distance_from_low_percent": 288.5681
+    "low": 188.22,
+    "distance_from_high_percent": -2.1241,
+    "distance_from_low_percent": 235.6445
   },
   "data_quality": {
     "history_days": 251,
@@ -47,8 +47,8 @@
     "possible_split_ratio": null,
     "possible_split_source": null,
     "large_price_gap_detected": false,
-    "largest_gap_percent": 23.708,
-    "largest_gap_date": "2025-10-06",
+    "largest_gap_percent": 18.6145,
+    "largest_gap_date": "2026-05-06",
     "adjusted_close_divergence_detected": false,
     "warning_level": "green",
     "notes": [
@@ -56,9 +56,9 @@
     ]
   },
   "summary": {
-    "daily_trend": "up",
+    "daily_trend": "down",
     "versus_sma50": "above",
-    "volume_signal": "normal volume"
+    "volume_signal": "low volume"
   },
   "source": "yfinance / Yahoo Finance",
   "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
