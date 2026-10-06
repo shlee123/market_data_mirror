@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T02:21:50.994991Z",
+  "generated_at": "2026-10-06T06:01:40.425527Z",
   "market": "US",
   "indices": {
     "sp500": {
@@ -16,11 +16,11 @@
         "change_percent": 0.6634
       },
       "volume": {
-        "current": 3473000000,
+        "current": 5840900000,
         "previous": 5277430000,
-        "change_percent": -34.1915,
-        "average_20d": 5141394500.0,
-        "vs_average_20d_percent": -32.4502
+        "change_percent": 10.677,
+        "average_20d": 5259789500.0,
+        "vs_average_20d_percent": 11.0482
       },
       "moving_average": {
         "sma20": 7672.822,
@@ -62,7 +62,7 @@
       "summary": {
         "daily_trend": "up",
         "versus_sma50": "above",
-        "volume_signal": "low volume"
+        "volume_signal": "normal volume"
       },
       "source": "yfinance / Yahoo Finance",
       "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
@@ -81,11 +81,11 @@
         "change_percent": 1.0535
       },
       "volume": {
-        "current": 7042231000,
+        "current": 7828480000,
         "previous": 7954430000,
-        "change_percent": -11.4678,
-        "average_20d": 8192954050.0,
-        "vs_average_20d_percent": -14.0453
+        "change_percent": -1.5834,
+        "average_20d": 8232266500.0,
+        "vs_average_20d_percent": -4.9049
       },
       "moving_average": {
         "sma20": 26675.3004,
@@ -100,9 +100,9 @@
         "sma200": 11.0131
       },
       "range_52week": {
-        "high": 27544.0645,
+        "high": 27544.0605,
         "low": 20690.25,
-        "distance_from_high_percent": -0.2424,
+        "distance_from_high_percent": -0.2423,
         "distance_from_low_percent": 32.8032
       },
       "data_quality": {
@@ -146,11 +146,11 @@
         "change_percent": 0.1777
       },
       "volume": {
-        "current": 472444498,
+        "current": 472440000,
         "previous": 548950000,
-        "change_percent": -13.9367,
-        "average_20d": 448070724.9,
-        "vs_average_20d_percent": 5.4397
+        "change_percent": -13.9375,
+        "average_20d": 448070500.0,
+        "vs_average_20d_percent": 5.4388
       },
       "moving_average": {
         "sma20": 51747.6311,
