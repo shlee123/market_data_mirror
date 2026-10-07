@@ -3,41 +3,41 @@
   "name": "Tema Space Innovators ETF",
   "currency": "USD",
   "exchange": "PCX",
-  "asof": "2026-10-05",
-  "previous_date": "2026-10-02",
+  "asof": "2026-10-06",
+  "previous_date": "2026-10-05",
   "price": {
-    "close": 25.33,
-    "previous_close": 25.0,
-    "change": 0.33,
-    "change_percent": 1.32
+    "close": 25.96,
+    "previous_close": 25.33,
+    "change": 0.63,
+    "change_percent": 2.4872
   },
   "volume": {
-    "current": 1842200,
-    "previous": 3005000,
-    "change_percent": -38.6955,
-    "average_20d": 1669690.0,
-    "vs_average_20d_percent": 10.3319
+    "current": 2391900,
+    "previous": 1842200,
+    "change_percent": 29.8393,
+    "average_20d": 1681920.0,
+    "vs_average_20d_percent": 42.2125
   },
   "moving_average": {
-    "sma20": 24.0065,
-    "sma50": 23.9954,
-    "sma100": 27.5157,
+    "sma20": 24.0885,
+    "sma50": 24.0656,
+    "sma100": 27.4296,
     "sma200": null
   },
   "distance_to_moving_average_percent": {
-    "sma20": 5.5131,
-    "sma50": 5.5619,
-    "sma100": -7.9435,
+    "sma20": 7.7693,
+    "sma50": 7.8718,
+    "sma100": -5.3577,
     "sma200": null
   },
   "range_52week": {
     "high": 42.68,
     "low": 20.46,
-    "distance_from_high_percent": -40.6514,
-    "distance_from_low_percent": 23.8025
+    "distance_from_high_percent": -39.1753,
+    "distance_from_low_percent": 26.8817
   },
   "data_quality": {
-    "history_days": 130,
+    "history_days": 131,
     "sma20_valid": true,
     "sma50_valid": true,
     "sma100_valid": true,
@@ -58,7 +58,7 @@
   "summary": {
     "daily_trend": "up",
     "versus_sma50": "above",
-    "volume_signal": "normal volume"
+    "volume_signal": "high volume"
   },
   "source": "yfinance / Yahoo Finance",
   "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
