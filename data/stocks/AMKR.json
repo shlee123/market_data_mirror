@@ -3,38 +3,38 @@
   "name": "Amkor Technology",
   "currency": "USD",
   "exchange": "NMS",
-  "asof": "2026-10-07",
-  "previous_date": "2026-10-06",
+  "asof": "2026-10-08",
+  "previous_date": "2026-10-07",
   "price": {
-    "close": 52.27,
-    "previous_close": 53.39,
-    "change": -1.12,
-    "change_percent": -2.0978
+    "close": 51.0,
+    "previous_close": 52.27,
+    "change": -1.27,
+    "change_percent": -2.4297
   },
   "volume": {
-    "current": 2544700,
-    "previous": 2938300,
-    "change_percent": -13.3955,
-    "average_20d": 3683390.0,
-    "vs_average_20d_percent": -30.9142
+    "current": 3535500,
+    "previous": 2544700,
+    "change_percent": 38.9358,
+    "average_20d": 3701995.0,
+    "vs_average_20d_percent": -4.4974
   },
   "moving_average": {
-    "sma20": 51.73,
-    "sma50": 51.4942,
-    "sma100": 61.9379,
-    "sma200": 57.483
+    "sma20": 51.8035,
+    "sma50": 51.6596,
+    "sma100": 61.7444,
+    "sma200": 57.536
   },
   "distance_to_moving_average_percent": {
-    "sma20": 1.0439,
-    "sma50": 1.5066,
-    "sma100": -15.609,
-    "sma200": -9.0688
+    "sma20": -1.5511,
+    "sma50": -1.2768,
+    "sma100": -17.4014,
+    "sma200": -11.3598
   },
   "range_52week": {
     "high": 96.68,
     "low": 28.19,
-    "distance_from_high_percent": -45.935,
-    "distance_from_low_percent": 85.4204
+    "distance_from_high_percent": -47.2487,
+    "distance_from_low_percent": 80.9152
   },
   "data_quality": {
     "history_days": 251,
@@ -57,8 +57,8 @@
   },
   "summary": {
     "daily_trend": "down",
-    "versus_sma50": "above",
-    "volume_signal": "low volume"
+    "versus_sma50": "below",
+    "volume_signal": "normal volume"
   },
   "source": "yfinance / Yahoo Finance",
   "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
