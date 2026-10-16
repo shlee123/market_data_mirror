@@ -3,38 +3,38 @@
   "name": "Arm Holdings",
   "currency": "USD",
   "exchange": "NMS",
-  "asof": "2026-10-14",
-  "previous_date": "2026-10-13",
+  "asof": "2026-10-15",
+  "previous_date": "2026-10-14",
   "price": {
-    "close": 238.01,
-    "previous_close": 255.39,
-    "change": -17.38,
-    "change_percent": -6.8053
+    "close": 242.8,
+    "previous_close": 238.01,
+    "change": 4.79,
+    "change_percent": 2.0125
   },
   "volume": {
-    "current": 6577500,
-    "previous": 6783500,
-    "change_percent": -3.0368,
-    "average_20d": 6132810.0,
-    "vs_average_20d_percent": 7.251
+    "current": 6550887,
+    "previous": 6641700,
+    "change_percent": -1.3673,
+    "average_20d": 6157879.35,
+    "vs_average_20d_percent": 6.3822
   },
   "moving_average": {
-    "sma20": 290.118,
-    "sma50": 269.6508,
-    "sma100": 296.7946,
-    "sma200": 222.1875
+    "sma20": 289.013,
+    "sma50": 269.0152,
+    "sma100": 296.1575,
+    "sma200": 222.8489
   },
   "distance_to_moving_average_percent": {
-    "sma20": -17.961,
-    "sma50": -11.734,
-    "sma100": -19.8065,
-    "sma200": 7.1212
+    "sma20": -15.9899,
+    "sma50": -9.7449,
+    "sma100": -18.0166,
+    "sma200": 8.9527
   },
   "range_52week": {
     "high": 452.7,
     "low": 100.02,
-    "distance_from_high_percent": -47.4243,
-    "distance_from_low_percent": 137.9624
+    "distance_from_high_percent": -46.3662,
+    "distance_from_low_percent": 142.7515
   },
   "data_quality": {
     "history_days": 251,
@@ -56,7 +56,7 @@
     ]
   },
   "summary": {
-    "daily_trend": "down",
+    "daily_trend": "up",
     "versus_sma50": "below",
     "volume_signal": "normal volume"
   },
