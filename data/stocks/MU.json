@@ -3,38 +3,38 @@
   "name": "Micron Technology",
   "currency": "USD",
   "exchange": "NMS",
-  "asof": "2026-10-15",
-  "previous_date": "2026-10-14",
+  "asof": "2026-10-16",
+  "previous_date": "2026-10-15",
   "price": {
-    "close": 931.24,
-    "previous_close": 914.13,
-    "change": 17.11,
-    "change_percent": 1.8717
+    "close": 878.84,
+    "previous_close": 931.24,
+    "change": -52.4,
+    "change_percent": -5.6269
   },
   "volume": {
-    "current": 38912200,
-    "previous": 27843700,
-    "change_percent": 39.7523,
-    "average_20d": 27229175.0,
-    "vs_average_20d_percent": 42.9063
+    "current": 30293300,
+    "previous": 39095100,
+    "change_percent": -22.5138,
+    "average_20d": 26962810.0,
+    "vs_average_20d_percent": 12.3522
   },
   "moving_average": {
-    "sma20": 1039.851,
-    "sma50": 983.1704,
-    "sma100": 977.7105,
-    "sma200": 714.9081
+    "sma20": 1033.003,
+    "sma50": 983.1178,
+    "sma100": 977.5401,
+    "sma200": 717.8392
   },
   "distance_to_moving_average_percent": {
-    "sma20": -10.4449,
-    "sma50": -5.2819,
-    "sma100": -4.753,
-    "sma200": 30.2601
+    "sma20": -14.9238,
+    "sma50": -10.6068,
+    "sma100": -10.0968,
+    "sma200": 22.4285
   },
   "range_52week": {
     "high": 1255.0,
     "low": 192.4,
-    "distance_from_high_percent": -25.7976,
-    "distance_from_low_percent": 384.0125
+    "distance_from_high_percent": -29.9729,
+    "distance_from_low_percent": 356.7776
   },
   "data_quality": {
     "history_days": 251,
@@ -56,9 +56,9 @@
     ]
   },
   "summary": {
-    "daily_trend": "up",
+    "daily_trend": "down",
     "versus_sma50": "below",
-    "volume_signal": "high volume"
+    "volume_signal": "normal volume"
   },
   "source": "yfinance / Yahoo Finance",
   "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
