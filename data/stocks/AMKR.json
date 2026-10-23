@@ -6,35 +6,35 @@
   "asof": "2026-10-22",
   "previous_date": "2026-10-21",
   "price": {
-    "close": 38.6183,
+    "close": 39.05,
     "previous_close": 43.73,
-    "change": -5.1117,
-    "change_percent": -11.6892
+    "change": -4.68,
+    "change_percent": -10.702
   },
   "volume": {
-    "current": 6373259,
+    "current": 6369100,
     "previous": 4258100,
-    "change_percent": 49.6738,
-    "average_20d": 3653097.95,
-    "vs_average_20d_percent": 74.4618
+    "change_percent": 49.5761,
+    "average_20d": 3652890.0,
+    "vs_average_20d_percent": 74.3578
   },
   "moving_average": {
-    "sma20": 48.7494,
-    "sma50": 49.8712,
-    "sma100": 59.2565,
-    "sma200": 57.6168
+    "sma20": 48.771,
+    "sma50": 49.8798,
+    "sma100": 59.2608,
+    "sma200": 57.619
   },
   "distance_to_moving_average_percent": {
-    "sma20": -20.782,
-    "sma50": -22.5639,
-    "sma100": -34.8286,
-    "sma200": -32.9739
+    "sma20": -19.9319,
+    "sma50": -21.7118,
+    "sma100": -34.1048,
+    "sma200": -32.2272
   },
   "range_52week": {
     "high": 96.68,
     "low": 29.5,
-    "distance_from_high_percent": -60.0555,
-    "distance_from_low_percent": 30.9095
+    "distance_from_high_percent": -59.609,
+    "distance_from_low_percent": 32.3729
   },
   "data_quality": {
     "history_days": 251,
