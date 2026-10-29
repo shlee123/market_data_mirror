@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T01:52:42.968563Z",
+  "generated_at": "2026-10-29T11:42:32.406802Z",
   "market": "US",
   "indices": {
     "sp500": {
@@ -16,11 +16,11 @@
         "change_percent": 0.2768
       },
       "volume": {
-        "current": 3085116000,
+        "current": 5466960000,
         "previous": 5160120000,
-        "change_percent": -40.2123,
-        "average_20d": 5202027800.0,
-        "vs_average_20d_percent": -40.694
+        "change_percent": 5.9464,
+        "average_20d": 5321120000.0,
+        "vs_average_20d_percent": 2.7408
       },
       "moving_average": {
         "sma20": 7734.3391,
@@ -62,7 +62,7 @@
       "summary": {
         "daily_trend": "up",
         "versus_sma50": "above",
-        "volume_signal": "low volume"
+        "volume_signal": "normal volume"
       },
       "source": "yfinance / Yahoo Finance",
       "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
@@ -75,26 +75,26 @@
       "asof": "2026-10-28",
       "previous_date": "2026-10-27",
       "price": {
-        "close": 26549.8516,
+        "close": 26549.8496,
         "previous_close": 26477.8105,
-        "change": 72.041,
+        "change": 72.0391,
         "change_percent": 0.2721
       },
       "volume": {
-        "current": 7142936000,
+        "current": 7985070000,
         "previous": 7914230000,
-        "change_percent": -9.7457,
-        "average_20d": 7890167800.0,
-        "vs_average_20d_percent": -9.4704
+        "change_percent": 0.8951,
+        "average_20d": 7932274500.0,
+        "vs_average_20d_percent": 0.6656
       },
       "moving_average": {
-        "sma20": 26797.689,
-        "sma50": 26589.6748,
+        "sma20": 26797.6889,
+        "sma50": 26589.6747,
         "sma100": 26252.0881,
-        "sma200": 25033.5508
+        "sma200": 25033.5507
       },
       "distance_to_moving_average_percent": {
-        "sma20": -0.9248,
+        "sma20": -0.9249,
         "sma50": -0.1498,
         "sma100": 1.1342,
         "sma200": 6.0571
@@ -146,11 +146,11 @@
         "change_percent": 0.1862
       },
       "volume": {
-        "current": 405081041,
+        "current": 387790000,
         "previous": 401210000,
-        "change_percent": 0.9648,
-        "average_20d": 417958052.05,
-        "vs_average_20d_percent": -3.0809
+        "change_percent": -3.3449,
+        "average_20d": 417093500.0,
+        "vs_average_20d_percent": -7.0256
       },
       "moving_average": {
         "sma20": 51894.8393,
