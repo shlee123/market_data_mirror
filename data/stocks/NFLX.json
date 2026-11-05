@@ -3,38 +3,38 @@
   "name": "Netflix",
   "currency": "USD",
   "exchange": "NMS",
-  "asof": "2026-11-03",
-  "previous_date": "2026-11-02",
+  "asof": "2026-11-04",
+  "previous_date": "2026-11-03",
   "price": {
-    "close": 63.42,
-    "previous_close": 62.34,
-    "change": 1.08,
-    "change_percent": 1.7324
+    "close": 66.39,
+    "previous_close": 63.42,
+    "change": 2.97,
+    "change_percent": 4.6831
   },
   "volume": {
-    "current": 35317400,
-    "previous": 40917300,
-    "change_percent": -13.6859,
-    "average_20d": 45001370.0,
-    "vs_average_20d_percent": -21.5193
+    "current": 49705800,
+    "previous": 36659200,
+    "change_percent": 35.5889,
+    "average_20d": 46043440.0,
+    "vs_average_20d_percent": 7.9541
   },
   "moving_average": {
-    "sma20": 67.0565,
-    "sma50": 71.9958,
-    "sma100": 73.2455,
-    "sma200": 81.3449
+    "sma20": 66.891,
+    "sma50": 71.679,
+    "sma100": 73.106,
+    "sma200": 81.2405
   },
   "distance_to_moving_average_percent": {
-    "sma20": -5.423,
-    "sma50": -11.9115,
-    "sma100": -13.4145,
-    "sma200": -22.0357
+    "sma20": -0.749,
+    "sma50": -7.3787,
+    "sma100": -9.1867,
+    "sma200": -18.2797
   },
   "range_52week": {
     "high": 116.733,
     "low": 61.39,
-    "distance_from_high_percent": -45.6709,
-    "distance_from_low_percent": 3.3067
+    "distance_from_high_percent": -43.1266,
+    "distance_from_low_percent": 8.1446
   },
   "data_quality": {
     "history_days": 251,
@@ -58,7 +58,7 @@
   "summary": {
     "daily_trend": "up",
     "versus_sma50": "below",
-    "volume_signal": "low volume"
+    "volume_signal": "normal volume"
   },
   "source": "yfinance / Yahoo Finance",
   "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
