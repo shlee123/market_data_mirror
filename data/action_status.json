@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-11-05T06:06:15.886240Z",
+  "timestamp": "2026-11-05T13:28:04.983736Z",
   "return_code": 0,
   "success": true,
   "log_tail": [
     "{",
     "  \"sync_status\": \"success\",",
-    "  \"synced_at\": \"2026-11-05T06:06:00.300144Z\",",
+    "  \"synced_at\": \"2026-11-05T13:27:55.058172Z\",",
     "  \"source\": \"yfinance / Yahoo Finance\",",
     "  \"backend\": \"GitHub Actions\",",
     "  \"worker_dependency\": false,",
@@ -14,8 +14,8 @@
     "  \"tw_watchlist_count\": 8,",
     "  \"tw_success_count\": 8,",
     "  \"failures\": {},",
-    "  \"market_generated_at\": \"2026-11-05T06:06:00.300144Z\",",
-    "  \"tw_market_generated_at\": \"2026-11-05T06:06:00.300144Z\"",
+    "  \"market_generated_at\": \"2026-11-05T13:27:55.058172Z\",",
+    "  \"tw_market_generated_at\": \"2026-11-05T13:27:55.058172Z\"",
     "}"
   ]
 }
