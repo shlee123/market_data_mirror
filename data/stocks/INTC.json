@@ -3,38 +3,38 @@
   "name": "Intel",
   "currency": "USD",
   "exchange": "NMS",
-  "asof": "2026-11-04",
-  "previous_date": "2026-11-03",
+  "asof": "2026-11-05",
+  "previous_date": "2026-11-04",
   "price": {
-    "close": 58.27,
-    "previous_close": 60.55,
-    "change": -2.28,
-    "change_percent": -3.7655
+    "close": 52.25,
+    "previous_close": 58.27,
+    "change": -6.02,
+    "change_percent": -10.3312
   },
   "volume": {
-    "current": 188619400,
-    "previous": 149052100,
-    "change_percent": 26.546,
-    "average_20d": 131491850.0,
-    "vs_average_20d_percent": 43.4457
+    "current": 267415600,
+    "previous": 189308900,
+    "change_percent": 41.2589,
+    "average_20d": 138887270.0,
+    "vs_average_20d_percent": 92.5415
   },
   "moving_average": {
-    "sma20": 88.2385,
-    "sma50": 99.3856,
-    "sma100": 103.1156,
-    "sma200": 87.0397
+    "sma20": 85.497,
+    "sma50": 98.6658,
+    "sma100": 102.3595,
+    "sma200": 87.0297
   },
   "distance_to_moving_average_percent": {
-    "sma20": -33.9631,
-    "sma50": -41.3698,
-    "sma100": -43.4906,
-    "sma200": -33.0535
+    "sma20": -38.8867,
+    "sma50": -47.0435,
+    "sma100": -48.9544,
+    "sma200": -39.963
   },
   "range_52week": {
     "high": 142.35,
     "low": 32.89,
-    "distance_from_high_percent": -59.0657,
-    "distance_from_low_percent": 77.1663
+    "distance_from_high_percent": -63.2947,
+    "distance_from_low_percent": 58.8629
   },
   "data_quality": {
     "history_days": 251,
