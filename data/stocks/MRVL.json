@@ -6,35 +6,35 @@
   "asof": "2026-11-09",
   "previous_date": "2026-11-06",
   "price": {
-    "close": 146.315,
+    "close": 154.6,
     "previous_close": 141.2,
-    "change": 5.115,
-    "change_percent": 3.6225
+    "change": 13.4,
+    "change_percent": 9.4901
   },
   "volume": {
-    "current": 2748822,
-    "previous": 33456800,
-    "change_percent": -91.784,
-    "average_20d": 27946821.1,
-    "vs_average_20d_percent": -90.1641
+    "current": 33517400,
+    "previous": 33562100,
+    "change_percent": -0.1332,
+    "average_20d": 29490515.0,
+    "vs_average_20d_percent": 13.6548
   },
   "moving_average": {
-    "sma20": 211.2658,
-    "sma50": 232.8993,
-    "sma100": 230.7276,
-    "sma200": 185.3835
+    "sma20": 211.68,
+    "sma50": 233.065,
+    "sma100": 230.8105,
+    "sma200": 185.4249
   },
   "distance_to_moving_average_percent": {
-    "sma20": -30.7436,
-    "sma50": -37.1767,
-    "sma100": -36.5854,
-    "sma200": -21.0744
+    "sma20": -26.9652,
+    "sma50": -33.6666,
+    "sma100": -33.0186,
+    "sma200": -16.6239
   },
   "range_52week": {
     "high": 329.88,
     "low": 70.69,
-    "distance_from_high_percent": -55.646,
-    "distance_from_low_percent": 106.9812
+    "distance_from_high_percent": -53.1345,
+    "distance_from_low_percent": 118.7014
   },
   "data_quality": {
     "history_days": 251,
@@ -58,7 +58,7 @@
   "summary": {
     "daily_trend": "up",
     "versus_sma50": "below",
-    "volume_signal": "low volume"
+    "volume_signal": "normal volume"
   },
   "source": "yfinance / Yahoo Finance",
   "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
