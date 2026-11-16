@@ -3,38 +3,38 @@
   "name": "Broadcom",
   "currency": "USD",
   "exchange": "NMS",
-  "asof": "2026-11-12",
-  "previous_date": "2026-11-11",
+  "asof": "2026-11-13",
+  "previous_date": "2026-11-12",
   "price": {
-    "close": 364.36,
-    "previous_close": 345.22,
-    "change": 19.14,
-    "change_percent": 5.5443
+    "close": 347.01,
+    "previous_close": 364.36,
+    "change": -17.35,
+    "change_percent": -4.7618
   },
   "volume": {
-    "current": 43622200,
-    "previous": 33642500,
-    "change_percent": 29.664,
-    "average_20d": 26753915.0,
-    "vs_average_20d_percent": 63.0498
+    "current": 31602000,
+    "previous": 43768100,
+    "change_percent": -27.7967,
+    "average_20d": 26849330.0,
+    "vs_average_20d_percent": 17.7013
   },
   "moving_average": {
-    "sma20": 330.046,
-    "sma50": 345.5856,
-    "sma100": 365.0828,
-    "sma200": 367.3423
+    "sma20": 330.959,
+    "sma50": 345.3826,
+    "sma100": 364.7322,
+    "sma200": 367.4237
   },
   "distance_to_moving_average_percent": {
-    "sma20": 10.3967,
-    "sma50": 5.4326,
-    "sma100": -0.198,
-    "sma200": -0.8119
+    "sma20": 4.8498,
+    "sma50": 0.4712,
+    "sma100": -4.859,
+    "sma200": -5.5559
   },
   "range_52week": {
     "high": 495.0,
     "low": 289.77,
-    "distance_from_high_percent": -26.3919,
-    "distance_from_low_percent": 25.7411
+    "distance_from_high_percent": -29.897,
+    "distance_from_low_percent": 19.7536
   },
   "data_quality": {
     "history_days": 251,
@@ -56,9 +56,9 @@
     ]
   },
   "summary": {
-    "daily_trend": "up",
+    "daily_trend": "down",
     "versus_sma50": "above",
-    "volume_signal": "high volume"
+    "volume_signal": "normal volume"
   },
   "source": "yfinance / Yahoo Finance",
   "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
