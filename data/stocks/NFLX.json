@@ -3,38 +3,38 @@
   "name": "Netflix",
   "currency": "USD",
   "exchange": "NMS",
-  "asof": "2026-11-17",
-  "previous_date": "2026-11-16",
+  "asof": "2026-11-18",
+  "previous_date": "2026-11-17",
   "price": {
-    "close": 59.68,
-    "previous_close": 60.75,
-    "change": -1.07,
-    "change_percent": -1.7613
+    "close": 59.665,
+    "previous_close": 59.68,
+    "change": -0.015,
+    "change_percent": -0.0251
   },
   "volume": {
-    "current": 34876900,
-    "previous": 36078400,
-    "change_percent": -3.3302,
-    "average_20d": 44270145.0,
-    "vs_average_20d_percent": -21.218
+    "current": 0,
+    "previous": 34876900,
+    "change_percent": -100.0,
+    "average_20d": 39200480.0,
+    "vs_average_20d_percent": -100.0
   },
   "moving_average": {
-    "sma20": 63.431,
-    "sma50": 68.4928,
-    "sma100": 71.9961,
-    "sma200": 80.2687
+    "sma20": 63.1623,
+    "sma50": 68.1655,
+    "sma100": 71.855,
+    "sma200": 80.1674
   },
   "distance_to_moving_average_percent": {
-    "sma20": -5.9135,
-    "sma50": -12.8668,
-    "sma100": -17.1066,
-    "sma200": -25.6497
+    "sma20": -5.537,
+    "sma50": -12.4704,
+    "sma100": -16.9647,
+    "sma200": -25.5745
   },
   "range_52week": {
     "high": 115.25,
     "low": 59.41,
-    "distance_from_high_percent": -48.2169,
-    "distance_from_low_percent": 0.4545
+    "distance_from_high_percent": -48.2299,
+    "distance_from_low_percent": 0.4292
   },
   "data_quality": {
     "history_days": 252,
@@ -42,17 +42,17 @@
     "sma50_valid": true,
     "sma100_valid": true,
     "sma200_valid": true,
-    "possible_split_detected": true,
-    "possible_split_date": "2025-11-17",
-    "possible_split_ratio": 10.0,
-    "possible_split_source": "yfinance_action",
+    "possible_split_detected": false,
+    "possible_split_date": null,
+    "possible_split_ratio": null,
+    "possible_split_source": null,
     "large_price_gap_detected": false,
     "largest_gap_percent": 13.7723,
     "largest_gap_date": "2026-02-27",
     "adjusted_close_divergence_detected": false,
-    "warning_level": "red",
+    "warning_level": "green",
     "notes": [
-      "Split/corporate-action signal detected near 2025-11-17; verify historical continuity."
+      "No major data-quality anomaly detected."
     ]
   },
   "summary": {
