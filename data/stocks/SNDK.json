@@ -3,18 +3,18 @@
   "name": "SanDisk",
   "currency": "USD",
   "exchange": "NMS",
-  "asof": "2026-11-18",
-  "previous_date": "2026-11-17",
+  "asof": "2026-11-19",
+  "previous_date": "2026-11-18",
   "price": {
-    "close": 776.22,
-    "previous_close": 797.24,
-    "change": -21.02,
-    "change_percent": -2.6366
+    "close": 826.55,
+    "previous_close": 776.22,
+    "change": 50.33,
+    "change_percent": 6.484
   },
   "volume": {
-    "current": 12602833,
-    "previous": 15739553,
-    "change_percent": -19.9289,
+    "current": 2113534,
+    "previous": 12602833,
+    "change_percent": -83.2297,
     "average_20d": null,
     "vs_average_20d_percent": null
   },
@@ -31,13 +31,13 @@
     "sma200": null
   },
   "range_52week": {
-    "high": 821.46,
+    "high": 846.76,
     "low": 749.39,
-    "distance_from_high_percent": -5.5073,
-    "distance_from_low_percent": 3.5802
+    "distance_from_high_percent": -2.3867,
+    "distance_from_low_percent": 10.2964
   },
   "data_quality": {
-    "history_days": 2,
+    "history_days": 3,
     "sma20_valid": false,
     "sma50_valid": false,
     "sma100_valid": false,
@@ -47,8 +47,8 @@
     "possible_split_ratio": null,
     "possible_split_source": null,
     "large_price_gap_detected": false,
-    "largest_gap_percent": 2.6366,
-    "largest_gap_date": "2026-11-18",
+    "largest_gap_percent": 6.484,
+    "largest_gap_date": "2026-11-19",
     "adjusted_close_divergence_detected": false,
     "warning_level": "yellow",
     "notes": [
@@ -56,7 +56,7 @@
     ]
   },
   "summary": {
-    "daily_trend": "down",
+    "daily_trend": "up",
     "versus_sma50": "unknown",
     "volume_signal": "unknown"
   },
