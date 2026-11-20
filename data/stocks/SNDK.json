@@ -6,59 +6,59 @@
   "asof": "2026-11-19",
   "previous_date": "2026-11-18",
   "price": {
-    "close": 821.315,
-    "previous_close": 776.22,
-    "change": 45.095,
-    "change_percent": 5.8096
+    "close": 94.395,
+    "previous_close": 97.0275,
+    "change": -2.6325,
+    "change_percent": -2.7131
   },
   "volume": {
-    "current": 2854217,
-    "previous": 12602833,
-    "change_percent": -77.3526,
-    "average_20d": null,
-    "vs_average_20d_percent": null
+    "current": 119852712,
+    "previous": 103506816,
+    "change_percent": 15.7921,
+    "average_20d": 104797296.4,
+    "vs_average_20d_percent": 14.3662
   },
   "moving_average": {
-    "sma20": null,
-    "sma50": null,
-    "sma100": null,
-    "sma200": null
+    "sma20": 126.5565,
+    "sma50": 170.6861,
+    "sma100": 180.7086,
+    "sma200": 160.6893
   },
   "distance_to_moving_average_percent": {
-    "sma20": null,
-    "sma50": null,
-    "sma100": null,
-    "sma200": null
+    "sma20": -25.4128,
+    "sma50": -44.6967,
+    "sma100": -47.764,
+    "sma200": -41.2562
   },
   "range_52week": {
-    "high": 846.76,
-    "low": 749.39,
-    "distance_from_high_percent": -3.005,
-    "distance_from_low_percent": 9.5978
+    "high": 294.2987,
+    "low": 22.875,
+    "distance_from_high_percent": -67.9254,
+    "distance_from_low_percent": 312.6557
   },
   "data_quality": {
-    "history_days": 3,
-    "sma20_valid": false,
-    "sma50_valid": false,
-    "sma100_valid": false,
-    "sma200_valid": false,
+    "history_days": 251,
+    "sma20_valid": true,
+    "sma50_valid": true,
+    "sma100_valid": true,
+    "sma200_valid": true,
     "possible_split_detected": false,
     "possible_split_date": null,
     "possible_split_ratio": null,
     "possible_split_source": null,
     "large_price_gap_detected": false,
-    "largest_gap_percent": 5.8096,
-    "largest_gap_date": "2026-11-19",
+    "largest_gap_percent": 27.565,
+    "largest_gap_date": "2026-01-06",
     "adjusted_close_divergence_detected": false,
-    "warning_level": "yellow",
+    "warning_level": "green",
     "notes": [
-      "Less than 200 trading days available; SMA200 may be unavailable."
+      "No major data-quality anomaly detected."
     ]
   },
   "summary": {
-    "daily_trend": "up",
-    "versus_sma50": "unknown",
-    "volume_signal": "unknown"
+    "daily_trend": "down",
+    "versus_sma50": "below",
+    "volume_signal": "normal volume"
   },
   "source": "yfinance / Yahoo Finance",
   "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
