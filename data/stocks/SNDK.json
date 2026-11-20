@@ -3,62 +3,62 @@
   "name": "SanDisk",
   "currency": "USD",
   "exchange": "NMS",
-  "asof": "2026-11-19",
-  "previous_date": "2026-11-18",
+  "asof": "2026-11-20",
+  "previous_date": "2026-11-19",
   "price": {
-    "close": 94.395,
-    "previous_close": 97.0275,
-    "change": -2.6325,
-    "change_percent": -2.7131
+    "close": 88.63,
+    "previous_close": 94.395,
+    "change": -5.765,
+    "change_percent": -6.1073
   },
   "volume": {
-    "current": 119852712,
-    "previous": 103506816,
-    "change_percent": 15.7921,
-    "average_20d": 104797296.4,
-    "vs_average_20d_percent": 14.3662
+    "current": 8843610,
+    "previous": 119852712,
+    "change_percent": -92.6213,
+    "average_20d": 102070065.3,
+    "vs_average_20d_percent": -91.3357
   },
   "moving_average": {
-    "sma20": 126.5565,
-    "sma50": 170.6861,
-    "sma100": 180.7086,
-    "sma200": 160.6893
+    "sma20": 123.2503,
+    "sma50": 168.3753,
+    "sma100": 179.0546,
+    "sma200": 160.7724
   },
   "distance_to_moving_average_percent": {
-    "sma20": -25.4128,
-    "sma50": -44.6967,
-    "sma100": -47.764,
-    "sma200": -41.2562
+    "sma20": -28.0894,
+    "sma50": -47.3616,
+    "sma100": -50.5011,
+    "sma200": -44.8724
   },
   "range_52week": {
     "high": 294.2987,
     "low": 22.875,
-    "distance_from_high_percent": -67.9254,
-    "distance_from_low_percent": 312.6557
+    "distance_from_high_percent": -69.8843,
+    "distance_from_low_percent": 287.4535
   },
   "data_quality": {
-    "history_days": 251,
+    "history_days": 252,
     "sma20_valid": true,
     "sma50_valid": true,
     "sma100_valid": true,
     "sma200_valid": true,
-    "possible_split_detected": false,
-    "possible_split_date": null,
-    "possible_split_ratio": null,
-    "possible_split_source": null,
+    "possible_split_detected": true,
+    "possible_split_date": "2026-11-20",
+    "possible_split_ratio": 8.0,
+    "possible_split_source": "yfinance_action",
     "large_price_gap_detected": false,
     "largest_gap_percent": 27.565,
     "largest_gap_date": "2026-01-06",
     "adjusted_close_divergence_detected": false,
-    "warning_level": "green",
+    "warning_level": "red",
     "notes": [
-      "No major data-quality anomaly detected."
+      "Split/corporate-action signal detected near 2026-11-20; verify historical continuity."
     ]
   },
   "summary": {
     "daily_trend": "down",
     "versus_sma50": "below",
-    "volume_signal": "normal volume"
+    "volume_signal": "low volume"
   },
   "source": "yfinance / Yahoo Finance",
   "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
