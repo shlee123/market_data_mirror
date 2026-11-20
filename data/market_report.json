@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T03:35:36.638041Z",
+  "generated_at": "2026-11-20T06:01:34.605991Z",
   "market": "US",
   "indices": {
     "sp500": {
@@ -16,11 +16,11 @@
         "change_percent": -2.0181
       },
       "volume": {
-        "current": 3341008000,
+        "current": 5692800000,
         "previous": 5388180000,
-        "change_percent": -37.9938,
-        "average_20d": 5446376900.0,
-        "vs_average_20d_percent": -38.6563
+        "change_percent": 5.6535,
+        "average_20d": 5563966500.0,
+        "vs_average_20d_percent": 2.3155
       },
       "moving_average": {
         "sma20": 7534.896,
@@ -62,7 +62,7 @@
       "summary": {
         "daily_trend": "down",
         "versus_sma50": "below",
-        "volume_signal": "low volume"
+        "volume_signal": "normal volume"
       },
       "source": "yfinance / Yahoo Finance",
       "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
@@ -81,11 +81,11 @@
         "change_percent": -2.2541
       },
       "volume": {
-        "current": 8331556000,
+        "current": 10558810000,
         "previous": 8260670000,
-        "change_percent": 0.8581,
-        "average_20d": 9014321300.0,
-        "vs_average_20d_percent": -7.5742
+        "change_percent": 27.8203,
+        "average_20d": 9125684000.0,
+        "vs_average_20d_percent": 15.7043
       },
       "moving_average": {
         "sma20": 25268.807,
@@ -146,11 +146,11 @@
         "change_percent": -2.1935
       },
       "volume": {
-        "current": 729407417,
+        "current": 723230000,
         "previous": 684510000,
-        "change_percent": 6.5591,
-        "average_20d": 615779370.85,
-        "vs_average_20d_percent": 18.4527
+        "change_percent": 5.6566,
+        "average_20d": 615470500.0,
+        "vs_average_20d_percent": 17.5085
       },
       "moving_average": {
         "sma20": 51844.674,
