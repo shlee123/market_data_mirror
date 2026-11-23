@@ -3,38 +3,38 @@
   "name": "Micron Technology",
   "currency": "USD",
   "exchange": "NMS",
-  "asof": "2026-11-20",
-  "previous_date": "2026-11-19",
+  "asof": "2026-11-23",
+  "previous_date": "2026-11-20",
   "price": {
-    "close": 594.51,
-    "previous_close": 690.44,
-    "change": -95.93,
-    "change_percent": -13.894
+    "close": 710.7,
+    "previous_close": 594.51,
+    "change": 116.19,
+    "change_percent": 19.5438
   },
   "volume": {
-    "current": 59094000,
-    "previous": 35401500,
-    "change_percent": 66.9251,
-    "average_20d": 33768915.0,
-    "vs_average_20d_percent": 74.9953
+    "current": 25633664,
+    "previous": 59094000,
+    "change_percent": -56.6222,
+    "average_20d": 33908153.2,
+    "vs_average_20d_percent": -24.4027
   },
   "moving_average": {
-    "sma20": 786.649,
-    "sma50": 912.264,
-    "sma100": 920.437,
-    "sma200": 772.5427
+    "sma20": 776.999,
+    "sma50": 907.9974,
+    "sma100": 917.7884,
+    "sma200": 774.1228
   },
   "distance_to_moving_average_percent": {
-    "sma20": -24.425,
-    "sma50": -34.8314,
-    "sma100": -35.41,
-    "sma200": -23.045
+    "sma20": -8.5327,
+    "sma50": -21.7288,
+    "sma100": -22.5638,
+    "sma200": -8.1929
   },
   "range_52week": {
     "high": 1255.0,
-    "low": 192.59,
-    "distance_from_high_percent": -52.6287,
-    "distance_from_low_percent": 208.6921
+    "low": 212.36,
+    "distance_from_high_percent": -43.3705,
+    "distance_from_low_percent": 234.6676
   },
   "data_quality": {
     "history_days": 251,
@@ -47,8 +47,8 @@
     "possible_split_ratio": null,
     "possible_split_source": null,
     "large_price_gap_detected": false,
-    "largest_gap_percent": 19.2916,
-    "largest_gap_date": "2026-05-26",
+    "largest_gap_percent": 19.5438,
+    "largest_gap_date": "2026-11-23",
     "adjusted_close_divergence_detected": false,
     "warning_level": "green",
     "notes": [
@@ -56,9 +56,9 @@
     ]
   },
   "summary": {
-    "daily_trend": "down",
+    "daily_trend": "up",
     "versus_sma50": "below",
-    "volume_signal": "high volume"
+    "volume_signal": "low volume"
   },
   "source": "yfinance / Yahoo Finance",
   "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."

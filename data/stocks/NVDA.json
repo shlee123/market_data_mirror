@@ -3,38 +3,38 @@
   "name": "NVIDIA",
   "currency": "USD",
   "exchange": "NMS",
-  "asof": "2026-11-20",
-  "previous_date": "2026-11-19",
+  "asof": "2026-11-23",
+  "previous_date": "2026-11-20",
   "price": {
-    "close": 125.53,
-    "previous_close": 145.98,
-    "change": -20.45,
-    "change_percent": -14.0088
+    "close": 166.5001,
+    "previous_close": 125.53,
+    "change": 40.9701,
+    "change_percent": 32.6377
   },
   "volume": {
-    "current": 626373200,
-    "previous": 322940100,
-    "change_percent": 93.9596,
-    "average_20d": 287291305.0,
-    "vs_average_20d_percent": 118.0272
+    "current": 453558962,
+    "previous": 626373200,
+    "change_percent": -27.5897,
+    "average_20d": 305427788.1,
+    "vs_average_20d_percent": 48.4996
   },
   "moving_average": {
-    "sma20": 181.457,
-    "sma50": 207.0004,
-    "sma100": 209.7922,
-    "sma200": 203.3454
+    "sma20": 178.982,
+    "sma50": 206.1112,
+    "sma100": 209.5089,
+    "sma200": 203.2509
   },
   "distance_to_moving_average_percent": {
-    "sma20": -30.8211,
-    "sma50": -39.3576,
-    "sma100": -40.1646,
-    "sma200": -38.2676
+    "sma20": -6.9738,
+    "sma50": -19.2183,
+    "sma100": -20.5284,
+    "sma200": -18.0815
   },
   "range_52week": {
     "high": 243.37,
     "low": 124.5,
-    "distance_from_high_percent": -48.4201,
-    "distance_from_low_percent": 0.8273
+    "distance_from_high_percent": -31.5856,
+    "distance_from_low_percent": 33.735
   },
   "data_quality": {
     "history_days": 251,
@@ -47,8 +47,8 @@
     "possible_split_ratio": null,
     "possible_split_source": null,
     "large_price_gap_detected": false,
-    "largest_gap_percent": 14.0088,
-    "largest_gap_date": "2026-11-20",
+    "largest_gap_percent": 32.6377,
+    "largest_gap_date": "2026-11-23",
     "adjusted_close_divergence_detected": false,
     "warning_level": "green",
     "notes": [
@@ -56,7 +56,7 @@
     ]
   },
   "summary": {
-    "daily_trend": "down",
+    "daily_trend": "up",
     "versus_sma50": "below",
     "volume_signal": "high volume"
   },
