@@ -6,35 +6,35 @@
   "asof": "2026-11-23",
   "previous_date": "2026-11-20",
   "price": {
-    "close": 710.36,
+    "close": 697.731,
     "previous_close": 594.51,
-    "change": 115.85,
-    "change_percent": 19.4866
+    "change": 103.221,
+    "change_percent": 17.3624
   },
   "volume": {
-    "current": 26068368,
+    "current": 27941086,
     "previous": 59094000,
-    "change_percent": -55.8866,
-    "average_20d": 33929888.4,
-    "vs_average_20d_percent": -23.1699
+    "change_percent": -52.7176,
+    "average_20d": 34023524.3,
+    "vs_average_20d_percent": -17.8772
   },
   "moving_average": {
-    "sma20": 776.982,
-    "sma50": 907.9906,
-    "sma100": 917.785,
-    "sma200": 774.1211
+    "sma20": 776.3506,
+    "sma50": 907.738,
+    "sma100": 917.6587,
+    "sma200": 774.0579
   },
   "distance_to_moving_average_percent": {
-    "sma20": -8.5745,
-    "sma50": -21.7657,
-    "sma100": -22.6006,
-    "sma200": -8.2366
+    "sma20": -10.1268,
+    "sma50": -23.1352,
+    "sma100": -23.9662,
+    "sma200": -9.8606
   },
   "range_52week": {
     "high": 1255.0,
     "low": 212.36,
-    "distance_from_high_percent": -43.3976,
-    "distance_from_low_percent": 234.5074
+    "distance_from_high_percent": -44.4039,
+    "distance_from_low_percent": 228.5605
   },
   "data_quality": {
     "history_days": 251,
@@ -47,8 +47,8 @@
     "possible_split_ratio": null,
     "possible_split_source": null,
     "large_price_gap_detected": false,
-    "largest_gap_percent": 19.4866,
-    "largest_gap_date": "2026-11-23",
+    "largest_gap_percent": 19.2916,
+    "largest_gap_date": "2026-05-26",
     "adjusted_close_divergence_detected": false,
     "warning_level": "green",
     "notes": [
@@ -58,7 +58,7 @@
   "summary": {
     "daily_trend": "up",
     "versus_sma50": "below",
-    "volume_signal": "low volume"
+    "volume_signal": "normal volume"
   },
   "source": "yfinance / Yahoo Finance",
   "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
