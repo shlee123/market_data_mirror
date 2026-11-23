@@ -6,38 +6,38 @@
   "asof": "2026-11-20",
   "previous_date": "2026-11-19",
   "price": {
-    "close": 141.685,
+    "close": 125.53,
     "previous_close": 145.98,
-    "change": -4.295,
-    "change_percent": -2.9422
+    "change": -20.45,
+    "change_percent": -14.0088
   },
   "volume": {
-    "current": 36115923,
-    "previous": 320588100,
-    "change_percent": -88.7345,
-    "average_20d": 257660841.15,
-    "vs_average_20d_percent": -85.9832
+    "current": 626373200,
+    "previous": 322940100,
+    "change_percent": 93.9596,
+    "average_20d": 287291305.0,
+    "vs_average_20d_percent": 118.0272
   },
   "moving_average": {
-    "sma20": 182.2648,
-    "sma50": 207.3235,
-    "sma100": 209.9538,
-    "sma200": 203.4262
+    "sma20": 181.457,
+    "sma50": 207.0004,
+    "sma100": 209.7922,
+    "sma200": 203.3454
   },
   "distance_to_moving_average_percent": {
-    "sma20": -22.2642,
-    "sma50": -31.6599,
-    "sma100": -32.5161,
-    "sma200": -30.3507
+    "sma20": -30.8211,
+    "sma50": -39.3576,
+    "sma100": -40.1646,
+    "sma200": -38.2676
   },
   "range_52week": {
     "high": 243.37,
-    "low": 141.34,
-    "distance_from_high_percent": -41.7821,
-    "distance_from_low_percent": 0.2441
+    "low": 124.5,
+    "distance_from_high_percent": -48.4201,
+    "distance_from_low_percent": 0.8273
   },
   "data_quality": {
-    "history_days": 252,
+    "history_days": 251,
     "sma20_valid": true,
     "sma50_valid": true,
     "sma100_valid": true,
@@ -47,8 +47,8 @@
     "possible_split_ratio": null,
     "possible_split_source": null,
     "large_price_gap_detected": false,
-    "largest_gap_percent": 9.259,
-    "largest_gap_date": "2026-11-05",
+    "largest_gap_percent": 14.0088,
+    "largest_gap_date": "2026-11-20",
     "adjusted_close_divergence_detected": false,
     "warning_level": "green",
     "notes": [
@@ -58,7 +58,7 @@
   "summary": {
     "daily_trend": "down",
     "versus_sma50": "below",
-    "volume_signal": "low volume"
+    "volume_signal": "high volume"
   },
   "source": "yfinance / Yahoo Finance",
   "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
