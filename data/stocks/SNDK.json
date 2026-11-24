@@ -3,41 +3,41 @@
   "name": "SanDisk",
   "currency": "USD",
   "exchange": "NMS",
-  "asof": "2026-11-23",
-  "previous_date": "2026-11-20",
+  "asof": "2026-11-24",
+  "previous_date": "2026-11-23",
   "price": {
-    "close": 88.7295,
-    "previous_close": 80.82,
-    "change": 7.9095,
-    "change_percent": 9.7866
+    "close": 75.915,
+    "previous_close": 88.1,
+    "change": -12.185,
+    "change_percent": -13.8309
   },
   "volume": {
-    "current": 112706160,
-    "previous": 117265546,
-    "change_percent": -3.8881,
-    "average_20d": 110440922.9,
-    "vs_average_20d_percent": 2.0511
+    "current": 47565604,
+    "previous": 105653918,
+    "change_percent": -54.9798,
+    "average_20d": 109641828.6,
+    "vs_average_20d_percent": -56.6173
   },
   "moving_average": {
-    "sma20": 119.4489,
-    "sma50": 166.1138,
-    "sma100": 177.6826,
-    "sma200": 160.8033
+    "sma20": 115.0579,
+    "sma50": 163.7922,
+    "sma100": 176.2549,
+    "sma200": 160.8151
   },
   "distance_to_moving_average_percent": {
-    "sma20": -25.7176,
-    "sma50": -46.5851,
-    "sma100": -50.0629,
-    "sma200": -44.8211
+    "sma20": -34.0202,
+    "sma50": -53.6516,
+    "sma100": -56.9289,
+    "sma200": -52.7936
   },
   "range_52week": {
     "high": 294.2987,
     "low": 23.4625,
-    "distance_from_high_percent": -69.8505,
-    "distance_from_low_percent": 278.1758
+    "distance_from_high_percent": -74.2048,
+    "distance_from_low_percent": 223.5589
   },
   "data_quality": {
-    "history_days": 251,
+    "history_days": 252,
     "sma20_valid": true,
     "sma50_valid": true,
     "sma100_valid": true,
@@ -56,9 +56,9 @@
     ]
   },
   "summary": {
-    "daily_trend": "up",
+    "daily_trend": "down",
     "versus_sma50": "below",
-    "volume_signal": "normal volume"
+    "volume_signal": "low volume"
   },
   "source": "yfinance / Yahoo Finance",
   "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
