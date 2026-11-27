@@ -12,11 +12,11 @@
     "change_percent": -0.6022
   },
   "volume": {
-    "current": 128605100,
+    "current": 129277900,
     "previous": 132667900,
-    "change_percent": -3.0624,
-    "average_20d": 161465915.0,
-    "vs_average_20d_percent": -20.3515
+    "change_percent": -2.5553,
+    "average_20d": 161499555.0,
+    "vs_average_20d_percent": -19.9515
   },
   "moving_average": {
     "sma20": 59.3625,
@@ -58,7 +58,7 @@
   "summary": {
     "daily_trend": "down",
     "versus_sma50": "below",
-    "volume_signal": "low volume"
+    "volume_signal": "normal volume"
   },
   "source": "yfinance / Yahoo Finance",
   "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."

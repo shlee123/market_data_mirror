@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T15:57:45.021374Z",
+  "generated_at": "2026-11-27T04:21:09.177791Z",
   "market": "US",
   "indices": {
     "sp500": {
@@ -213,11 +213,11 @@
         "change_percent": -0.031
       },
       "volume": {
-        "current": 8148000,
+        "current": 8187900,
         "previous": 5634600,
-        "change_percent": 44.6065,
-        "average_20d": 6735355.0,
-        "vs_average_20d_percent": 20.9736
+        "change_percent": 45.3147,
+        "average_20d": 6737350.0,
+        "vs_average_20d_percent": 21.53
       },
       "moving_average": {
         "sma20": 184.9465,
@@ -343,11 +343,11 @@
         "change_percent": -0.4864
       },
       "volume": {
-        "current": 28539800,
+        "current": 28713100,
         "previous": 28181700,
-        "change_percent": 1.2707,
-        "average_20d": 35240820.0,
-        "vs_average_20d_percent": -19.0149
+        "change_percent": 1.8856,
+        "average_20d": 35249485.0,
+        "vs_average_20d_percent": -18.5432
       },
       "moving_average": {
         "sma20": 154.965,
@@ -408,11 +408,11 @@
         "change_percent": -4.5317
       },
       "volume": {
-        "current": 52470000,
+        "current": 52988400,
         "previous": 39141400,
-        "change_percent": 34.0524,
-        "average_20d": 37026880.0,
-        "vs_average_20d_percent": 41.7079
+        "change_percent": 35.3769,
+        "average_20d": 37052800.0,
+        "vs_average_20d_percent": 43.0078
       },
       "moving_average": {
         "sma20": 742.8015,
@@ -473,11 +473,11 @@
         "change_percent": -3.913
       },
       "volume": {
-        "current": 363377300,
+        "current": 366571900,
         "previous": 386223600,
-        "change_percent": -5.9153,
-        "average_20d": 350820315.0,
-        "vs_average_20d_percent": 3.5793
+        "change_percent": -5.0882,
+        "average_20d": 350980045.0,
+        "vs_average_20d_percent": 4.4424
       },
       "moving_average": {
         "sma20": 172.4775,
@@ -538,11 +538,11 @@
         "change_percent": -0.0731
       },
       "volume": {
-        "current": 34256900,
+        "current": 34349500,
         "previous": 31269900,
-        "change_percent": 9.5523,
-        "average_20d": 32382890.0,
-        "vs_average_20d_percent": 5.787
+        "change_percent": 9.8484,
+        "average_20d": 32387520.0,
+        "vs_average_20d_percent": 6.0578
       },
       "moving_average": {
         "sma20": 326.9895,
@@ -668,11 +668,11 @@
         "change_percent": 0.6602
       },
       "volume": {
-        "current": 4708100,
+        "current": 4723000,
         "previous": 2831500,
-        "change_percent": 66.2758,
-        "average_20d": 4279280.0,
-        "vs_average_20d_percent": 10.0208
+        "change_percent": 66.802,
+        "average_20d": 4280025.0,
+        "vs_average_20d_percent": 10.3498
       },
       "moving_average": {
         "sma20": 35.073,
@@ -733,11 +733,11 @@
         "change_percent": -3.5938
       },
       "volume": {
-        "current": 12644600,
+        "current": 12809100,
         "previous": 17422000,
-        "change_percent": -27.4217,
-        "average_20d": 15498755.0,
-        "vs_average_20d_percent": -18.4154
+        "change_percent": -26.4774,
+        "average_20d": 15506980.0,
+        "vs_average_20d_percent": -17.3978
       },
       "moving_average": {
         "sma20": 50.385,
@@ -798,11 +798,11 @@
         "change_percent": -0.0255
       },
       "volume": {
-        "current": 9263600,
+        "current": 9381500,
         "previous": 7047300,
-        "change_percent": 31.4489,
-        "average_20d": 10724820.0,
-        "vs_average_20d_percent": -13.6247
+        "change_percent": 33.1219,
+        "average_20d": 10730715.0,
+        "vs_average_20d_percent": -12.5734
       },
       "moving_average": {
         "sma20": 208.738,
@@ -863,11 +863,11 @@
         "change_percent": -1.7519
       },
       "volume": {
-        "current": 51340800,
+        "current": 51632000,
         "previous": 46230400,
-        "change_percent": 11.0542,
-        "average_20d": 47099660.0,
-        "vs_average_20d_percent": 9.0046
+        "change_percent": 11.6841,
+        "average_20d": 47114220.0,
+        "vs_average_20d_percent": 9.589
       },
       "moving_average": {
         "sma20": 489.22,
@@ -928,11 +928,11 @@
         "change_percent": -0.6022
       },
       "volume": {
-        "current": 128605100,
+        "current": 129277900,
         "previous": 132667900,
-        "change_percent": -3.0624,
-        "average_20d": 161465915.0,
-        "vs_average_20d_percent": -20.3515
+        "change_percent": -2.5553,
+        "average_20d": 161499555.0,
+        "vs_average_20d_percent": -19.9515
       },
       "moving_average": {
         "sma20": 59.3625,
@@ -974,7 +974,7 @@
       "summary": {
         "daily_trend": "down",
         "versus_sma50": "below",
-        "volume_signal": "low volume"
+        "volume_signal": "normal volume"
       },
       "source": "yfinance / Yahoo Finance",
       "calculation": "SMA uses daily Close with auto_adjust=False; 52-week range uses daily High/Low."
@@ -993,11 +993,11 @@
         "change_percent": 0.9173
       },
       "volume": {
-        "current": 45693600,
+        "current": 45756500,
         "previous": 36052300,
-        "change_percent": 26.7425,
-        "average_20d": 40438190.0,
-        "vs_average_20d_percent": 12.9962
+        "change_percent": 26.917,
+        "average_20d": 40441335.0,
+        "vs_average_20d_percent": 13.1429
       },
       "moving_average": {
         "sma20": 61.683,
